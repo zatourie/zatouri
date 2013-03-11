@@ -4,3 +4,9 @@
 
 짜투리 시간을 잘 활용해봅시다.
 어떻게 잘 활용할까요?
+
+= Refences =
+
+* http://www.android.com/
+
+* http://developer.android.com/index.html
