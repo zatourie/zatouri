@@ -1,0 +1,7 @@
+#summary What kinds of UI framework are popular on Android?
+
+어떤 ~~안드로이드~~ 모바일 UI프레임웍이 *핫*한가
+
+* Sencha touch?
+* jQuery Mobile?
+
