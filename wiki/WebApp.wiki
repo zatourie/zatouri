@@ -6,6 +6,10 @@
 
 ==각각의 장단점==
 
+  Sencha Touch is an application framework (you create your interface programmatically through Javascript) while jQuery Mobile is more of a mobile enhancement library (you write regular HTML for your content, then add jQuery mobile for transitions/animations). jQuery Mobile has an easier learning curve, but Sencha Touch can better simulate "native" apps.
+
+from http://stackoverflow.com/a/4246695
+
 ==핫한 프레임웍 및 레퍼런스==
 
 ===Mobile Web===
@@ -18,7 +22,3 @@
 
 ** http://www.sencha.com/products/touch
 
-
-  Sencha Touch is an application framework (you create your interface programmatically through Javascript) while jQuery Mobile is more of a mobile enhancement library (you write regular HTML for your content, then add jQuery mobile for transitions/animations). jQuery Mobile has an easier learning curve, but Sencha Touch can better simulate "native" apps.
-
-from http://stackoverflow.com/a/4246695
