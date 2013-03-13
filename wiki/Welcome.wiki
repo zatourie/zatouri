@@ -2,11 +2,4 @@
 
 = 환영합니다. =
 
-짜투리 시간을 잘 활용해봅시다.
-어떻게 잘 활용할까요?
-
-= References =
-
-* http://www.android.com/
-
-* http://developer.android.com/index.html
+안녕하세요. 인사를 나눠봅시다. -민규
