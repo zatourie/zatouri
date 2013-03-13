@@ -6,9 +6,11 @@
 
 ==각각의 장단점==
 
-==핫한 프레임웍==
+==핫한 프레임웍 및 레퍼런스==
 
 ===Mobile Web===
 
 *jQuery Mobile
+** http://jquerymobile.com/
+
 *Sencha touch
