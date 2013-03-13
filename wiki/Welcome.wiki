@@ -5,9 +5,6 @@
 짜투리 시간을 잘 활용해봅시다.
 어떻게 잘 활용할까요?
 
-<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="https://code.google.com/feeds/p/zatouri/svnchanges/basic?path=/wiki/" width="800" height="800"/>
-
-
 = References =
 
 * http://www.android.com/
