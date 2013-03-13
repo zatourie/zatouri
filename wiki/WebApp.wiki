@@ -11,6 +11,14 @@
 ===Mobile Web===
 
 *jQuery Mobile
+
 ** http://jquerymobile.com/
 
 *Sencha touch
+
+** http://www.sencha.com/products/touch
+
+
+  Sencha Touch is an application framework (you create your interface programmatically through Javascript) while jQuery Mobile is more of a mobile enhancement library (you write regular HTML for your content, then add jQuery mobile for transitions/animations). jQuery Mobile has an easier learning curve, but Sencha Touch can better simulate "native" apps.
+
+from http://stackoverflow.com/a/4246695
