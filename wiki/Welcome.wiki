@@ -5,6 +5,8 @@
 짜투리 시간을 잘 활용해봅시다.
 어떻게 잘 활용할까요?
 
+<wiki:gadget url="http://google-code-project-hosting-gadgets.googlecode.com/svn/build/prod/wiki/gcWiki.xml" up_projectName="zatouri" height="200" border="0" /> 
+
 = Refences =
 
 * http://www.android.com/
