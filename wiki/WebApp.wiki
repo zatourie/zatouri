@@ -1,0 +1,14 @@
+#summary A Thorough Research about Web and App
+
+=Web? App?=
+
+==Web은 뭐고, App은 무엇인고?==
+
+==각각의 장단점==
+
+==핫한 프레임웍==
+
+===Mobile Web===
+
+*jQuery Mobile
+*Sencha touch
