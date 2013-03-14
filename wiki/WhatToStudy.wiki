@@ -1,4 +1,4 @@
-#summary What kinds of UI framework are popular on Android?
+#summary 모바일 기술에는 어떤 것들이 있나?
 
 어떤 ~~안드로이드~~ 모바일 UI프레임웍이 *핫*한가
 
