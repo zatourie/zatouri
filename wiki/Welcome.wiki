@@ -1,4 +1,4 @@
-#summary Welcome
+#summary 인사합니다.
 
 = 환영합니다. =
 
