@@ -23,9 +23,9 @@
 
 ==무엇을?==
 
- 다른 얘기지만 위키 사용법도 한 번 리뷰하죠. 오른쪽에 Wiki markup list가 있긴 한데, 처음 써보니 생소하네요ㅋ - 정훈
+ _다른 얘기지만 위키 사용법도 한 번 리뷰하죠. 오른쪽에 Wiki markup list가 있긴 한데, 처음 써보니 생소하네요ㅋ - 정훈_
 
- 글게요. 저도 WikiSyntax는 처음인지라 좀 헤메고 있어요. http://code.google.com/p/support/wiki/WikiSyntax -민규
+ _글게요. 저도 WikiSyntax는 처음인지라 좀 헤메고 있어요. http://code.google.com/p/support/wiki/WikiSyntax -민규_
 
 
  * 자기소개
