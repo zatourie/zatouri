@@ -2,6 +2,10 @@
 
 어떤 ~~안드로이드~~ 모바일 UI프레임웍이 *핫*한가
 
-* Sencha touch?
+* Sencha touch vs  jQuery Mobile? - 영댈님
 
-* jQuery Mobile?
+* Mobile platform 마켓쉐어
+
+* 모바일 프레임웍 트렌드분석 ( 어떤 프레임웍이 대세인지.)
+
+* 
