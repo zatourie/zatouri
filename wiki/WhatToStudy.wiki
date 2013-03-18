@@ -3,11 +3,3 @@
 <img src="http://zatouri.googlecode.com/files/mindmap_v0.1.png" />
 
 http://prezi.com/ckypu5tudkvn/edit/?auth_key=6eg0yr4&follow=lrn2nohlbtty&kw=edit-ckypu5tudkvn&rc=ref-16391894
-
-어떤 모바일 기술이 *핫*한가
-
- * Sencha touch vs  jQuery Mobile? - 영댈님 정리
- * DXTREME : http://demos.devexpress.com/dxtreme/visualization/#index
- * Mobile platform 마켓쉐어
- * 모바일 프레임웍 트렌드분석 ( 어떤 프레임웍이 대세인지.)
- * 주요 레퍼런스 앱 혹은 앱
