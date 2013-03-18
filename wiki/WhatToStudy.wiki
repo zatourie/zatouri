@@ -1,5 +1,9 @@
 #summary 모바일 기술에는 어떤 것들이 있나?
 
+<img src="http://zatouri.googlecode.com/files/mindmap_v0.1.png" />
+
+http://prezi.com/ckypu5tudkvn/edit/?auth_key=6eg0yr4&follow=lrn2nohlbtty&kw=edit-ckypu5tudkvn&rc=ref-16391894
+
 어떤 모바일 기술이 *핫*한가
 
  * Sencha touch vs  jQuery Mobile? - 영댈님 정리
