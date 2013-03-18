@@ -10,21 +10,21 @@ Sencha Touch VS JQuery Mobile
 
 ==지원 플랫폼==
 
- *JQuery Mobile - iOS, 안드로이드, 블랙베리, 팜, 신비안, 바다, 위도우 모바일
+ * JQuery Mobile - iOS, 안드로이드, 블랙베리, 팜, 신비안, 바다, 위도우 모바일
 
- *Sencha Touch - iOS, 안드로이드, 블랙베리 6.0 이상
+ * Sencha Touch - iOS, 안드로이드, 블랙베리 6.0 이상
 
 ==기술기반==
 
- *JQuery Mobile - 마크업 기반 ( JSP, PHP,ASP,ASP.NET 에 친숙함)
+ * JQuery Mobile - 마크업 기반 ( JSP, PHP,ASP,ASP.NET 에 친숙함)
 
- *Sencha Touch - 객체 지향기반, Ext JS를 알아야 함
+ * Sencha Touch - 객체 지향기반, Ext JS를 알아야 함
 
 ==기능적측면==
 
- *JQuery Mobile - 순자적 자료 구조에 적합(복잡한 구조를 갖는 앱으로 적절치 않음)
+ * JQuery Mobile - 순자적 자료 구조에 적합(복잡한 구조를 갖는 앱으로 적절치 않음)
 
- *Sencha Touch - 다양한 효과를 줄수있어 Native 앱과 가까운 느낌
+ * Sencha Touch - 다양한 효과를 줄수있어 Native 앱과 가까운 느낌
 
 패널 구조로 다양한 레이아웃에 대응
 JSON 과 AJAX 통신을 구현하는데 유리
@@ -38,6 +38,6 @@ JQuery Mobile 이 Sencha Touch 에 비해 모들 플랫폼을 지원한다고 �
 
 데모
 
- *Sencha Touch : http://dev.sencha.com/deploy/touch/examples/production/kitchensink/
+ * Sencha Touch : http://dev.sencha.com/deploy/touch/examples/production/kitchensink/
 
  *jQuery Mobile : http://jquerymobile.com/demos/1.2.1/
