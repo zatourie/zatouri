@@ -35,3 +35,7 @@ JQuery Mobile 이 Sencha Touch 에 비해 모들 플랫폼을 지원한다고 �
 성능적인 측면에서는 Sencha Touch가 좀더 네이티브 해 보이는 웹앱을 만들 수 있도록 지원하지만 JQuery Mobile 보다는 비교적 무거운게 단점이라고 합니다. 그렇지만 현재 모바일 기기의 발달로 담점으로 크게 작용하지는 않을 것 같습니다.
 
 결론적으로 좀 있어보이는 엡(비동기통신,복잡한화면구정)을 만들려고 한다면 Sencha Touch 쪽으로 가는 것이 맞다고 볼 수 있으나, ExtJS 라는 부분을 공부하는데 좀 더 투자가 필요 할 것 같습니다. 반면 순차적인 기능을 포함하며, 복잡한 화면구성이 아닌 엡으로는 비교적 가벼운 JQuery Mobile 쪽이 개발 측면에서 좀더 수월한 스터디를 진행할 수 있을 것 같습니다.
+
+참고
+
+ * Sencha Touch : http://dev.sencha.com/deploy/touch/examples/production/kitchensink/
