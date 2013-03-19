@@ -1,5 +1,4 @@
-#labels MobilePlatformMarketShare
-*Mobile Platform Market Share*
+#summary Mobile Platform Market Share
 
 
 작성자: 혜슈!
