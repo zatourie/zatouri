@@ -21,3 +21,13 @@
 *Sencha touch
 
 ** http://www.sencha.com/products/touch
+
+==Reference==
+
+ * 와이어드 : http://www.wired.com/insights/2012/11/native-apps-vs-mobile-web/
+
+ * 포브스 : http://www.forbes.com/sites/ciocentral/2013/01/23/html5-vs-native-mobile-apps-myths-and-misconceptions/
+
+ * 가디언 : http://www.guardian.co.uk/media-network/media-network-blog/2013/feb/07/html5-native-apple-android-strategy
+
+ * 어도비 : http://www.adobe.com/inspire/2012/02/mobile-websites-vs-mobile-apps.html
