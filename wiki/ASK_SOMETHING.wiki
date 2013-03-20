@@ -5,6 +5,8 @@
   ** 비즈니스도 :)
 
  * 운영중인 모바일 시스템의 보안은 어떻게 구성되어있나요?
+  * HTTPS? 인증서? 암호화? 
+  * 내부DB나 Web Service에 접근한다면 어떤 방법을 사용하는지? (Mobile VPN?)
 
 <wiki:comment>현준석</wiki:comment>
  * 모바일 시스템 운영 시 app과 web 간의 session 연동은 어떻게 처리하셨나요?
