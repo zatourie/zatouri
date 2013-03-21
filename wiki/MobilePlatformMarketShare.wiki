@@ -5,7 +5,7 @@
 
 작성자: 혜슈!
 
-= Introduction =
+=Overview=
 모바일 플랫폼: 모바일 기기에 탑재되어 다양한 기능 지원 및 구현 가능.
 
  * 안드로이드
@@ -31,7 +31,7 @@
 
 Reference: http://minamjun11.egloos.com/1171154
 
-= Details =
+=Mobile Platform Market Share, 2013=
 
 현재 모바일 플랫폼 마켓에서는 *안드로이드: 54-58%, iOS: 33-37%*로 높은 점유율을 확보 하고 있습니다.
 
@@ -42,3 +42,7 @@ Reference: http://minamjun11.egloos.com/1171154
 (한국에서는 역시 안드로이드가 90%로 압도적이네용!! 저는 아이폰유저인데... ^^;;;)
 
 http://connect.icrossing.co.uk/wp-content/uploads/2013/01/iCrossing_2013_Mobile_Market_Share.gif
+
+
+=Market Share Trends=
+http://stats.areppim.com/ressources/mobios_world_timeseries_800x574.png
