@@ -29,7 +29,7 @@
   ** 상용화 폰 아직 없음. 
  * 기타 : 우분투폰(가칭)
 
-Reference: http://minamjun11.egloos.com/1171154
+
 
 =Mobile Platform Market Share, 2013=
 
@@ -45,4 +45,10 @@ http://connect.icrossing.co.uk/wp-content/uploads/2013/01/iCrossing_2013_Mobile_
 
 
 =Market Share Trends=
-http://stats.areppim.com/ressources/mobios_world_timeseries_800x574.png
+http://connect.icrossing.co.uk/wp-content/uploads/2013/01/Global-mobile-statistics1.png
+
+
+----
+=Reference=
+http://minamjun11.egloos.com/1171154
+http://connect.icrossing.co.uk/2013-mobile-market-share-infographic_10062
