@@ -1,0 +1,11 @@
+#summary Java vs .NET
+
+일시 : 2013.3.28 11:30 
+장소 : SK서린 4층 민들레
+발제자 : 심민규 
+
+주제 : JAVA vs .NET
+
+==문법 (Syntax)==
+
+http://www.harding.edu/fmccown/java_csharp_comparison.html
