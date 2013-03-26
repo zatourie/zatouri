@@ -26,6 +26,10 @@
 (사견이지만, MS는 그 전략에서 그다지 성공적이지 않음.)
 
 
-===문법 (Syntax)===
+===문법 (Syntax) 차이===
 
 http://www.harding.edu/fmccown/java_csharp_comparison.html
+
+----
+==Reference==
+ * http://en.wikipedia.org/wiki/Von_Neumann_architecture
