@@ -1,10 +1,10 @@
 #summary Java vs .NET
 
+=주제 : JAVA vs .NET=
+
  * 일시 : 2013.3.28 11:30 
  * 장소 : SK서린 4층 민들레
  * 발제자 : 심민규 
-
-=주제 : JAVA vs .NET=
 
 ==약간의 히스토리==
 
