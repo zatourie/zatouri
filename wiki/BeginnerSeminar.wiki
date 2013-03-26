@@ -1,10 +1,11 @@
 #summary Java vs .NET
 
 =주제 : JAVA vs .NET=
-
  * 일시 : 2013.3.28 11:30 
  * 장소 : SK서린 4층 민들레
  * 발제자 : 심민규 
+
+<wiki:toc max_depth="2" />
 
 ==약간의 히스토리==
 
@@ -15,7 +16,11 @@
 
 ==Java vs .NET?==
 
+엄밀히 말하자면 Java는 프로그래밍 언어이고 .NET은 브랜드 혹은 프레임워크 이므로 비교대상이 될 수 없다. Java와 C#을 비교하거나, J2EE와 .NET Framework를 비교하는 것은 가능할 수 있겠다. 어쨌거나 마징가가 이기나 태권브이가 이기나 함보자.
+
 ===Java는 무엇?===
+
+http://en.wikipedia.org/wiki/Java_(programming_language)
 
 ===.NET은 무엇?===
 
@@ -30,4 +35,6 @@ http://www.harding.edu/fmccown/java_csharp_comparison.html
 
 ----
 ==Reference==
+ * http://en.wikipedia.org/wiki/Java_(programming_language)
+ * http://en.wikipedia.org/wiki/.NET_Framework
  * http://en.wikipedia.org/wiki/Von_Neumann_architecture
