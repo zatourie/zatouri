@@ -8,11 +8,9 @@
 
 ==약간의 히스토리==
 
-# 절차적 언어(Procedural Language)
-
-# 함수적 언어 (Functional? Modular? Language)
-
-# 객체제향 언어 (Object-oriented Language)
+ # 절차적 언어(Procedural Language) 
+ # 함수적 언어 (Functional? Modular? Language)
+ # 객체제향 언어 (Object-oriented Language)
 
 
 ==Java vs .NET?==
