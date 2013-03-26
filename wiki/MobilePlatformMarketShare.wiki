@@ -49,7 +49,8 @@ http://connect.icrossing.co.uk/wp-content/uploads/2013/01/Global-mobile-statisti
 
 =App Market Statistics=
 
-http://xyo.net/app-downloads-reports/ -> 자료 정리 필요
+http://zatouri.googlecode.com/files/app_stat_asia.png
+
 
 
 ----
@@ -57,3 +58,4 @@ http://xyo.net/app-downloads-reports/ -> 자료 정리 필요
  * http://minamjun11.egloos.com/1171154
  * http://stats.areppim.com/stats/stats_mobiosxtime.htm
  * http://connect.icrossing.co.uk/2013-mobile-market-share-infographic_10062
+ * http://xyo.net/app-downloads-reports/
