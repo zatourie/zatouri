@@ -9,9 +9,57 @@
 
 ==열기:약간의 히스토리==
 
- # 절차적 언어(Procedural Language) 
- # 함수적 언어 (Functional? Modular? Language)
- # 객체제향 언어 (Object-oriented Language)
+1. 절차적 언어(Procedural Language) 
+<code>
+A
+B
+C
+D
+A
+B
+C
+E
+</code>
+
+2. 함수적 언어 (Functional? Modular? Language)
+<code>
+function F(){
+    A
+    B
+    C
+}
+
+Call F()
+D
+Call F()
+E
+
+</code>
+
+3. 객체제향 언어 (Object-oriented Language)
+
+<code>
+
+Class C {
+    variable parameter
+
+    constructor c(parameter){
+        this.parameter = parameter
+    }
+
+    function F(){
+        A
+        B
+        C
+        this.parameter
+    }
+}
+
+Class c = new C();
+c.F(D);
+c.F(E);
+
+</code>
 
 
 ==Java vs .NET?==
