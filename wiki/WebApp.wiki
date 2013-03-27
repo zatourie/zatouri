@@ -1,4 +1,4 @@
-#summary A Thorough Research about Web and App
+#summary 모바일 웹과 모바일 앱 비교
 
 =Web? App?=
 
