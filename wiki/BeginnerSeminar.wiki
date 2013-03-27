@@ -7,7 +7,7 @@
 
 <wiki:toc max_depth="2" />
 
-==약간의 히스토리==
+==열기:약간의 히스토리==
 
  # 절차적 언어(Procedural Language) 
  # 함수적 언어 (Functional? Modular? Language)
@@ -32,6 +32,10 @@ http://en.wikipedia.org/wiki/Java_(programming_language)
 ===문법 (Syntax) 차이===
 
 http://www.harding.edu/fmccown/java_csharp_comparison.html
+
+==닫기:모바일 신기술?==
+
+Android가, 모바일이 신기술인가? 하면 잘 모르겠다. 아닌 것 같다. 이미 나와있는 기술들을 목적에 맞게 가공한 것에 가깝다는게 제 사견.
 
 ----
 ==Reference==
