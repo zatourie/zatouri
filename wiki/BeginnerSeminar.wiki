@@ -20,6 +20,8 @@
 
 ===Java는 무엇?===
 
+http://www.javacoffeebreak.com/articles/inside_java/dec99figuretwo.gif
+
 http://en.wikipedia.org/wiki/Java_(programming_language)
 
 ===.NET은 무엇?===
