@@ -28,6 +28,8 @@ http://en.wikipedia.org/wiki/Java_(programming_language)
 
 ===.NET은 무엇?===
 
+http://www.techiegeex.com/images/dotnet/DotNetArchitecture.jpg
+
 .NET은 Microsoft에서 만든 프로그래밍 언어, 제품들을 포괄하는 브랜드. 
 자바가 플랫폼 독립적(Platform independent)인 것을 지향했다면, .NET은 언어 독립적인(Language Independent) 전략을 지향
 (사견이지만, MS는 그 전략에서 그다지 성공적이지 않음.)
