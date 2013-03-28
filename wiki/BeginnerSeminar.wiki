@@ -76,7 +76,7 @@ c.F(E);
 
 ===Java는 무엇?===
 
-http://www.cognitionis.com/wp-content/uploads/2009/01/JAVA.gif
+http://www.write-technical.com/126581/session1/lecture1/index.8.gif
 
 http://www.javacoffeebreak.com/articles/inside_java/dec99figuretwo.gif
 
