@@ -1,4 +1,4 @@
-#summary Java vs .NET
+#summary 첫번째 주제:Java vs .NET
 
 =첫번째 주제 : JAVA vs .NET=
  * 일시 : 2013.3.28 11:30 
