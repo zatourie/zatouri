@@ -8,7 +8,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.sv
 
 http://en.wikipedia.org/wiki/TCP/IP
 
-=숙제=
+=Quiz=
 
 Equals? 
 
