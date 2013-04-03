@@ -25,11 +25,11 @@ http://i.technet.microsoft.com/dynimg/IC213263.gif
 
 Web Browser / Server 아키텍처 (그림있으면 좋겠는데...)
 
-Protocol : HTTP/HTTPS, 
-Client : 웹브라우저
-Data : HTML
-Presentation : CSS
-Behavior : Javascript
+ * Protocol : HTTP/HTTPS 
+ * Client : 웹브라우저
+ * Data : HTML
+ * Presentation : CSS
+ * Behavior : Javascript
 
 ===Hyper Text Transfer Prococol (HTTP) ===
 
