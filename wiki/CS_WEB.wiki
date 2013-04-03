@@ -2,7 +2,9 @@
 
 =두번째 주제: Client/Server vs WEB=
 
-*Web은 새로운 C/S다.*
+
+
+==*Web은 새로운 C/S다.*==
 
 Client-Server Model
 
@@ -16,6 +18,18 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.sv
 http://en.wikipedia.org/wiki/TCP/IP
 
 http://i.technet.microsoft.com/dynimg/IC213263.gif
+
+==Web의 특징==
+
+Web Browser / Server 아키텍처 (그림있으면 좋겠는데...)
+
+Protocol : HTTP/HTTPS
+
+Client : 웹브라우저
+Data : HTML
+Presentation : CSS
+Behavior : Javascript
+
 
 ----
 
