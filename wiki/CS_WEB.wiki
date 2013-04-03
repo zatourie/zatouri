@@ -10,25 +10,38 @@ Client-Server Model
 
  클라이언트 서버 시스템(Client/Server System, 약칭 C/S 시스템)은 클라이언트와 서버로 나뉘는 네트워크 아키텍처를 나타낸다. 웹 시스템도 확장된 '클라이언트 서버 시스템'으로 분류되나, 일반적으로는 클라이언트 서버 시스템이라고 하면 웹 시스템이 나오기 이전의, 사용자 PC에는 클라이언트가 설치되어 화면을 처리하고 서버에서는 자료를 처리하는 시스템을 일컫는다. 
 
-
-
 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/468px-Client-server-model.svg.png
 
+,,그럼 C/S가 아닌건 뭐냐?,,
+
+http://blog.gogrid.com/wp-content/uploads/2009/05/image-thumb.png
 
 http://en.wikipedia.org/wiki/TCP/IP
 
 http://i.technet.microsoft.com/dynimg/IC213263.gif
 
+
 ==Web의 특징==
 
 Web Browser / Server 아키텍처 (그림있으면 좋겠는데...)
 
-Protocol : HTTP/HTTPS
-
+Protocol : HTTP/HTTPS, 
 Client : 웹브라우저
 Data : HTML
 Presentation : CSS
 Behavior : Javascript
+
+Hyper Text Transfer Prococol 
+Internet Engineering Task Force (IETF)와 the World Wide Web Consortium (W3C)에서 관리
+
+http://tools.ietf.org/html/rfc2616
+
+
+Hyper Text Markup Language(HTML)
+W3C에서 관리
+4.01 Stable http://www.w3.org/TR/1999/REC-html401-19991224/
+5.1 draft http://www.w3.org/html/wg/drafts/html/master/
+
 
 
 ----
