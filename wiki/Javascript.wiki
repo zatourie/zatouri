@@ -6,8 +6,10 @@
 
 ----
 더글라스 크록포드 할아버지 홈페이지
+
 http://www.crockford.com/
 
 더글라스 크록포트 할아버지 책
+
 http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8979145985 (국문)
 http://foreign.aladin.co.kr/shop/wproduct.aspx?ISBN=0596517742 (영문)
