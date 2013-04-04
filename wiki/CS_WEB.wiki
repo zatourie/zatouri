@@ -45,6 +45,20 @@ W3C에서 관리
  * 4.01 Stable http://www.w3.org/TR/1999/REC-html401-19991224/
  * 5.1 draft http://www.w3.org/html/wg/drafts/html/master/
 
+http://zatouri.googlecode.com/files/google.png
+
+http://zatouri.googlecode.com/files/ms.png
+
+http://zatouri.googlecode.com/files/mozilla.png
+
+http://zatouri.googlecode.com/files/naver.png
+
+http://zatouri.googlecode.com/files/daum.png
+
+
+
+
+
 === Javascript ===
 
 Ecma International에서 관리
