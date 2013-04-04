@@ -11,3 +11,6 @@
 
 [http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8979145985 국문]
 [http://foreign.aladin.co.kr/shop/wproduct.aspx?ISBN=0596517742 영문]
+
+자바스크립트 엔진 벤치마크
+http://www.crockford.com/javascript/performance.html
