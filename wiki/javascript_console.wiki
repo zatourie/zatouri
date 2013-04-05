@@ -1,13 +1,13 @@
-#summary One-sentence summary of this page.
+#summary JavaScript Debug Tip: console.log
 
-= Introduction =
+스터디 시간에 잠깐 얘기했었던 console.log
 
-Add your content here.
+아래 함수를 쓰세요. 
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+<code class="javascript">
+function trace(msg){
+    try{
+        console.log(msg);
+    }catch(e){}
+}
+</code>
