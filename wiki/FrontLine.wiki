@@ -1,6 +1,8 @@
 #summary FrontLine 그룹을 조직합시다.
 
 
+http://zatouri.googlecode.com/files/frontline.png
+
 Beginner 스터디는 계속하면서 뭔가 치고 나가는 그룹도 있어야겠어요. 
 
 이 그룹은 스터디, 강의 형식이 아니라 공부할 분야를 나누고 
