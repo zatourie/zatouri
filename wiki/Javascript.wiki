@@ -14,3 +14,9 @@
 
 자바스크립트 엔진 벤치마크
 http://www.crockford.com/javascript/performance.html
+
+
+<BR>
+세상에서 가장 오해가 많은 프로그래밍 언어
+
+http://home.postech.ac.kr/~skyul/javascript.html 
