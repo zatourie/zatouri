@@ -94,6 +94,28 @@ if(str1 == str2){
 
 힌트: Value vs. Reference
 
+위 코드를 자바에서 실행시키면 Hoy가 나옵니다. 
+C#에서 비슷한 코드를 실행시키면 Hi가 나오죠.
+
+이것은 "==" 연산자가 string 값을 만나면 서로 다르게 동작하기 때문이에요.
+Java에서 "==" 연산자는 참조비교(reference comparison)을 하는 반면,
+C#에서 "==" 연산자는 값비교(Value comparison)을 합니다.
+
+이것을 두고 프로그래머들 사이에 논쟁이 많은데요. Java string도 "=="연산을 하면 값비교를 해야한다는 의견이 많습니다. 그도 그럴 것이 string을 비교하는데 참조비교를 하는 경우가 과연 있을까 싶기 때문에 수긍이 가는 주장이기도 합니다. 
+
+하지만 반면, 아래와 같은 반박도 있습니다. Java에서 모든 객체에서 "=="연산자가 일관되게 동작한다는거죠. C#에서는 string은 객체이지만 다른 객체들과 "==" 연산자가 다르게 동작하므로 혼란스러울 수 있단 겁니다. 일각에서 주장되는 연산자 오버로딩 기능으로 해결될 문제가 아니라 컴파일러가 string을 값비교하도록 해결하는게 좋겠다는 아이디어도 좋네요. 
+
+I guess it's just consistency, or "principle of least astonishment". String is an object, so it would be surprising if was treated differently than other objects.
+
+At the time when Java came out (~1995), merely having something like String was total luxury to most programmers who were accustomed to representing strings as null-terminated arrays. String's behavior is now what it was back then, and that's good; subtly changing the behavior later on could have surprising, undesired effects in working programs.
+
+As a side note, you could use String.intern() to get a canonical (interned) representation of the string, after which comparisons could be made with ==. Interning takes some time, but after that, comparisons will be really fast.
+
+Addition: unlike some answers suggest, it's not about supporting operator overloading. The + operator (concatenation) works on Strings even though Java doesn't support operator overloading; it's simply handled as a special case in the compiler, resolving to StringBuilder.append(). Similarly, == could have been handled as a special case.
+
+Then why astonish with special case + but not with ==? Because, + simply doesn't compile when applied to non-String objects so that's quickly apparent. The different behavior of == would be much less apparent and thus much more astonishing when it hits you.
+
+http://programmers.stackexchange.com/questions/193638/why-didnt-operator-string-value-comparison-make-it-to-java/193640#193640
 
 ----
 Reference
