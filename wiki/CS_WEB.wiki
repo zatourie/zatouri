@@ -45,6 +45,13 @@ W3C에서 관리
  * 4.01 Stable http://www.w3.org/TR/1999/REC-html401-19991224/
  * 5.1 draft http://www.w3.org/html/wg/drafts/html/master/
 
+궁금해서 현재 영향력있는 인터넷 기업들의 메인 페이지를 W3C Validator로 돌려보았습니다. 
+
+구글도 20개 정도의 오류가 있구요. MS는 ㅎㅎㅎ
+오픈소스 재단답게 Mozilla는 Pass 입니다. 
+그리고 놀랍게도 (다음 직원들께 죄송!) 다음 메인 페이지도 Pass!
+
+
 http://zatouri.googlecode.com/files/google.png
 
 http://zatouri.googlecode.com/files/ms.png
@@ -61,9 +68,10 @@ http://zatouri.googlecode.com/files/daum.png
 
 === Javascript ===
 
-Ecma International에서 관리
+Ecma International에서 관리하고 ECMAScript라고도 불립니다.
 
 http://en.wikipedia.org/wiki/Ecma_International
+
 
 ===CSS===
 
