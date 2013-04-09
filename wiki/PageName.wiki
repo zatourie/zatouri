@@ -8,7 +8,7 @@ By: Benjamin Travis
 
 With Android and iPhone now combining for nearly 90 percent of the U.S. smartphone market, many app developers are concentrating their efforts on serving the majority of smartphone users through these two platforms. But there is an inherent tension when resources are limited and developers must choose one over the other, or decide which platform to develop for first. As a result, every app developer should be armed with some basic facts around the differences between Android and iPhone users when making these decisions.
 
-안드로이드와 아이폰이 합쳐서 90퍼센트에 가까운 미국 스마트폰 시장을 장악하고 있는 이 때, 많은 앱개발자들이 양대 플랫폼을 통해 많은 사용자에게 다가가는데 노력을 기울이고 있지만 리소스가 한정되어있을때는 어느 한가지 플랫폼을 선택해야하는 압력이 존재한다.
+안드로이드와 아이폰이 합쳐서 90퍼센트에 가까운 미국 스마트폰 시장을 장악하고 있는 이 때, 많은 앱개발자들이 양대 플랫폼을 통해 많은 사용자에게 다가가는데 노력을 기울이고 있지만 리소스가 한정되어있을때는 어느 한가지 플랫폼을 선택하거나 아니면 그 한가지 플랫폼을 먼저 개발해야하는 경우가 생긴다. 
 
 According to comScore MobiLens data from December 2012, Android currently owns the larger market share at 53 percent, while iPhone holds a strong #2 position at 36 percent. However, market share alone is not sufficient for driving development decisions because iPhone users have different characteristics that often make them attractive from a development standpoint. Here are some key differences in user dynamics between Android and iPhone users that every developer should know.
 
