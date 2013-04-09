@@ -51,7 +51,12 @@ http://connect.icrossing.co.uk/wp-content/uploads/2013/01/Global-mobile-statisti
 
 http://zatouri.googlecode.com/files/app_stat_asia.png
 
+
 http://www.comscore.com/var/comscore/storage/images/media/images/infographics/android_vs_ios_infographic_1000x40002/952843-1-eng-US/Android_vs_iOS_Infographic_1000x4000.jpg
+
+
+안드로이드가 마켓쉐어는 넓지만, 이익은 애플이 더 많이 내고 있음.
+특히 유료앱 결제는 iOS가 안드로이드의 10배 이상.
 
 ----
 =Reference=
