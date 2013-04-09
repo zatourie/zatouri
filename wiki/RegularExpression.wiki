@@ -16,7 +16,7 @@
   c.f) http://www.forta.com/books/0672325667/ (웹기반RE 검사기 다운로드)
 
 = 2장. 문자 하나 찾기 =
-_to-be continued_
+_to-be continued 하루에 한 장씩 (총 10장)_
 
 ----
 참조 : 손에 잡히는 정규 표현식, 인사이트, 벤 포터 지음, 김경수 옮김
