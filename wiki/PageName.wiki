@@ -17,8 +17,9 @@ iPhone Users are Slightly Younger and More Affluent
 
 아이폰사용자들이 약간 더 젊고 더 돈이 많다
 
-iOS is popular among a slightly younger demographic than Android users, with 18-24 year olds representing 19 percent of all iPhone owners compared to 16 percent of Android owners. That said, Android users on the whole skew younger than the total U.S. mobile market, indicating that they still have a very attractive profile on this dimension. 
-iOS는 
+iOS is popular among a slightly younger demographic than Android users, with 18-24 year olds representing 19 percent of all iPhone owners compared to 16 percent of Android owners. That said, Android users on the whole skew younger than the total U.S. mobile market, indicating that they still have a very attractive profile on this dimension.
+
+iOS는 좀 더 젊은 층에 인기가 있다. 20~26세가 아이폰 사용자의 19%인데 비교해서 안드로이드 사용자의 16%이다.이것은 
 Another important demographic difference is average household income, with 41 percent of iPhone owners falling in the $100,000+ income segment vs. 24 percent of Android owners. With iPhones selling at a higher average price point than most Android phones, this difference should not be a complete surprise. Still, it may be an important differentiator for marketers.
 
 Android Users Have Broader Content Category Reach, Despite iOS Users’ Higher Propensity
