@@ -2,19 +2,21 @@
 
 몰라도 상관 없지만, 알면 좋은(?) RE에 대해서 정리하겠습니다.
 
-= Introduction =
+= 1장. 정규표현식(Regular Expression) 소개 =
 
-Add your content here.
+  * 정규표현식(앞으로는 RE 라 표기)이란? : 텍스트를 찾고 조작하는 데 쓰는 문자열
+  * 왜 필요한가요?
+    - 원하는 정보가 어디에 있는지 찾거나(검색),
+    - 정보를 찾은 뒤에 편집(치환)하기 위해서
 
+    e.g) 
+         # 대소문자를 구별하지 않고 car 라는 텍스트가 포함된 파일을 찾는데, 단어 중간에 car가 들어있는 경우를 제외하고 싶다(scar, carry, incarcerate 등).
+         # 소스코드를 수정하다가 size라는 글자를 모두 iSize로 치환하고자 한다. 하지만 다른 단어 사이에 size라는 철자가 포함된 경우는 제외하고 오직 size라는 단어만 치환하고 싶다.
 
-= Details =
+  c.f) http://www.forta.com/books/0672325667/ (웹기반RE 검사기 다운로드)
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
+= 2장. 문자 하나 찾기 =
+to-be continued
 
 ----
 참조 : 손에 잡히는 정규 표현식, 인사이트, 벤 포터 지음, 김경수 옮김
