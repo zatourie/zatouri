@@ -13,3 +13,4 @@
 
 ==스터디 추천도서==
  * iOS : Objective-C (2판), 마크 달림플, 스콧 내스티, 와카르 말릭 지음 / 이종웅, 김기훈 옮김 / Apress, 퍼블릭 출판사
+ * Android : http://developer.android.com/training/index.html
