@@ -12,6 +12,7 @@
 
 ==모바일 스터디 관련 외부교육==
  * 삼성멀티캠퍼스/안드로이드 APP 개발 고급 [[http://www.multicampus.co.kr/course.do?cmd=detail&course_type=02&classify_code=003700020002&course_code=117462#openReview 링크]]
+ * 안드로이드 App 개발 독서통신 교육(2달) (myHR -> 육성 -> 등록과정 -> 교육명 : 안드로이드 프로그래밍 실무 가이드)
 
 ==스터디 추천도서==
  * iOS : Objective-C (2판), 마크 달림플, 스콧 내스티, 와카르 말릭 지음 / 이종웅, 김기훈 옮김 / Apress, 퍼블릭 출판사
