@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary 몰락해가지만 과거의 영광 Yahoo의 HTML Best Practice
 
 =Minimize HTTP Requests=
 tag: content
