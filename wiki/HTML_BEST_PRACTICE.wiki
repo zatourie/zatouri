@@ -1,4 +1,4 @@
-#summary 몰락해가지만 과거의 영광 Yahoo의 HTML Best Practice
+#summary 몰락해가지만 과거의 영광 Yahoo의 HTML Best Practice (번역예정)
 
 =Minimize HTTP Requests=
 tag: content
