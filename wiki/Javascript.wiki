@@ -1,20 +1,23 @@
 #summary 세번째주제:자바스크립트
 
-자바스크립트? 너무 큰 주제인 것 같아요... 
+=DOM (Document Object Model) =
 
-범위를 한정해야할 듯.
+==DOM이란?==
 
-DOM부터 시작해봅니다.
+==약간의 히스토리==
 
-DOM Level 0
+===어둠의 시절 : DOM Level 0===
 
  * document.write()
  * innerHTML()
 
-DOM Level 1
+===표준의 등장 : DOM Level 1===
  * document.getElementById()
 
-DOM Level 2
+===DOM Level 2===
+
+===jQuery & more===
+
 
 ----
 DOM스크립트, 제레미 키스 저/윤석찬 역, [[http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8960770035 링크]]
