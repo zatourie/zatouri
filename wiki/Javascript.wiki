@@ -4,7 +4,21 @@
 
 범위를 한정해야할 듯.
 
+DOM부터 시작해봅니다.
+
+DOM Level 0
+
+ * document.write()
+ * innerHTML()
+
+DOM Level 1
+ * document.getElementById()
+
+DOM Level 2
+
 ----
+DOM스크립트, 제레미 키스 저/윤석찬 역, [[http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8960770035 링크]]
+
 [http://www.crockford.com/ 더글라스 크록포드 할아버지 홈페이지]
 
 더글라스 크록포트 할아버지 책
@@ -16,5 +30,3 @@
 
 
 세상에서 가장 오해가 많은 프로그래밍 언어[[http://home.postech.ac.kr/~skyul/javascript.html 링크]]
-
-DOM스크립트, 제레미 키스 저/윤석찬 역, [[http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8960770035 링크]]
