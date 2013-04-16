@@ -7,7 +7,7 @@
 DOM : Document Object Model
 
 {{{
-<HTMl>
+<HTML>
 <BODY>
 <P ALIGN="right">
 This is a <B>paragraph</B>
