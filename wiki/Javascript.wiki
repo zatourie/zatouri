@@ -30,22 +30,30 @@ This is a <B>paragraph</B>
 
 }}}
 
-{{{
-document.firstChild.firstChild.lastChild;
-document.firstChild.childNodes[0].lastChild;
-document.firstChild.childNodes[0].childNodes[1];
-}}}
 
-==약간의 히스토리==
+<B>태그를 가져오려면
+{{{
+var b = document.firstChild.firstChild.lastChild;
+혹은
+var b = document.firstChild.childNodes[0].lastChild;
+혹은
+var b = document.firstChild.childNodes[0].childNodes[1];
+}}}
 
 ===어둠의 시절(백가항쟁) : DOM Level 0===
 
  * document.write()
  * innerHTML()
 
+
 ===표준의 등장 : DOM Level 1 혹은 W3C DOM===
 
  * document.getElementById()
+
+{{{
+//<B ID="B_TAG"> 라고 가정하면
+var b = document.getElementById("B_TAG");
+}}}
 
 ===jQuery & more===
 
@@ -54,6 +62,9 @@ document.firstChild.childNodes[0].childNodes[1];
  * 개발자로서는 모든 브라우저에서 동일한 동작을 보장하기엔 여전히 어려움이 있었음
  * 그래서 등장한 라이브러리들이 jQuery, prototype, mootool
 
+{{{
+var b = $(#B_TAG);
+}}}
 
 ===undefined 유령===
 
