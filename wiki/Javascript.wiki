@@ -4,7 +4,37 @@
 
 ==DOM이란?==
 
+DOM : Document Object Model
 
+{{{
+<HTMl>
+<BODY>
+<P ALIGN="right">
+This is a <B>paragraph</B>
+</P>
+</BODY>
+</HTML>
+}}}
+
+{{{
+             <BODY>
+               | 
+              <P> ----------------
+               |                  |
+         --------------         ALIGN
+        |              |          |
+    This is a         <B>         |
+                       |        right
+                       |
+                    paragraph
+
+}}}
+
+{{{
+document.firstChild.firstChild.lastChild;
+document.firstChild.childNodes[0].lastChild;
+document.firstChild.childNodes[0].childNodes[1];
+}}}
 
 ==약간의 히스토리==
 
@@ -16,7 +46,7 @@
 ===표준의 등장 : DOM Level 1===
  * document.getElementById()
 
-===DOM Level 2===
+
 
 ===jQuery & more===
 
