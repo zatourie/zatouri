@@ -38,3 +38,6 @@ DOM스크립트, 제레미 키스 저/윤석찬 역, [[http://www.aladin.co.kr/s
 
 DOM 호환성 테스트
 http://www.quirksmode.org/dom/w3c_html.html
+
+추천 자바스크립트 웹싸이트 하나더
+http://www.quirksmode.org/js/contents.html
