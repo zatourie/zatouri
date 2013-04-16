@@ -52,7 +52,11 @@ var b = document.firstChild.childNodes[0].childNodes[1];
 
 {{{
 //<B ID="B_TAG"> 라고 가정하면
+//객체 얻기
 var b = document.getElementById("B_TAG");
+//값세팅
+var node=document.createTextNode("bold");
+b.appendChild(node);
 }}}
 
 ===jQuery & more===
@@ -63,7 +67,12 @@ var b = document.getElementById("B_TAG");
  * 그래서 등장한 라이브러리들이 jQuery, prototype, mootool
 
 {{{
-var b = $(#B_TAG);
+var b = $("#B_TAG");
+b.append("new bold");
+
+혹은
+
+$("#B_TAG").append("new bold");
 }}}
 
 ===undefined 유령===
