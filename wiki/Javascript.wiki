@@ -45,6 +45,10 @@ var b = document.firstChild.childNodes[0].childNodes[1];
  * document.write()
  * innerHTML()
 
+{{{
+var b = document.all["B_TAG"];
+b.innerHTML("new bold paragraph");
+}}}
 
 ===표준의 등장 : DOM Level 1 혹은 W3C DOM===
 
@@ -55,7 +59,7 @@ var b = document.firstChild.childNodes[0].childNodes[1];
 //객체 얻기
 var b = document.getElementById("B_TAG");
 //값세팅
-var node=document.createTextNode("bold");
+var node=document.createTextNode("new bold paragraph");
 b.appendChild(node);
 }}}
 
@@ -68,11 +72,12 @@ b.appendChild(node);
 
 {{{
 var b = $("#B_TAG");
-b.append("new bold");
+b.html("new bold");
 
 혹은
 
-$("#B_TAG").append("new bold");
+$("#B_TAG").html("new bold paragraph");
+
 }}}
 
 ===undefined 유령===
