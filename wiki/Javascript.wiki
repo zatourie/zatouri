@@ -80,6 +80,54 @@ $("#B_TAG").html("new bold paragraph");
 
 }}}
 
+===세상에서 가장 오해가 많은 프로그래밍 언어===
+
+{{{
+<html>
+<head>
+<title>JavaScript Sandbox</title>
+<script type="text/javscript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+trace("START");
+var c = new Container("abc");
+trace(c);
+c.service();
+var f = c.service;
+f();
+
+function Container(param) {
+    this.member = param; //public
+    var secret = 3; //private
+    var that = this; //convention for inner functions to access outer context
+
+    //private function
+    function dec() {
+        if(secret > 0){
+            secret -= 1;
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+    this.service = function() {
+        trace(this);
+        trace(that);
+        return dec() ? that.member : null;
+    }
+}
+
+function trace(msg) {
+    try{console.log(msg);}catch(e){}
+}
+</script>
+</head>
+<body>
+<div id="main"></div>
+</body>
+</html>
+}}}
+
 ===undefined 유령===
 
 {{{
@@ -141,7 +189,7 @@ DOM스크립트, 제레미 키스 저/윤석찬 역, [[http://www.aladin.co.kr/s
 자바스크립트 엔진 벤치마크 [[http://www.crockford.com/javascript/performance.html 링크]]
 
 
-세상에서 가장 오해가 많은 프로그래밍 언어[[http://home.postech.ac.kr/~skyul/javascript.html 링크]]
+세상에서 가장 오해가 많은 프로그래밍 언어[[http://home.postech.ac.kr/~skyul/javascript.html 링크]] 링크깨짐
 
 DOM 호환성 테스트
 http://www.quirksmode.org/dom/w3c_html.html
