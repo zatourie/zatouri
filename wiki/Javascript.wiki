@@ -54,6 +54,55 @@ document.firstChild.childNodes[0].childNodes[1];
  * 개발자로서는 모든 브라우저에서 동일한 동작을 보장하기엔 여전히 어려움이 있었음
  * 그래서 등장한 라이브러리들이 jQuery, prototype, mootool
 
+
+===undefined 유령===
+
+{{{
+var a;
+trace2(a); //undefined
+trace2(typeof a); //'undefined'
+trace2(a == undefined); //true
+trace2(a === undefined); //true
+trace2(typeof a == undefined); //false
+trace2(typeof a === undefined); //false
+trace2(typeof a == 'undefined'); //true
+trace2(typeof a === 'undefined'); //true
+
+var a, b;
+trace2(a == b); //true
+trace2( a === b); //true
+trace2( typeof a == typeof b); //true
+trace2( typeof a === typeof b); //true
+
+var c = {};
+trace2(c); //Object{}
+trace2(c == undefined); //false
+trace2(typeof c == object); //not defined error
+trace2(typeof c === object); //not defined error
+trace2(typeof c == 'object'); //true
+trace2(typeof c === 'object'); //true
+
+var a = "abc";
+var b = "abc";
+trace2(a == b);
+trace2(a === b);
+
+var a = 1, b = '1';
+trace2(a == b); //true
+trace2(a === b); //false!
+
+var a = null;
+trace2(typeof a); //object!!!
+trace2(a); //null
+trace2(a == undefined); //true!!!
+trace2(a === undefined); //false
+trace2(typeof a == undefined); //false and wrong usage since typeof return a string
+trace2(typeof a === undefined); //false and wrong usage since typeof return a string
+
+trace2(typeof a == 'undefined'); //false
+trace2(typeof a === 'undefined'); //false
+}}}
+
 ----
 DOM스크립트, 제레미 키스 저/윤석찬 역, [[http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8960770035 링크]]
 
