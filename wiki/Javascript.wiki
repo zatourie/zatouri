@@ -189,7 +189,7 @@ DOM스크립트, 제레미 키스 저/윤석찬 역, [[http://www.aladin.co.kr/s
 자바스크립트 엔진 벤치마크 [[http://www.crockford.com/javascript/performance.html 링크]]
 
 
-세상에서 가장 오해가 많은 프로그래밍 언어[[http://home.postech.ac.kr/~skyul/javascript.html 링크]] 링크깨짐
+세상에서 가장 오해가 많은 프로그래밍 언어[[http://home.postech.ac.kr/~skyul/javascript.html 링크]] ~~링크깨짐~~ 링크살아남;
 
 DOM 호환성 테스트
 http://www.quirksmode.org/dom/w3c_html.html
