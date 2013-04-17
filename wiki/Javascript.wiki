@@ -205,3 +205,6 @@ http://www.quirksmode.org/dom/w3c_html.html
 
 추천 자바스크립트 웹싸이트 하나더
 http://www.quirksmode.org/js/contents.html
+
+IE Box Model Bug
+http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug
