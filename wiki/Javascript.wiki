@@ -63,12 +63,21 @@ var node=document.createTextNode("new bold paragraph");
 b.appendChild(node);
 }}}
 
+===브라우저별 다른 동작의 예 : Box Model===
+
+W3C 표준과 IE가 서로 다르게 동작함.
+
+W3C 표준은 Content만 width, height를 잡지만, IE는 padding과 border를 포함.
+
+http://minicube.kr/blog/attach/1/1352638279.gif
+
 ===jQuery & more===
 
  * W3C DOM이 등장했지만 각 브라우저 개발업체들은 여전히 자사의 하위호환성을 위해 비표준 기술을 채택하고 있고
  * W3C DOM 스펙이 각 브라우저 별로 다르게 동작하는 경우도 있어
  * 개발자로서는 모든 브라우저에서 동일한 동작을 보장하기엔 여전히 어려움이 있었음
- * 그래서 등장한 라이브러리들이 jQuery, prototype, mootool
+ * 거기다 DOM 표준 코딩은 뭔가 딱딱하고 길고 Verbose함
+ * 그래서 등장한 라이브러리들이 *jQuery*, *prototype*, *mootools*
 
 {{{
 var b = $("#B_TAG");
@@ -80,7 +89,7 @@ $("#B_TAG").html("new bold paragraph");
 
 }}}
 
-===세상에서 가장 오해가 많은 프로그래밍 언어===
+===JavaScript: 세상에서 가장 오해가 많은 프로그래밍 언어===
 
 {{{
 <html>
@@ -91,9 +100,9 @@ $("#B_TAG").html("new bold paragraph");
 trace("START");
 var c = new Container("abc");
 trace(c);
-c.service();
+c.service(); //this와 that이 같은 객체임
 var f = c.service;
-f();
+f(); //this와 that이 서로 다른 객체임
 
 function Container(param) {
     this.member = param; //public
