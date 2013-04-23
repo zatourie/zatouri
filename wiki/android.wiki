@@ -35,4 +35,5 @@ http://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications
 
 ----
 Reference
-[http://developer.android.com/index.html 안드로이드 개발자 홈페이지]
+ * [http://developer.android.com/index.html 안드로이드 개발자 홈페이지]
+ * [http://developer.android.com/tools/help/proguard.html ProGuard]
