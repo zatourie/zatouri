@@ -1,7 +1,5 @@
 #summary Beginner's Study 세번째 : 안드로이드 Overview
 
-= Introduction =
-
 안드로이드란?
 
 안드로이드 아키텍처
