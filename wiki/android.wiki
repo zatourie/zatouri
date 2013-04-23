@@ -30,6 +30,9 @@ http://ows.edb.utexas.edu/sites/default/files/users/nqamar/activity.JPG
 안드로이드 개발툴 다운로드 (이클립스 + 안드로이드SDK)
 http://developer.android.com/sdk/index.html
 
+안드로이드 오픈소스 앱 리스트
+http://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications
+
 ----
 Reference
 [http://developer.android.com/index.html 안드로이드 개발자 홈페이지]
