@@ -25,3 +25,11 @@ http://2.bp.blogspot.com/-8FGro3ph-JU/URfRvLns1DI/AAAAAAAAAOk/RwLojjVIc8k/s1600/
 =Activity LifeCycle=
 
 http://ows.edb.utexas.edu/sites/default/files/users/nqamar/activity.JPG
+
+
+안드로이드 개발툴 다운로드 (이클립스 + 안드로이드SDK)
+http://developer.android.com/sdk/index.html
+
+----
+Reference
+[http://developer.android.com/index.html 안드로이드 개발자 홈페이지]
