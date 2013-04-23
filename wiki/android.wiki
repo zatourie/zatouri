@@ -1,8 +1,8 @@
-#summary One-sentence summary of this page.
+#summary 안드로이드 Overview
 
 = Introduction =
 
-안드로이드란
+안드로이드란?
 
 안드로이드 아키텍처
 
@@ -10,10 +10,3 @@
 
 hello world
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
