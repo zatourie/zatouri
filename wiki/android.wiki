@@ -1,4 +1,4 @@
-#summary 안드로이드 Overview
+#summary Beginner's Study 세번째 : 안드로이드 Overview
 
 = Introduction =
 
@@ -9,4 +9,3 @@
 라이브러리?
 
 hello world
-
