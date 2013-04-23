@@ -17,6 +17,9 @@ http://2.bp.blogspot.com/-kYEUpxmIMyU/TwJp9czSi1I/AAAAAAAAALQ/MRegRRQRWsM/s1600/
 
 =라이브러리?=
 
+=안드로이드 프로젝트 소스코드 구조(이클립스)=
+
+http://2.bp.blogspot.com/-8FGro3ph-JU/URfRvLns1DI/AAAAAAAAAOk/RwLojjVIc8k/s1600/project+structure.png
 
 
 =Activity LifeCycle=
