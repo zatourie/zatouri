@@ -16,6 +16,9 @@ BIOK(구매포탈)에서 모바일로 제공하면 좋을 기능을 구현해본
 
 ==UI==
 
+http://zatouri.googlecode.com/files/mobiok00.png
+
+http://zatouri.googlecode.com/files/mobiok01.png
 
 
 ==이슈==
