@@ -20,6 +20,12 @@ http://zatouri.googlecode.com/files/mobiok00.png
 
 http://zatouri.googlecode.com/files/mobiok01.png
 
+==상태정의 필요(작성중)==
+
+ # ERP 요청
+ # BIOK 구매원 승인
+ # 등등
+
 
 ==이슈==
 
