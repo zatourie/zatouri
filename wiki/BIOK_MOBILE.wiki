@@ -1,4 +1,4 @@
-#summary BIOK(구매포탈) Mobile BETA
+#summary BIOK(구매포탈) Mobile BETA (가칭: moBiOK 모바이오케이)
 
 =BIOK(구매포탈) Mobile BETA=
 
@@ -13,6 +13,10 @@ BIOK(구매포탈)에서 모바일로 제공하면 좋을 기능을 구현해본
 ==User Story==
 
  * 앱/웹 실행후 텍스트박스에 주문장번호를 입력하면 현재 상태, 요청자, 구매담당자 정보를 보여주고, 납품처를 구글맵스에 보여준다.
+
+==UI==
+
+
 
 ==이슈==
 
