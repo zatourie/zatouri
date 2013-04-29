@@ -21,20 +21,19 @@ BIOK(구매포탈)에서 모바일로 제공하면 좋을 기능을 구현해본
 
 http://zatouri.googlecode.com/files/mobiok00.png
 
-
 http://zatouri.googlecode.com/files/mobiok01.png
 
 PR번호, PO번호 표시 필요
 
 ==상태정의 필요(작성중)==
 
- # [ERP] 구매요청완료
- # [BIOK] 구매원 승인요청
- # [BIOK] PR접수대기
- # [BIOK] PR접수완료
- # [BIOK] 발주대기
- # [BIOK] 발주완료
- # [BIOK] 출입지원 전송완료
+ # ERP 구매요청완료
+ # BIOK 구매원 승인중
+ # BIOK PR접수대기
+ # BIOK PR접수완료
+ # BIOK 발주대기
+ # BIOK 발주완료
+ # BIOK 출입지원 전송완료
 
 
 ==이슈==
