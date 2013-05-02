@@ -8,4 +8,4 @@
   ** "막내야 뭐먹을까?", 종로/정자 음식점 DB화 하여 검색을 하거나 스마트폰을 흔들면 랜덤하게 하나 골라준다. ~~죄송합니다..~~ _폰을 흔들면 골라준다는거 좋은데요.민규_
   ** 불어숫자 듣기연습, 불어 숫자를 읽으면 맞추는 게임식 숫자듣기 학습. 정해진 시간동안(1분?) 많은 숫자를 맞추는 가족오락관 스피드 퀴즈식 룰.
   ** 아이보호앱(Parental Guidance/Control), 우리 업무용PC에 설치되어있는 Soft Watcher의 모바일버전. 아이의 과도한 폰사용을 부모가 규제(?)할 수 있도록 하는 앱. http://www.tomsguide.com/us/Parental-Controls-Android-iOS-Twitter-Facebook,review-1680-6.html
-  ** 지하철 지정된 역에서 깨워주는 앱
+  ** 지하철 지정된 역에서 깨워주는 앱 http://stackoverflow.com/questions/9701777/cellid-and-lac-psc-for-3g-neighboring-cells-in-android
