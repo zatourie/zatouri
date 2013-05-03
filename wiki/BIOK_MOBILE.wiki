@@ -16,9 +16,6 @@ BIOK(구매포탈)에서 모바일로 제공하면 좋을 기능을 구현해본
 
 ==UI==
 
-예외상황 처리 필요
-예) 구매요청번호가 없을때
-
 http://zatouri.googlecode.com/files/mobiok000.png
 
 http://zatouri.googlecode.com/files/mobiok100.png
@@ -30,8 +27,8 @@ http://zatouri.googlecode.com/files/mobiok210.png
 http://zatouri.googlecode.com/files/mobiok300.png
 
 
-
-PR번호, PO번호 표시 필요
+추가1) 구매원 정보, PR번호, PO번호 표시 필요
+추가2) 구매원 전화번호 클릭시 전화걸림
 
 ==상태정의 필요(작성중)==
 
