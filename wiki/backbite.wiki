@@ -11,3 +11,8 @@ CSS와 jQuery 를 이용한 Flipping book [http://abduzeedo.com/flipping-book-cs
 
 Log 시각화랍니다. 게임이 아니라 Request에 Web Server가 Response 하는걸 게임처럼 표현하는군요 
 http://youtu.be/HeWfkPeDQbY
+
+----
+
+세익스피어 프로그래밍 언어 들어보셨나요?
+http://shakespearelang.sourceforge.net/report/shakespeare/
