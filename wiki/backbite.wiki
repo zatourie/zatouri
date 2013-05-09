@@ -21,3 +21,13 @@ http://shakespearelang.sourceforge.net/report/shakespeare/
 
 요것도 재밌겠네요. 이메일 위클리 취합
 https://github.com/curioe/snippets
+
+----
+Corona SDK
+ The ultimate 2D development platform
+http://coronalabs.com/
+
+----
+PhoneGap (Adobe oriented project)
+ Easily create apps using the web technologies you know and love: HTML, CSS, and JavaScript
+http://phonegap.com/
