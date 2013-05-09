@@ -1,4 +1,4 @@
-# Windows에서 Objective C 개발하기 .
+#summary Windows에서 Objective C 개발하기 .
 
 = Objective C =
 
@@ -26,4 +26,3 @@
   * GNUstep MSYS System
   * GNUstep Core
   * GNUstep Devel 
-
