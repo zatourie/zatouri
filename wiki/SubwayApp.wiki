@@ -1,3 +1,44 @@
 #summary 생활에 도움이 되는 지하철앱
 
- * 기능1) 정해진 역에서 깨워준다.
+=기능1) 정해진 역에서 깨워준다=
+
+데이터소스 : m.bus.go.kr
+
+==API?==
+ENDPOINT : http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do
+Parameter : subwayId : 지하철호선, statnId : 역코드
+
+5호선 종로3가역 조회 URL : http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do?subwayId=1005&statnId=1005000534
+
+JSON Type retuen data
+{{{
+{
+    "resultList":[
+        {
+            "trainLineNm":"방화",
+            "sctnId":"0",
+            "statnId":"1005000534",
+            "sctnDstnc":"0",
+            "statnTid":"1",
+            "updnLine":"상행",
+            "trainNo":"5616",
+            "opratKndNm":"도착",
+            "trainSttus":"1",
+            "subwayId":"1005",
+            "statnFid":"0",
+            "brnchln":"0",
+            "statnSn":"25",
+            "opratKnd":"0",
+            "cdpntDstnc":"0",
+            "arvlDt":"2013-05-10 15:33:21.0",
+            "statnNm":"종로3가",
+            "opratDstnc":"0",
+            "trainLine":"1"
+        }
+    ],
+    "error":{
+        "errorMessage":"성공",
+        "errorCode":"0000"
+    }
+}
+}}}
