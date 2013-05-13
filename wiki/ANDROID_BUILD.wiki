@@ -8,13 +8,13 @@
 
 많이 쓰이는 방법으로 Eclipse ADT(Android Developer Tools)와 ANT를 이용하는 방법이 있으며, 용도에 따라 Debug, Release로 나눌 수도 있다.
 
+개인키가 있는 상태면, 위 세단계를 한번에 처리할 수도 있다.
+
 ==빌드(BUILD)==
 
 1. Eclipse  이용시
 
-File > Export, Android folder>Android Application 선택 
-
-빌드,서명,최적화까지 가능한 Wizard 화면뜸.
+빌드는 자동, 에뮬레이터나 폰에서 실행시켜보려면 Run As Android Application 선택
 
 _스크린샷 및 사용법 작성필요_
 
@@ -38,7 +38,7 @@ $ ant release
 
 개발자 개인키(private key)로 서명한다. self-signed 관계없음. 배포 가능.
 
-===서명키 만드는 법===
+===서명하는 방법===
 
 JDK에 들어있는 jarsigner 이용
 
@@ -62,7 +62,9 @@ $ zipalign -v 4 your_projefct_name-unaligned.apk your_project_name.apk
 
 ==좀 더 쉬운 방법==
 
-Eclipse 에서 Android project 위에 마우스 오른쪽 클릭하고 signed 혹은 unsigned 선택
+Eclipse 에서 Android project 위에 마우스 오른쪽 클릭하고 signed 혹은 unsigned 선택하거나 File > Export, Android folder>Android Application 선택 
+
+빌드,서명,최적화까지 가능한 Wizard 화면뜸.
 
 _보완필요_
 
@@ -78,7 +80,7 @@ key.alias=mykeystore
 {{{
 $ ant release
 }}}
-하면 서명된 apk화일 얻을 수 있음.
+하면 서명된 apk화일 얻을 수 있음. 이 경우 최적화는 따로 실행해야함.
 ----
 =Reference=
 
