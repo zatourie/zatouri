@@ -1,0 +1,27 @@
+#summary 안드로이드 빌드, 서명, 최적화
+
+=안드로이드 빌드, 서명, 최적화=
+
+==개요==
+
+안드로이드 앱은 배포되기 전에 빌드, 서명, 최적화의 세단계가 필요하다.
+
+많이 쓰이는 방법으로 Eclipse ADT(Android Developer Tools)와 ANT를 이용하는 방법이 있으며, 용도에 따라 Debug, Release로 나눌 수도 있다.
+
+==Debug vs Release==
+
+===Debug===
+
+개발시 사용할 수 있는 용도. Android SDK에서 제공하는 key로 서명한다. 배포는 불가.
+
+===Release===
+
+개발자 개인키(private key)로 서명한다. 배포 가능.
+
+===서명키 만드는 법===
+
+JDK에 들어있는 jarsigner 이용
+
+{{{
+$ jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 - keystore my-release_key.keystore my_app.apk alias_name
+}}}
