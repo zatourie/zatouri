@@ -3,8 +3,16 @@
 =기능1) 정해진 역에서 깨워준다=
 
 데이터소스 : m.bus.go.kr
+데이터 : 열차 현재 위치
+사용가능 범위 : 1~9호선 (분당선, 공항선 제공하지 않음)
 
 ==API?==
+Endpoint : http://m.bus.go.kr/mBus/subway/getStatnByRoute.do
+Parameter : subwadId
+
+1호선 현황
+http://m.bus.go.kr/mBus/subway/getStatnByRoute.do?subwayId=1001
+
 ENDPOINT : http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do
 Parameter : subwayId : 지하철호선, statnId : 역코드
 
