@@ -11,11 +11,8 @@
 Endpoint : http://m.bus.go.kr/mBus/subway/getStatnByRoute.do
 Parameter : subwadId
 
-1호선 현황
+예) 1호선 현황
 http://m.bus.go.kr/mBus/subway/getStatnByRoute.do?subwayId=1001
-
-ENDPOINT : http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do
-Parameter : subwayId : 지하철호선, statnId : 역코드
 
 참고 : existYn1, existYn2 해당 역에 열차가 있는지 여부
 
@@ -37,7 +34,11 @@ Parameter : subwayId : 지하철호선, statnId : 역코드
 }
 }}}
 
-5호선 종로3가역 조회 URL : http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do?subwayId=1005&statnId=1005000534
+
+ENDPOINT : http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do
+Parameter : subwayId : 지하철호선, statnId : 역코드
+
+예) 5호선 종로3가역 조회 URL : http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do?subwayId=1005&statnId=1005000534
 
 JSON Type retuen data
 {{{
