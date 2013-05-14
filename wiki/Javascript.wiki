@@ -1,4 +1,4 @@
-#summary 세번째주제:자바스크립트
+#summary Beginner's Study 세번째주제:자바스크립트
 
 일시/장소 : 4/10 (수) 1100~1200 / SK서린
 
