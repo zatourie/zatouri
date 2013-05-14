@@ -38,6 +38,17 @@ $ ant release
 
 개발자 개인키(private key)로 서명한다. self-signed 관계없음. 배포 가능.
 
+===먼저, 개인키(private key) 만드는 방법===
+
+JDK에서 제공하는 keytool  이용한다.
+
+{{{
+$ keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+}}}
+
+위 명령을 실행하면 개인키 발급의 위해 필요한 패스워드와 이름, 조직, 국가 정보를 묻는데 모두 입력하고 나면 10000일동안 유효한 keystore가 my-release-key.keystore라는 이름으로 생성한다. keystore와 key는 입력한 패스워드로 보호된다.
+
+
 ===서명하는 방법===
 
 JDK에 들어있는 jarsigner 이용
@@ -81,6 +92,7 @@ key.alias=mykeystore
 $ ant release
 }}}
 하면 서명된 apk화일 얻을 수 있음. 이 경우 최적화는 따로 실행해야함.
+
 ----
 =Reference=
 
