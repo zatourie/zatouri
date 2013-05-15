@@ -20,4 +20,11 @@
 
 http://www.gurubee.net/download/attachments/1507663/EX21_Normalization.jpg
 
+http://www.gitta.info/LogicModelin/en/image/1NF.gif
+
+http://www.gitta.info/LogicModelin/en/image/2NF.gif
+
+http://www.gitta.info/LogicModelin/en/image/3NF.gif
+
+
 ==인덱스==
