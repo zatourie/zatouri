@@ -40,7 +40,66 @@ http://zatouri.googlecode.com/files/mobiok300.png
  # BIOK 발주완료
  # BIOK 출입지원 전송완료
 
+==Data Structure==
 
+Protocol : JSON
+
+{{{
+/?prno=1100012345
+
+/*Pseudo code*/
+{
+    data : 
+    {
+        PR번호 : "1100012345",
+        요청자: "홍길동",
+        요청자전화번호: "02-2121-0000",
+        요청자이메일: "somebody@company.com",
+        PO번호 : "4110012345",
+        구매원: "고길동",
+        구매원전화번호: "02-2121-1111",
+        구매원이메일: "somebody@company.com",
+        현재상태: "BIOK발주완료",
+        납품처: "울산CLX",
+        납품처주소: "울산광역시 남구 고사동 110"
+    },
+    error : 
+    {
+        code: "",
+        message: ""
+    }
+}
+
+//실데이터
+{
+    data : 
+    {
+        pr : "1100012345",
+        rqstr: "홍길동",
+        rqstr_phn_no: "02-2121-0000",
+        rqstr_email: "somebody@company.com",
+        po : "4110012345",
+        buyer: "고길동",
+        buyer_phn_no: "02-2121-1111",
+        buyer_email: "somebody@company.com",
+        status: "BIOK발주완료",
+        to: "울산CLX",
+        to_addr : "울산광역시 남구 고사동 110"
+    },
+    error : {}
+}
+
+//오류시
+{
+    data : {},
+    error : 
+    {
+        code: "-1",
+        message: "요청하신 번호가 존재하지 않습니다."
+    }
+}
+
+}}}
 ==이슈==
 
  * 데이터 조회 권한 (누구나 주문장 번호를 알고 있으면 조회 가능?)
