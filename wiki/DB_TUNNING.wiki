@@ -13,7 +13,9 @@
 
 ===Optimizer, query plan, index, scan/seek===
 
-===Tip===
+===지양해야할 것들===
 
- * Distinct, Sort(order by) 지양
- * Index 타는 테이블 먼저
+ * 묻지마 Distinct 
+ * 섣부른 Sort
+ * 나몰라 Heap Table
+ * 일편단심 Cursor
