@@ -1,0 +1,14 @@
+#summary Beginner's Study 다섯번째 : DB 튜닝
+
+=DB 튜닝=
+
+==DB 튜닝이란?==
+
+==튜닝에 필요한 기초지식==
+
+===Optimizer, query plan, index, scan/seek===
+
+===Tip===
+
+ * Distinct, Sort(order by) 지양
+ * Index 타는 테이블 먼저
