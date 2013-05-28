@@ -13,6 +13,15 @@
 
 ===Optimizer, query plan, index, scan/seek===
 
+Optimizer : 사용자의 쿼리를 받아서 어찌저찌 가장 효율적인 계획(Plan)을 세워서 실행하는 녀석
+
+Query Plan : 그 계획(Plan)
+
+Index : 색인
+
+Index Scan / Seek : Scan? Seek?
+
+
 ===지양해야할 것들===
 
  * 묻지마 Distinct 
