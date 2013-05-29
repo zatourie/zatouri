@@ -28,3 +28,18 @@ Index Scan / Seek : Scan? Seek?
  * 섣부른 Sort
  * 나몰라 Heap Table
  * 일편단심 Cursor
+
+==여기서부터는 MSSQL Management Studio만해당==
+
+===유용한 TIP ===
+
+테이블명을 선택하고 ALT+F1하면 테이블 정보를 볼 수 있음
+
+혹은
+
+{{{
+sp_helpindex 테이블명
+}}}
+
+
+
