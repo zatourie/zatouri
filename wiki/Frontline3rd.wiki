@@ -3,3 +3,11 @@
 전 ASP.NET Mobile Framework를 공부해서 발표해보렵니다. - 민규
 
 http://amf.codeplex.com/
+
+----
+
+CSS reset vs nomalization 
+
+http://the-pastry-box-project.net/oli-studholme/2013-june-3/
+
+요런건 또 어떨까요? 모바일이 아니란 단점이;;
