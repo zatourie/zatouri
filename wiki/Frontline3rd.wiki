@@ -1,0 +1,5 @@
+#summary 프론트라인 세번째
+
+전 ASP.NET Mobile Framework를 공부해서 발표해보렵니다. - 민규
+
+http://amf.codeplex.com/
