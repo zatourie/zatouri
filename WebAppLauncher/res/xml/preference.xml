@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="pref" >
+	   <EditTextPreference
+	       android:key = "launchURL"
+	       android:title="Set launchURL"
+	       android:summary="setting a launch URL"
+	       android:defaultValue="http://www.google.com" 
+	       />
+	</PreferenceCategory>
+</PreferenceScreen>
