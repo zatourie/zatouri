@@ -11,6 +11,14 @@
 
 ==튜닝에 필요한 기초지식==
 
+===Database의 동작===
+
+INSERT/UPDATE/DELETE시에 그냥 데이터를 고치는 것만이 아니다.
+
+트랜잭션 처리나 복구를 위해 처리하는 부분이 있음
+
+참고로 INSERT/UPDATE/DELETE 중 UPDATE가 가장 Database의 비용을 많이 소모
+
 ===Optimizer, query plan, index, scan/seek===
 
 Optimizer : 사용자의 쿼리를 받아서 어찌저찌 가장 효율적인 계획(Plan)을 세워서 실행하는 녀석
@@ -21,6 +29,32 @@ Index : 색인 (인덱스와 데이터의 관계는 포인터와 실제 instance
 
 Index Scan / Seek : Scan? Seek?
 
+Query의 실행계획 : Schema 정보와 통계정보를 이용하여 실행계획을 세운다. 
+
+===Tuning의 기본===
+
+쿼리 Tuning의 기본은 Index를 사용하는 것이다. 
+
+어떤 index를 어떻게 사용하는지가 중요하다. 
+
+=== Index 란=== 
+
+Index는 목차와 같은 것
+
+Unique Index와 Non-Unique Index가 있다. (가능하면 Unique Index를 사용하자) 
+
+=== Index가 빠른 이유 === 
+
+데이터의 양이 적으니까(목차니까 당연히 데이터 양이 적다) 
+
+정렬되어 있으니까(다 안찾아보고, Binary Search 가 가능하다.) 
+
+=== Index 선정 시 주의사항 === 
+
+분포도를 체크한다. (분포도가 좋지 않은 것은 인덱스를 써도 크게 효율이 안 날 수 있다) 
+
+중복된 Index가 있나 체크한다. (중복된 Index는 공간의 낭비로, 그 경우 컬럼을 묶어 Composite Index를 사욯하는 것이 좋다) 
+
 
 ===지양해야할 것들===
 
@@ -28,6 +62,50 @@ Index Scan / Seek : Scan? Seek?
  * 섣부른 Sort
  * 나몰라 Heap Table
  * 일편단심 Cursor
+
+
+=== Index를 사용하지 못하게 하는 쿼리(Oracle 기준) ===
+  * Index 컬럼의 수식이 걸려 있는 경우 
+<code>
+-- sal에 index가 걸려있으나 사용하지 못함 
+select name from emp
+where sal * 1.2 > 1000 
+
+-- 사용할 수 있게 수정
+select name from emp
+where sal > 1000 /1.2
+</code>
+
+
+  * Index 컬럼의 함수 연산이 있을 경우 
+<code>
+-- name에 index가 걸려있으나, 사용 불가
+select name from emp
+where substr(name, 1, 1) = 'S'
+
+-- index 사용 가능 
+select name from emp
+where name like 'S%'
+</code>
+
+
+  * OR 등으로 컬럼 연산을 할 경우 
+<code>
+-- tel1, tel2, tel3에 index가 걸려 있으나 사용 불가 
+-- 이 경우는 업무적으로 풀어야 함 
+select name from emp
+where tel1||tel2||tel3 = '0101234456'
+</code>
+
+
+  * 컬럼 type 이 다를 경우 (number, date 가 우선) 
+<code>
+-- cust_no는 varchar 타입이고, index가 걸려있다. 
+-- 하지만 조건의 12345는 number 타입으로, 이 경우 12345 -> '12345'로 변하지 않고,
+-- cust_no가 먼저 number type으로 변경 후 비교한다. 그래서 index를 사용하지 못한다. 
+select * from customer
+where cust_no = 12345
+</code>
 
 ==여기서부터는 MSSQL Management Studio만해당==
 
