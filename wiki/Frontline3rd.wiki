@@ -1,4 +1,12 @@
-#summary 프론트라인 세번째
+#summary 프론트라인 세번째 : 안드로이드 App 소스리뷰
+
+일시 : 2013.6.5 (수) 1100-1200
+
+Source에 있는 안드로이드 App 소스 리뷰
+
+
+
+
 
 전 ASP.NET Mobile Framework를 공부해서 발표해보렵니다. - 민규
 
