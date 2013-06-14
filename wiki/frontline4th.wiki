@@ -1,5 +1,5 @@
 #summary 프론트라인 네번째 : 비야네 스트라웁 스트롭 C++ 강연 함께보기
 
-시간 : 2013.6.12 11:00~12:00
+시간 : 2013.6.13 (목) 11:00~12:00
 
 http://ak.channel9.msdn.com/ch9/252f/ed5c3dc3-3335-493b-9e2c-9fd00012252f/GoingNative2012KeynoteStroustrup_med_ch9.mp4
