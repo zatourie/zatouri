@@ -1,5 +1,7 @@
 #summary Beginner's Study 다섯번째 : DB 튜닝
 
+일시 : 2013.6.5 (수) 11:00~12:00
+
 =DB 튜닝=
 
 ==DB 튜닝이란?==
