@@ -1,3 +1,10 @@
 #summary Beginner's Study : 6th session
 
-주제 모집중
+== 주제(안) ==
+
+ * 소윤, 라식체험기
+ * 혜수, 외부교육체험기
+ * 정훈, Test Driven Development (TDD)
+ * 민규, Android Development Toolkit (ADT) 설치 및 세팅 + Hello world
+
+ 
