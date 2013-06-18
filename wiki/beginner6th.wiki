@@ -6,5 +6,6 @@
  * 혜수, 외부교육체험기
  * 정훈, Test Driven Development (TDD)
  * 민규, Android Development Toolkit (ADT) 설치 및 세팅 + Hello world
+ * 애자일 마스터, 이창준씨 강연 함께 보기 (12분정도?)
 
  
