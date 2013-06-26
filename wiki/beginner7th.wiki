@@ -14,7 +14,7 @@ from wikipedia, http://ko.wikipedia.org/wiki/%EC%9B%B9_%EC%84%9C%EB%B9%84%EC%8A%
 
 ==어디에 쓰는가?==
 
-분산환경에서 시스템간 통신을 위한 기술 : CORBA, DCOM, RFC, WEB SERVICE
+분산환경에서 시스템간 통신을 위한 기술 : CORBA(Java), DCOM(Microsoft), RFC(SAP 등), WEB SERVICE
 
 ==다른 기술들과 Web Service의 차이점 : *XML*==
 
