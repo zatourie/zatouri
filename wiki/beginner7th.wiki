@@ -12,9 +12,9 @@ from wikipedia, http://ko.wikipedia.org/wiki/%EC%9B%B9_%EC%84%9C%EB%B9%84%EC%8A%
 
 분산환경에서 시스템간 통신을 위한 기술 : CORBA, DCOM, RFC, WEB SERVICE
 
-==다른 기술들과 Web Service의 차이점==
+==다른 기술들과 Web Service의 차이점 : *XML*==
 
-*XML!*
+
 
 ==XML을 사용했을 경우 장점==
 
