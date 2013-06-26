@@ -1,5 +1,7 @@
 #summary Beginner's Study 7th, 웹서비스
 
+일시/장소 : 2013.6.26(수), 튜울립
+
 =웹서비스(Web Service)=
 
 ==웹서비스란?==
