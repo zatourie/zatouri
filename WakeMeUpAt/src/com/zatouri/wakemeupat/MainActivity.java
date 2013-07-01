@@ -1,5 +1,10 @@
 package com.zatouri.wakemeupat;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.RejectedExecutionException;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
@@ -9,13 +14,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.JavascriptInterface;
+import android.view.ViewTreeObserver;
 import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -25,11 +31,18 @@ public class MainActivity extends Activity {
 	
 	//UI Controls
 	private WebView webView;
+	private TextView textView;
 	
 	private String subwayLine;
 	private String currentTrainNo;
 	private String offStatnNo;
+	
+	private Handler guiThread;
+	private ExecutorService transThread;
+	private Runnable updateTask;
+	private Future transPending;
 
+	
    /** Object exposed to JavaScript */
 	private class AndroidBridge {
 		public void callAndroid(final String arg) { // must be final
@@ -49,12 +62,29 @@ public class MainActivity extends Activity {
 			});
 
 		}
+		
+		public void refresh(){
+			handler.post(new Runnable() {
+				public void run() {
+					textView.setText(null);
+					queueUpdate(200);
+				}
+			});
+
+		}
+	}
+	
+	public void setText(String txt){
+		textView.setText(txt);
+		webView.loadUrl("javascript:callJS('"+txt+"')");
 	}
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		textView = (TextView)findViewById(R.id.result);
 		
 		webView = (WebView)findViewById(R.id.webView);
 		webView.setWebViewClient(new MyWebViewClient());
@@ -78,7 +108,49 @@ public class MainActivity extends Activity {
 		webView.loadUrl("file:///android_asset/index.html");
 
 		//Binding Listener
+		initThreading();
 		
+		//queueUpdate(200 /* milliseconds */);
+		
+	}
+
+	@Override
+	protected void onDestroy() {
+	  // Terminate extra threads here
+	  transThread.shutdownNow();
+	  super.onDestroy();
+	}
+
+	private void initThreading() {
+		  guiThread = new Handler();
+		  transThread = Executors.newSingleThreadExecutor();
+
+		  // This task does a translation and updates the screen
+		  updateTask = new Runnable() { 
+			 public void run() {
+
+				// Cancel previous task if there was one
+				if (transPending != null)
+				   transPending.cancel(true); 
+
+				   // Begin task now but don't wait for it
+				   try {
+					  JSONFetcher fetcher = new JSONFetcher(MainActivity.this, "http://m.bus.go.kr/mBus/subway/getStatnByRoute.do?subwayId=1001");
+					  transPending = transThread.submit(fetcher); 
+				   } catch (RejectedExecutionException e) {
+					   Log.e(TAG, "RejectedExcutionException", e);
+				   }
+
+			 }
+		  };
+	}	
+
+	/** Request an update to start after a short delay */
+	private void queueUpdate(long delayMillis) {
+	  // Cancel previous update if it hasn't started yet
+	  guiThread.removeCallbacks(updateTask);
+	  // Start an update if nothing happens after a few milliseconds
+	  guiThread.postDelayed(updateTask, delayMillis);
 	}
 	
 	private void setCurrentTrainNo(String trainNo){
@@ -100,7 +172,15 @@ public class MainActivity extends Activity {
 		}
 	}
 	
+	
 
+	public void drawLineStatus(String json){
+		
+		
+		
+		//지하철 현황을 그린다
+		//webView.loadUrl("Javascript:callJS("+json+")");
+	}
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
