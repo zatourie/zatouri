@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">
+
+   function callJS(arg) { 
+      document.getElementById('replaceme').innerHTML = arg;
+   }
+   
+</script>
+</head>
+<body>
+<h1>깨워줘</h1>
+<select id="lineNo">
+	<option value="1">1호선</option>
+	<option value="2">2호선</option>
+	<option value="3">3호선</option>
+	<option value="4">4호선</option>
+	<option value="4">5호선</option>
+	<option value="4">6호선</option>
+</select>
+<p>
+<a href="#" onclick="window.alert('Alert from JavaScript')"> 
+   Display JavaScript alert</a>
+</p>
+<p>
+<a href="#" onclick="window.android.showToast('Toast from Browser')"> 
+   Toast from JS</a>
+</p>
+<p id="replaceme"> 
+</p>
+<div id="container">
+</div>
+</body>
+</html>
