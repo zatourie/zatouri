@@ -1,36 +1,39 @@
 <html>
 <head>
-<script type="text/javascript">
+<title>깨워줘</title>
+<script language="JavaScript">
 
-   function callJS(arg) { 
-      document.getElementById('replaceme').innerHTML = arg;
+   function callJS(result) { 
+      document.getElementById('tablebody').innerHTML = result;
    }
    
 </script>
 </head>
 <body>
-<h1>깨워줘</h1>
-<select id="lineNo">
-	<option value="1">1호선</option>
-	<option value="2">2호선</option>
-	<option value="3">3호선</option>
-	<option value="4">4호선</option>
-	<option value="4">5호선</option>
-	<option value="4">6호선</option>
-</select>
-<p>
-<a href="#" onclick="window.alert('Alert from JavaScript')"> 
-   Display JavaScript alert</a>
-</p>
-<p>
-<a href="#" onclick="window.android.showToast('Toast from Browser')"> 
-   Toast from JS</a>
-</p>
-<a href="#" onclick="window.android.refresh()">Refresh</a>
-</p>
-<p id="replaceme"> 
-</p>
-<div id="container">
-</div>
+<!--
+	<h1>깨워줘</h1>
+-->
+	<select id="lineNo" style="font-size:x-large;" onchange="window.android.getStatnInfo(this.options[this.selectedIndex].value)">
+		<option value="">지하철 호선을 선택하세요</option>
+		<option value="1001">1호선</option>
+		<option value="1002">2호선</option>
+		<option value="1003">3호선</option>
+		<option value="1004">4호선</option>
+		<option value="1005">5호선</option>
+		<option value="1005">6호선</option>
+	</select>
+	<div id="debug_area">
+	</div>
+	<div id="content_area">
+		<table style="width:100%;text-align:center;font-size:x-large;">
+			<thead>
+			<tr>
+				<th style="width:50%;">역명</th><th>상행▲</th><th>하행▼</th>
+			</tr>
+			</thead>
+			<tbody id="tablebody">
+			</tbody>
+		</table>
+	</div>
 </body>
 </html>

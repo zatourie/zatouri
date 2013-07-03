@@ -5,6 +5,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.RejectedExecutionException;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
@@ -15,6 +19,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
+import android.webkit.ConsoleMessage;
 import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -27,26 +32,26 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 	private static final String TAG = "WakeMeUpAt_MainActivity";
-	private final Handler handler = new Handler();
+
+	/*Thread variables*/
+	private final Handler guiThread = new Handler();
+	private ExecutorService transThread = Executors.newSingleThreadExecutor();
+	private Future transPending;
 	
 	//UI Controls
 	private WebView webView;
 	private TextView textView;
-	
+
+	//Private variables
 	private String subwayLine;
 	private String currentTrainNo;
 	private String offStatnNo;
-	
-	private Handler guiThread;
-	private ExecutorService transThread;
-	private Runnable updateTask;
-	private Future transPending;
-
+	private String result;
 	
    /** Object exposed to JavaScript */
 	private class AndroidBridge {
 		public void callAndroid(final String arg) { // must be final
-			handler.post(new Runnable() {
+			guiThread.post(new Runnable() {
 				public void run() {
 					Log.d(TAG, "callAndroid(" + arg + ")");
 					//textView.setText(arg);
@@ -55,7 +60,7 @@ public class MainActivity extends Activity {
 		}
 	  
 		public void showToast(final String msg){
-			handler.post(new Runnable() {
+			guiThread.post(new Runnable() {
 				public void run() {
 					Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
 				}
@@ -63,20 +68,47 @@ public class MainActivity extends Activity {
 
 		}
 		
-		public void refresh(){
-			handler.post(new Runnable() {
+		public void getStatnInfo(final String lineNo){
+			guiThread.post(new Runnable() {
 				public void run() {
-					textView.setText(null);
-					queueUpdate(200);
+//					textView.setText(null);
+					MainActivity.this.getStatnInfo(lineNo);
+					Log.d(TAG, "result:"+result);
+
 				}
 			});
-
 		}
 	}
 	
-	public void setText(String txt){
-		textView.setText(txt);
-		webView.loadUrl("javascript:callJS('"+txt+"')");
+	public void setText(JSONObject json){
+		
+		try{
+			JSONArray ja = json.getJSONArray("resultList");
+			result = ja.toString();
+			Log.d(TAG, result);
+			
+			//여기서 테이블을 만들자
+			StringBuilder sb = new StringBuilder();
+			
+			for(int i = 0 ; i < ja.length() ; i++){
+				JSONObject obj = ja.getJSONObject(i);
+				sb.append("<tr><td>");
+				sb.append(obj.getString("statnNm"));
+				sb.append("</td><td>");
+				sb.append(obj.getString("existYn1"));
+				sb.append("</td><td>");
+				sb.append(obj.getString("existYn2"));
+				sb.append("</td></tr>");
+			}
+			
+			webView.loadUrl("javascript:callJS('"+sb.toString()+"')");
+//			textView.setText(result);
+
+
+			
+		}catch(JSONException je){
+			toastMsg(je.getMessage());
+		}
 	}
 	
 	@Override
@@ -84,10 +116,9 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		textView = (TextView)findViewById(R.id.result);
+//		textView = (TextView)findViewById(R.id.result);
 		
 		webView = (WebView)findViewById(R.id.webView);
-		webView.setWebViewClient(new MyWebViewClient());
 		
 		//Enable Javascript in webview
 		webView.getSettings().setJavaScriptEnabled(true);
@@ -104,13 +135,19 @@ public class MainActivity extends Activity {
 				result.confirm();
 				return true; // I handled it
 			}
-		});		
-		webView.loadUrl("file:///android_asset/index.html");
-
-		//Binding Listener
-		initThreading();
+			
+			@Override
+			public boolean onConsoleMessage(ConsoleMessage cm) 
+		    {
+		        Log.d(TAG, cm.message() + " -- From line "
+		                             + cm.lineNumber() + " of "
+		                             + cm.sourceId() );
+		        return true;
+		    }
+		});	
 		
-		//queueUpdate(200 /* milliseconds */);
+		webView.loadUrl("file:///android_asset/index.html");
+		webView.loadUrl("javascript:alert('hi')");
 		
 	}
 
@@ -121,38 +158,20 @@ public class MainActivity extends Activity {
 	  super.onDestroy();
 	}
 
-	private void initThreading() {
-		  guiThread = new Handler();
-		  transThread = Executors.newSingleThreadExecutor();
-
-		  // This task does a translation and updates the screen
-		  updateTask = new Runnable() { 
-			 public void run() {
-
-				// Cancel previous task if there was one
-				if (transPending != null)
-				   transPending.cancel(true); 
-
-				   // Begin task now but don't wait for it
-				   try {
-					  JSONFetcher fetcher = new JSONFetcher(MainActivity.this, "http://m.bus.go.kr/mBus/subway/getStatnByRoute.do?subwayId=1001");
-					  transPending = transThread.submit(fetcher); 
-				   } catch (RejectedExecutionException e) {
-					   Log.e(TAG, "RejectedExcutionException", e);
-				   }
-
-			 }
-		  };
-	}	
-
-	/** Request an update to start after a short delay */
-	private void queueUpdate(long delayMillis) {
-	  // Cancel previous update if it hasn't started yet
-	  guiThread.removeCallbacks(updateTask);
-	  // Start an update if nothing happens after a few milliseconds
-	  guiThread.postDelayed(updateTask, delayMillis);
+	private void getStatnInfo(String lineNo){
+		fetchJSON("subwayId="+lineNo);
 	}
+	private void fetchJSON(String queryString) {
+		try {
+		  JSONFetcher fetcher = new JSONFetcher(MainActivity.this, "http://m.bus.go.kr/mBus/subway/getStatnByRoute.do?"+queryString);
+		  transPending = transThread.submit(fetcher); 
+		} catch (RejectedExecutionException e) {
+		   Log.e(TAG, "RejectedExcutionException", e);
+		   toastMsg("Oooops. can't bring data.");
+		}
+	}	
 	
+
 	private void setCurrentTrainNo(String trainNo){
 		this.currentTrainNo = trainNo;
 		
@@ -173,13 +192,9 @@ public class MainActivity extends Activity {
 	}
 	
 	
-
+	//지하철 현황을 그린다
 	public void drawLineStatus(String json){
-		
-		
-		
-		//지하철 현황을 그린다
-		//webView.loadUrl("Javascript:callJS("+json+")");
+
 	}
 	
 	@Override
@@ -189,16 +204,8 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	
-	//기본 웹브라우저 동작을 막기 위한 내부클래스
-    private class MyWebViewClient extends WebViewClient {
-    	
-    	//To prevent to call Default Web browser
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            view.loadUrl(url);
-            return true;
-        }
+    private void toastMsg(String msg){
+    	Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
     }
 
 }
