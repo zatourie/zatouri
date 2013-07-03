@@ -24,27 +24,26 @@ public class JSONFetcher implements Runnable {
 	}
 	
 	public void run() {
-		String result = fetchJSON();
+		JSONObject result = fetchJSON();
 		main.setText(result);
 		
 	}
 	
-	private String fetchJSON(){
-		String result = "";
+	private JSONObject fetchJSON(){
+		JSONObject result = new JSONObject();
 		HttpURLConnection con = null;
 		try {
 			// Check if task has been interrupted
 			if (Thread.interrupted())
 				throw new InterruptedException();
 
-//			String q = URLEncoder.encode(urlStr, "UTF-8");
 			URL url = new URL(urlStr);
 
 			con = (HttpURLConnection) url.openConnection();
 			con.setReadTimeout(10000 /* milliseconds */);
 			con.setConnectTimeout(15000 /* milliseconds */);
 			con.setRequestMethod("GET");
-			con.addRequestProperty("Referer","http://www.pragprog.com/titles/eband2/hello-android");
+			con.addRequestProperty("Referer","http://www.zatouri.com");
 			con.setDoInput(true);
 
 			// Start the query
@@ -61,8 +60,8 @@ public class JSONFetcher implements Runnable {
 
 			// Parse to get translated text
 			JSONObject jsonObject = new JSONObject(payload);
-			Log.d("JSON", jsonObject.toString());
-			result = jsonObject.toString();
+			//Log.d("JSON", jsonObject.toString());
+			result = jsonObject;
 
 			// Check if task has been interrupted
 			if (Thread.interrupted())
@@ -74,7 +73,6 @@ public class JSONFetcher implements Runnable {
 			Log.e(TAG, "JSONException", e);
 		} catch (InterruptedException e) {
 			Log.d(TAG, "InterruptedException", e);
-			//result = translate.getResources().getString(R.string.translation_interrupted);
 		} finally {
 			if (con != null) {
 				con.disconnect();
