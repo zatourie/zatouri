@@ -3,6 +3,8 @@ package com.zatouri.wakemeupat;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.URL;
 //import java.net.URLEncoder;
@@ -17,15 +19,39 @@ public class JSONFetcher implements Runnable {
 	private static final String TAG = "WekeMeUpAt_FetchJSON";
 	private final MainActivity main;
 	private final String urlStr;
+
+	private final String callback;
 	
-	JSONFetcher(MainActivity main, String urlStr){
+	JSONFetcher(MainActivity main,String urlStr){
+		this(main, urlStr, null);
+	}
+	
+	JSONFetcher(MainActivity main, String urlStr, String callback){
 		this.main = main;
 		this.urlStr = urlStr;
+		this.callback = callback;
 	}
 	
 	public void run() {
+		Log.d(TAG, "JSONFetcher start to run");
 		JSONObject result = fetchJSON();
-		main.setText(result);
+		Log.d(TAG, result.toString());
+		if(callback != null){
+			//main.jsonfetcher_callback(this.type, result);
+			try{
+				Method method = main.getClass().getMethod(callback, JSONObject.class);
+				method.invoke(main, result);
+			}catch(NoSuchMethodException e){
+				Log.e(TAG, "NoSuchMethodException", e);
+			} catch (IllegalArgumentException e) {
+				Log.e(TAG, "IllegalArgumentException", e);
+			} catch (IllegalAccessException e) {
+				Log.e(TAG, "IllegalAccessException", e);
+			} catch (InvocationTargetException e) {
+				Log.e(TAG, "InvocationTargetException", e);
+			}
+		}
+		
 		
 	}
 	

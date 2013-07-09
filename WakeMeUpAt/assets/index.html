@@ -1,39 +1,92 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>±˙øˆ¡‡</title>
-<script language="JavaScript">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
 
-   function callJS(result) { 
-      document.getElementById('tablebody').innerHTML = result;
-   }
-   
-</script>
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+  
+  <!--other javascript codes--> 
+  <script type="text/javascript">
+  var curTrainNo = "";
+  var destStatnNo = "";
+  
+  
+
+  $(document).on('pageinit',function(){
+  	alert("pageinit");
+	$('#trainInfo').html("");    
+  });
+  
+  function setStatnInfo(html){
+  	alert('setStatnInfo');
+  	$('#trainInfo').html(html);
+  }
+  
+  function setCurTrainNo(subwayId, statnId, direction){
+  	window.android.setCurTrainNo(subwayId, statnId, direction);
+  }
+  </script> 
 </head>
-<body>
-<!--
-	<h1>±˙øˆ¡‡</h1>
--->
-	<select id="lineNo" style="font-size:x-large;" onchange="window.android.getStatnInfo(this.options[this.selectedIndex].value)">
-		<option value="">¡ˆ«œ√∂ »£º±¿ª º±≈√«œººø‰</option>
-		<option value="1001">1»£º±</option>
-		<option value="1002">2»£º±</option>
-		<option value="1003">3»£º±</option>
-		<option value="1004">4»£º±</option>
-		<option value="1005">5»£º±</option>
-		<option value="1005">6»£º±</option>
-	</select>
-	<div id="debug_area">
-	</div>
-	<div id="content_area">
-		<table style="width:100%;text-align:center;font-size:x-large;">
-			<thead>
-			<tr>
-				<th style="width:50%;">ø™∏Ì</th><th>ªÛ«‡°„</th><th>«œ«‡°Â</th>
-			</tr>
-			</thead>
-			<tbody id="tablebody">
-			</tbody>
-		</table>
-	</div>
+<body">
+<!-- Home -->
+<div data-role="page" id="page-home">
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="selectmenu1">
+                Choose Subway Line No.:
+            </label>
+            <select id="selectmenu1" name="lineNo" data-theme="b" onchange="window.android.getStatnByRoute(this.options[this.selectedIndex].value)">
+                <option value="1001">
+                    1Ìò∏ÏÑ†
+                </option>
+                <option value="1002">
+                    2Ìò∏ÏÑ†
+                </option>
+                <option value="1003">
+                    3Ìò∏ÏÑ†
+                </option>
+                <option value="1004">
+                    4Ìò∏ÏÑ†
+                </option>
+                <option value="1005">
+                    5Ìò∏ÏÑ†
+                </option>
+                <option value="1006">
+                    6Ìò∏ÏÑ†
+                </option>
+                <option value="1007">
+                    7Ìò∏ÏÑ†
+                </option>
+                <option value="1008">
+                    8Ìò∏ÏÑ†
+                </option>
+                <option value="1009">
+                    9Ìò∏ÏÑ†
+                </option>
+            </select>
+        </div>
+         <div id="trainInfo_header" class="ui-grid-b">
+            <div class="ui-block-a">Ïó≠</div>
+            <div class="ui-block-b">ÌïòÌñâ</div>
+            <div class="ui-block-c">ÏÉÅÌñâ</div>
+        </div>       
+        <div id="trainInfo" class="ui-grid-b">
+        </div>
+    </div>
+</div>
 </body>
 </html>
