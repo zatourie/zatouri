@@ -45,7 +45,8 @@ public class MainActivity extends Activity {
 	//Private variables
 	private String subwayLine;
 	private String currentTrainNo;
-	private String offStatnNo;
+	private String direction;
+	private String destStatnId;
 	private String result;
 	
    /** Object exposed to JavaScript */
@@ -68,42 +69,61 @@ public class MainActivity extends Activity {
 
 		}
 		
-		public void getStatnInfo(final String lineNo){
+		public void getStatnByRoute(final String lineNo){
 			guiThread.post(new Runnable() {
 				public void run() {
-//					textView.setText(null);
-					MainActivity.this.getStatnInfo(lineNo);
-					Log.d(TAG, "result:"+result);
-
+					MainActivity.this.getStatnByRoute(lineNo);
 				}
 			});
 		}
+		
+		public void setCurTrainNo(final String subwayId, final String statnId, final String direction){
+			guiThread.post(new Runnable() {
+				public void run() {
+					MainActivity.this.getStatnTrainInfo(subwayId, statnId, direction);
+				}
+			});			
+		}
+	
+		public void setDestStatnId(final String statnId){
+			guiThread.post(new Runnable() {
+				public void run() {
+					MainActivity.this.setDestStatnId(statnId);
+				}
+			});			
+		}
+		
 	}
 	
-	public void setText(JSONObject json){
+	public void drawLineStatus(JSONObject json){
 		
 		try{
 			JSONArray ja = json.getJSONArray("resultList");
 			result = ja.toString();
 			Log.d(TAG, result);
-			
+		
 			//여기서 테이블을 만들자
 			StringBuilder sb = new StringBuilder();
 			
 			for(int i = 0 ; i < ja.length() ; i++){
 				JSONObject obj = ja.getJSONObject(i);
-				sb.append("<tr><td>");
+
+				String subwayId = obj.getString("subwayId");
+				String statnId = obj.getString("statnId");
+				String onclickFunc = "setCurTrainNo('"+subwayId+"','"+statnId+"','#_direction_#');";
+				
+	            sb.append("<div class=\"ui-block-a\">");
 				sb.append(obj.getString("statnNm"));
-				sb.append("</td><td>");
-				sb.append(obj.getString("existYn1"));
-				sb.append("</td><td>");
-				sb.append(obj.getString("existYn2"));
-				sb.append("</td></tr>");
+				sb.append("</div>");
+	            sb.append("<div class=\"ui-block-b\">");				
+				sb.append("Y".equals(obj.getString("existYn1")) ? "<a href='#' onclick='"+onclickFunc.replace("#_direction_#", "하행")+"'>■</a>" : "|");
+				sb.append("</div>");
+	            sb.append("<div class=\"ui-block-c\">");				
+	            sb.append("Y".equals(obj.getString("existYn2")) ? "<a href='#' onclick='"+onclickFunc.replace("#_direction_#", "상행")+"'>■</a>" : "|");
+				sb.append("</div>");
 			}
 			
-			webView.loadUrl("javascript:callJS('"+sb.toString()+"')");
-//			textView.setText(result);
-
+			webView.loadUrl("javascript:setStatnInfo('"+sb.toString()+"')");
 
 			
 		}catch(JSONException je){
@@ -111,12 +131,40 @@ public class MainActivity extends Activity {
 		}
 	}
 	
+	public void setTrainId(JSONObject json){
+		try{
+			JSONArray ja = json.getJSONArray("resultList");
+			result = ja.toString();
+			Log.d(TAG, result);
+		
+			if(direction != null){
+				for(int i = 0 ; i < ja.length() ; i++){
+					JSONObject obj = ja.getJSONObject(i);
+	
+					if(direction.equals(obj.getString("updnLine"))){
+						this.currentTrainNo = obj.getString("trainNo");
+						toastMsg("열차번호:"+currentTrainNo);
+						setAlarm();
+					}
+				}
+			}			
+			
+		}catch(JSONException je){
+			toastMsg(je.getMessage());
+		}		
+		
+	}
+	
+	public void setDestStatnId(String statnId){
+		this.destStatnId = statnId;
+		setAlarm();
+	}
+	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-//		textView = (TextView)findViewById(R.id.result);
 		
 		webView = (WebView)findViewById(R.id.webView);
 		
@@ -139,16 +187,14 @@ public class MainActivity extends Activity {
 			@Override
 			public boolean onConsoleMessage(ConsoleMessage cm) 
 		    {
-		        Log.d(TAG, cm.message() + " -- From line "
-		                             + cm.lineNumber() + " of "
-		                             + cm.sourceId() );
+		        Log.d(TAG, cm.message() + " -- From line " + cm.lineNumber() + " of " + cm.sourceId() );
 		        return true;
 		    }
 		});	
 		
+		//load HTML
 		webView.loadUrl("file:///android_asset/index.html");
-		webView.loadUrl("javascript:alert('hi')");
-		
+	
 	}
 
 	@Override
@@ -158,12 +204,18 @@ public class MainActivity extends Activity {
 	  super.onDestroy();
 	}
 
-	private void getStatnInfo(String lineNo){
-		fetchJSON("subwayId="+lineNo);
+	private void getStatnByRoute(String lineNo){
+		fetchJSON("http://m.bus.go.kr/mBus/subway/getStatnByRoute.do", "subwayId="+lineNo,"drawLineStatus");
 	}
-	private void fetchJSON(String queryString) {
+	
+	private void getStatnTrainInfo(String subwayId, String statnId, String direction){
+		this.direction = direction;
+		fetchJSON("http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do", "subwayId="+subwayId+"&statnId="+statnId,"setTrainId");
+	}
+	
+	private void fetchJSON(String url, String queryString, String callback) {
 		try {
-		  JSONFetcher fetcher = new JSONFetcher(MainActivity.this, "http://m.bus.go.kr/mBus/subway/getStatnByRoute.do?"+queryString);
+		  JSONFetcher fetcher = new JSONFetcher(MainActivity.this, url + "?" + queryString, callback);
 		  transPending = transThread.submit(fetcher); 
 		} catch (RejectedExecutionException e) {
 		   Log.e(TAG, "RejectedExcutionException", e);
@@ -172,30 +224,13 @@ public class MainActivity extends Activity {
 	}	
 	
 
-	private void setCurrentTrainNo(String trainNo){
-		this.currentTrainNo = trainNo;
-		
-		setAlarm();
-	}
-	
-	private void setOffStatnNo(String StatnNo){
-		this.offStatnNo = StatnNo;
-		
-		setAlarm();
-	}
-	
 	private void setAlarm(){
-		if(this.currentTrainNo != null && this.currentTrainNo != "" && this.offStatnNo != null && this.offStatnNo != ""){
+		if(this.currentTrainNo != null && this.currentTrainNo != "" && this.destStatnId != null && this.destStatnId != ""){
 			//1분마다 기차도착을 확인하는 알람을 맞춘다.
-			
+			toastMsg("trainId:"+currentTrainNo+", destStatnId:"+ destStatnId + "으로 알람설정");
 		}
 	}
-	
-	
-	//지하철 현황을 그린다
-	public void drawLineStatus(String json){
 
-	}
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
