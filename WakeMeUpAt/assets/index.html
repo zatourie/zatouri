@@ -23,21 +23,28 @@
   <script type="text/javascript">
   var curTrainNo = "";
   var destStatnNo = "";
-  
-  
 
   $(document).on('pageinit',function(){
-  	alert("pageinit");
+  	//alert("pageinit");
 	$('#trainInfo').html("");    
   });
   
   function setStatnInfo(html){
-  	alert('setStatnInfo');
+  	//alert('setStatnInfo');
   	$('#trainInfo').html(html);
+
+	alert($('#trainInfo div.ui-block-b, div.ui-block-c').length);
+	$('#trainInfo div.ui-block-b, div.ui-block-c').click(function(){
+		setCurTrainNo($(this).data("subwayid"), $(this).data("statnid"), $(this).attr("class") == "ui-block-b" ? "하행" : "상행");
+	});
+
   }
   
   function setCurTrainNo(subwayId, statnId, direction){
-  	window.android.setCurTrainNo(subwayId, statnId, direction);
+  	alert("statnId"+statnId);
+  	var bigStr = "{'subwayId':'"+subwayId + "','statnId':'"+statnId+"','direction':'"+direction+"'}";
+  	//window.android.setCurTrainNo(subwayId, statnId, direction);
+  	window.android.setCurTrainNo(bigStr);
   }
   </script> 
 </head>

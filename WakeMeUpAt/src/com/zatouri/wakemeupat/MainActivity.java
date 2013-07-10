@@ -51,24 +51,7 @@ public class MainActivity extends Activity {
 	
    /** Object exposed to JavaScript */
 	private class AndroidBridge {
-		public void callAndroid(final String arg) { // must be final
-			guiThread.post(new Runnable() {
-				public void run() {
-					Log.d(TAG, "callAndroid(" + arg + ")");
-					//textView.setText(arg);
-				}
-			});
-		}
 	  
-		public void showToast(final String msg){
-			guiThread.post(new Runnable() {
-				public void run() {
-					Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
-				}
-			});
-
-		}
-		
 		public void getStatnByRoute(final String lineNo){
 			guiThread.post(new Runnable() {
 				public void run() {
@@ -77,12 +60,30 @@ public class MainActivity extends Activity {
 			});
 		}
 		
-		public void setCurTrainNo(final String subwayId, final String statnId, final String direction){
-			guiThread.post(new Runnable() {
-				public void run() {
-					MainActivity.this.getStatnTrainInfo(subwayId, statnId, direction);
+		//public void setCurTrainNo(final String subwayId, final String statnId, final String direction){
+		public void setCurTrainNo(final String bigStr){
+
+			try {
+				final JSONObject jso = new JSONObject(bigStr);
+				final String subwayId = jso.getString("subwayId");
+				final String statnId = jso.getString("statnId");
+				final String direction = jso.getString("direction");
+				
+				toastMsg("android:"+statnId);
+				
+				if(jso != null){
+					guiThread.post(new Runnable() {
+						public void run() {
+							MainActivity.this.getStatnTrainInfo(subwayId, statnId, direction);
+						}
+					});
 				}
-			});			
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+
 		}
 	
 		public void setDestStatnId(final String statnId){
@@ -95,6 +96,7 @@ public class MainActivity extends Activity {
 		
 	}
 	
+
 	public void drawLineStatus(JSONObject json){
 		
 		try{
@@ -115,14 +117,18 @@ public class MainActivity extends Activity {
 	            sb.append("<div class=\"ui-block-a\">");
 				sb.append(obj.getString("statnNm"));
 				sb.append("</div>");
-	            sb.append("<div class=\"ui-block-b\">");				
-				sb.append("Y".equals(obj.getString("existYn1")) ? "<a href='#' onclick='"+onclickFunc.replace("#_direction_#", "窍青")+"'>♂</a>" : "|");
+	            sb.append("<div class=\"ui-block-b\" data-subwayid=\""+ subwayId +"\" data-statnid=\""+ statnId +"\">");				
+	            //sb.append("Y".equals(obj.getString("existYn2")) ? "<a onclick=\""+onclickFunc.replace("#_direction_#", "窍青")+"\">♂</a>" : "|");
+	            sb.append("Y".equals(obj.getString("existYn1")) ? "777" : "|");
 				sb.append("</div>");
-	            sb.append("<div class=\"ui-block-c\">");				
-	            sb.append("Y".equals(obj.getString("existYn2")) ? "<a href='#' onclick='"+onclickFunc.replace("#_direction_#", "惑青")+"'>♂</a>" : "|");
+				sb.append("<div class=\"ui-block-c\" data-subwayid=\""+ subwayId +"\" data-statnid=\""+ statnId +"\">");			
+	            //sb.append("Y".equals(obj.getString("existYn2")) ? "<a onclick=\""+onclickFunc.replace("#_direction_#", "惑青")+"\">♂</a>" : "|");
+	            sb.append("Y".equals(obj.getString("existYn2")) ? "777" : "|");
 				sb.append("</div>");
 			}
 			
+			Log.d(TAG, sb.toString());
+			//toastMsg("before setStatnInfo");
 			webView.loadUrl("javascript:setStatnInfo('"+sb.toString()+"')");
 
 			
@@ -179,7 +185,7 @@ public class MainActivity extends Activity {
 			@Override
 			public boolean onJsAlert(final WebView view,final String url, final String message,JsResult result) {
 				Log.d(TAG, "onJsAlert(" + view + ", " + url + ", " + message + ", " + result + ")");
-				Toast.makeText(MainActivity.this, message, 3000).show();
+				Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
 				result.confirm();
 				return true; // I handled it
 			}
@@ -205,15 +211,18 @@ public class MainActivity extends Activity {
 	}
 
 	private void getStatnByRoute(String lineNo){
-		fetchJSON("http://m.bus.go.kr/mBus/subway/getStatnByRoute.do", "subwayId="+lineNo,"drawLineStatus");
+		fetchJSON("http://m.bus.go.kr/mBus/subway/getStatnByRoute.do", "subwayId="+lineNo, "drawLineStatus");
 	}
 	
 	private void getStatnTrainInfo(String subwayId, String statnId, String direction){
+		toastMsg("android:"+statnId);
 		this.direction = direction;
 		fetchJSON("http://m.bus.go.kr/mBus/subway/getStatnTrainInfo.do", "subwayId="+subwayId+"&statnId="+statnId,"setTrainId");
+		
 	}
 	
 	private void fetchJSON(String url, String queryString, String callback) {
+		Log.d(TAG, url+queryString);
 		try {
 		  JSONFetcher fetcher = new JSONFetcher(MainActivity.this, url + "?" + queryString, callback);
 		  transPending = transThread.submit(fetcher); 

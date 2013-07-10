@@ -36,12 +36,12 @@ public class JSONFetcher implements Runnable {
 		Log.d(TAG, "JSONFetcher start to run");
 		JSONObject result = fetchJSON();
 		Log.d(TAG, result.toString());
+		
 		if(callback != null){
-			//main.jsonfetcher_callback(this.type, result);
 			try{
 				Method method = main.getClass().getMethod(callback, JSONObject.class);
 				method.invoke(main, result);
-			}catch(NoSuchMethodException e){
+			} catch(NoSuchMethodException e){
 				Log.e(TAG, "NoSuchMethodException", e);
 			} catch (IllegalArgumentException e) {
 				Log.e(TAG, "IllegalArgumentException", e);
