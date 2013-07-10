@@ -19,6 +19,10 @@
     * SEED 
   * 대칭키의 취약점은 바로 키(안전하게 키를 전달할 방법은?) 
 
+==대칭키 암호화 해킹==
+  * DES : 1999년 22시간 15분 안에 해독됨 http://ko.wikipedia.org/wiki/DES_(%EC%95%94%ED%98%B8)
+
+
 ==비대칭키 암호화(공개키 암호화)== 
   *  대칭키의 약점을 보완한 방법
   *  RSA 암호화 ( Ron Rivest, Adi Shamir, Leonard Adlema ) 
