@@ -1,0 +1,8 @@
+#summary Frontline Seminar 6th session : Android Studio
+
+일시 : 2013.7.17 (수) 11시
+장소 : SK서린 21층 C3
+
+노트북 가지고 오실 것.
+
+http://www.shimminkyu.com/android/InstallAndroidStudio.html
