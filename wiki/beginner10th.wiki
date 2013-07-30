@@ -1,4 +1,4 @@
-#summary Beginner's Study 10th session : 크롬 이용하여 CSS style 문제 확인하기
+#summary Beginner's Study 9th session : 크롬 이용하여 CSS style 문제 확인하기
 
 일시 : 2013.7.24 11:00~
 장소 : 민들레
