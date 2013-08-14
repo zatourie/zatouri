@@ -1,4 +1,4 @@
-#summary Beginner's Study
+#summary Beginner's 10th Study 오픈소스 라이센스
 
 =오픈소스 라이센스=
 
