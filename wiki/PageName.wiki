@@ -1,13 +1,37 @@
 #summary Beginner's Study
 
-=오픈소스 라이센스의 종류와 특징=
+=오픈소스 라이센스=
 
-==Public Domain==
+==S/W와 관련된 권리==
 
-==MIT or BSD==
+ * 사용권 : S/W 혹은 소스코드를 사용할 수 있는 권리
+ * 배포권 : S/W 혹은 소스코드를 제3자에게 배포할 수 있는 권리
+ * 상표권 : 상표를 사용할 권리
 
-==GNU==
+상표권 부가설명 : 예를 들어, Firefox는 open source지만 Firefox의 불여우 로고는 상표권으로 제한되어있어 사용할 수 없다. 이런 이유로, debian에서는 Firefox의 소스코드를 새로 빌드한 iceweasel이 탑재되어있다.
+관련글: http://ko.wikipedia.org/wiki/%EB%8D%B0%EB%B9%84%EC%95%88%EC%97%90%EC%84%9C_%EA%B0%9C%EB%AA%85%EB%90%9C_%EB%AA%A8%EC%A7%88%EB%9D%BC_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%93%A4
 
+==오픈소스 라이센스의 종류와 특징==
+
+===Public Domain===
+
+완전 오픈, 저작권 포기를 의미한다.
+
+===MIT or BSD===
+
+저작권 명기시 사용, 배포, 특허출원, 돈벌이 가능
+
+===Apache License===
+
+저작권 명기시 사용, 배포, 돈벌이 가능 (특허는 제한)
+
+===GNU GPL===
+
+가장 강력한 오픈소스 라이센스
+
+GPL vs LGPL
+
+LGPL 라이센스 S/W는 링크해서 사용할 경우는 LGPL로 라이센스가 강제되지 않음. 그러므로, 소스오픈이 강제되지않고, 다른 오픈소스 라이센스와 혼용가능.
 
 
 텍스트1 :
