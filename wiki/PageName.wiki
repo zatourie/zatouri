@@ -2,6 +2,9 @@
 
 =오픈소스 라이센스=
 
+==메이저 오픈소스 프로젝트==
+https://sahana-wordpress.osuosl.org/wp-content/uploads/2012/06/Screen-Shot-2012-06-08-at-4.21.29-PM.png
+
 ==S/W와 관련된 권리==
 
  * 사용권 : S/W 혹은 소스코드를 사용할 수 있는 권리
