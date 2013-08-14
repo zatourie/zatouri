@@ -1,0 +1,21 @@
+#summary Beginner's Study
+
+=오픈소스 라이센스의 종류와 특징=
+
+==Public Domain==
+
+==MIT or BSD==
+
+==GNU==
+
+
+
+텍스트1 :
+http://www.smashingmagazine.com/2010/03/24/a-short-guide-to-open-source-and-similar-licenses/
+
+----
+
+참고 
+ * http://www.zdnet.com/blog/burnette/howto-pick-an-open-source-license-part-1/130
+ * http://opensource.org/licenses
+ * http://choosealicense.com/
