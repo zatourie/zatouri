@@ -32,7 +32,7 @@ ex) SQLite
 
 ===GNU GPL===
 
-가장 강력한 오픈소스 라이센스.
+Greedy Programmer's License라고 불리는 가장 강력한 오픈소스 라이센스.
 
 사용, 배포, 돈벌이 가능하지만, 변경 혹은 연결한 소스의 라이센스를 GPL로 강제함.
 
