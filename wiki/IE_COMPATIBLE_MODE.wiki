@@ -1,13 +1,5 @@
-#summary One-sentence summary of this page.
+#summary IE 호환성보기 모드 강제로 설정하기
 
-= Introduction =
+http://blog.aliencube.org/post/56145159020/forcing-document-mode-of-ie-within-intranet
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+http://msdn.microsoft.com/en-us/library/ff955275(v=vs.110).aspx
