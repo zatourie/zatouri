@@ -1,4 +1,4 @@
-#summary Java Collection 정리
+#summary Java Collection 정리 (작성중)
 
 =Java Collection 정리=
 
