@@ -5,7 +5,7 @@
 
 HTML5, CSS, JavaScript로 만든 모바일앱을 대부분의 모바일 환경으로 배포할 수 있는 환경
 
-=PhoneGap vs Apache Cordova=
+==PhoneGap vs Apache Cordova==
 
 Apache Cordova는 아파치의 오픈소스 프로젝트
 
@@ -13,31 +13,31 @@ PhoneGap은 Apache Cordova을 기반으로 Adobe에서 서비스하고 있는 �
 
 PhoneGap의 documentation에 가면 cordova의 document를 그대로 가져다 쓰고 있어 헷갈린다. Remote Build를 쓸 일이 없다면, 그냥 Cordova를 쓰도록 하자.
 
-=Command Line Interface (CLI)=
+==Command Line Interface (CLI)==
 
 command line에서 프로젝트 생성, 플랫폼 추가, 빌드, 배포 등을 한다.
 
-=설치해보자=
+==설치해보자==
 
-==필요한 것==
+===필요한 것===
 JDK
 Android SDK
 Ant
 node.js
 
-==cordova 설치==
+===cordova 설치===
 
 {{{
 npm install cordova
 }}}
 
-==프로젝트 생성==
+===프로젝트 생성===
 
 {{{
 cordova create hello com.example.hello HelloWorld
 }}}
 
-==플랫폼 추가==
+===플랫폼 추가===
 
 
 {{{
@@ -45,13 +45,13 @@ cd hello
 cordova platform add android
 }}}
 
-==Android용으로 빌드==
+===Android용으로 빌드===
 
 {{{
 cordova build android
 }}}
 
-==안드로이드 폰으로 배포==
+===안드로이드 폰으로 배포===
 
 AVD를 띄워놓거나 폰 연결
 
@@ -60,7 +60,8 @@ adb devices
 cordova run android
 }}}
 
-==Plugin?==
-참고자료
+===Plugin?===
+
+===참고자료===
 
 http://www.tricedesigns.com/2013/01/18/my-workflow-for-developing-phonegap-applications/
