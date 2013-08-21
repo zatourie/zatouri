@@ -64,4 +64,6 @@ cordova run android
 
 ===참고자료===
 
+PhoneGap 홈페이지: http://phonegap.com/
+
 http://www.tricedesigns.com/2013/01/18/my-workflow-for-developing-phonegap-applications/
