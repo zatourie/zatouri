@@ -7,9 +7,16 @@
 
 *PhoneGap is an application container technology that allows you to create natively-installed applications for mobile devices using HTML, CSS, and JavaScript.   The core engine for PhoneGap is also 100% open source, under the Apache Cordova project.*
 
+
+PhoneGap App은 브라우저엔진을 이용한다.
+
 http://phonegap.com/uploads/2012/05/web-view_updated.png
 
+Plugin을 통해 Device의 기능들을 이용할 수 있다.
+
 http://phonegap.com/uploads/2012/05/API_updated.png
+
+HTML5, CSS, JavaScript를 사용한다.
 
 http://phonegap.com/uploads/2012/05/export_updated.png
 
