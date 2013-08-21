@@ -1,4 +1,4 @@
-#summary PhoneGap
+#summary Frontline seminar 여덟번째 : Beginning PhoneGap
 
 
 =PhoneGap=
