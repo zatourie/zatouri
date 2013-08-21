@@ -3,7 +3,10 @@
 
 =PhoneGap=
 
-HTML5, CSS, JavaScript로 만든 모바일앱을 대부분의 모바일 환경으로 배포할 수 있는 환경
+==PhoneGap이란?==
+
+*PhoneGap is an application container technology that allows you to create natively-installed applications for mobile devices using HTML, CSS, and JavaScript.   The core engine for PhoneGap is also 100% open source, under the Apache Cordova project.*
+
 
 ==PhoneGap vs Apache Cordova==
 
