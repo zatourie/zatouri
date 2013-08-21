@@ -7,6 +7,11 @@
 
 *PhoneGap is an application container technology that allows you to create natively-installed applications for mobile devices using HTML, CSS, and JavaScript.   The core engine for PhoneGap is also 100% open source, under the Apache Cordova project.*
 
+http://phonegap.com/uploads/2012/05/web-view_updated.png
+
+http://phonegap.com/uploads/2012/05/API_updated.png
+
+http://phonegap.com/uploads/2012/05/export_updated.png
 
 ==PhoneGap vs Apache Cordova==
 
@@ -70,3 +75,5 @@ cordova run android
 PhoneGap 홈페이지: http://phonegap.com/
 
 http://www.tricedesigns.com/2013/01/18/my-workflow-for-developing-phonegap-applications/
+
+http://phonegap.com/2012/05/02/phonegap-explained-visually/
