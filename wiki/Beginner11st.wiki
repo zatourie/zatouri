@@ -2,13 +2,13 @@
 
 http://www.codersgrid.com/wp-content/uploads/2013/05/nodejs-image-processing.png
 
-Node.js를 이용한 Midas 접근제한 해제 + mRemoteNG
+=Node.js를 이용한 Midas 접근제한 해제 + mRemoteNG=
 
-1. 내용
+==1. 내용==
 
 Node.js에서 제공하는 node.exe와 request 모듈을 이용하여 midas의 접근제한 해제 요청을 윈도우 Command line에서 할 수 있음
 
-2. 방법
+==2. 방법==
 
 1) http://www.nodejs.org/ 에서 node.js 인스톨 
 
@@ -17,41 +17,49 @@ Node.js에서 제공하는 node.exe와 request 모듈을 이용하여 midas의 �
 
 2) node.js request 모듈 설치
 
+{{{
 cmd
-cd nodejs
-npm install request
 
+cd nodejs
+
+npm install request
+}}}
 
 3) midas.js c:\nodejs 폴더로 복사
 
 4) midas.js 를 텍스트 에디터로 열어서 username과 password 수정
 
+{{{
 var username = "00000";
 var password = "00000";
+}}}
 
 5) 설치완료
 
 
-3. 사용법
+==3. 사용법==
 
+{{{
 node midas.js {접속제한을 해제할 서버의 호스트네임(대소문자구분함)}
+}}}
 
 ex) node midas.js SKEPPSWAS 
 
+
+
+=mRemoteNG과 연계하기=
+
 https://dc080p1pxrpu1.cloudfront.net/screenshots/6211/optimal.png
 
-+ mRemoteNG
-
-1. mRemoteNG란?
+==1. mRemoteNG란?==
 
 윈도우즈 원격터미널 접속프로그램 (mstsc) 접속정보를 저장해놓을 수 있어 많은 서버를 관리하는데 편리하다.
 
-
-2. 뭘 하려고?
+==2. 뭘 하려고?==
 
 mRemoteNG에서 해당 서버에 연결하면 자동으로 Midas에 접속제한을 해제한 다음 연결되도록 함.
 
-3. 방법
+==3. 방법==
 
 1) http://www.mremoteng.org/download 에서 mRemoteNG를 설치한다. (인스톨버전을 설치해도 되지만 미인증소프트웨어이므로, 포터블 버전을 사용해도 된다.)
 
@@ -69,4 +77,3 @@ http://widget.digestzone.com/uploadfiles/widgetdigestzonecom-1349904419/mremoten
 
 
 6) Enjoy!
-
