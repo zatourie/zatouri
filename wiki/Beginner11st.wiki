@@ -1,8 +1,8 @@
 #summary Beginner's Study 열한번째 : node.js를 이용한 접근제한 해제
 
-http://www.codersgrid.com/wp-content/uploads/2013/05/nodejs-image-processing.png
-
 =Node.js를 이용한 Midas 접근제한 해제 + mRemoteNG=
+
+http://www.codersgrid.com/wp-content/uploads/2013/05/nodejs-image-processing.png
 
 ==1. 내용==
 
