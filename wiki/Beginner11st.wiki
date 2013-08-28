@@ -43,7 +43,7 @@ var password = "00000";
 node midas.js {접속제한을 해제할 서버의 호스트네임(대소문자구분함)}
 }}}
 
-ex) node midas.js SKEPPSWAS 
+ex) node midas.js server1
 
 
 
