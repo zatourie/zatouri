@@ -15,37 +15,36 @@ Node.js에서 제공하는 node.exe와 request 모듈을 이용하여 midas의 �
 
 !!!인스톨시 주의 : Default 설치위치가 C:\Program files\nodejs 인데 c:\nodejs 로 변경할 것을 권장함. 이후에 Program files 사이에 있는 스페이스로 인해 문제가 발생할 수 있음. 
 
-2) node.js request 모듈 설치
+2) midas.js c:\nodejs 혹은 nodejs 설치 폴더로 복사
 
-{{{
-cmd
-
-cd nodejs
-
-npm install request
-}}}
-
-3) midas.js c:\nodejs 폴더로 복사
-
-4) midas.js 를 텍스트 에디터로 열어서 username과 password 수정
+3) midas.js 를 텍스트 에디터로 열어서 username과 password 수정
 
 {{{
 var username = "00000";
 var password = "00000";
 }}}
 
-5) 설치완료
+4) 설치완료
 
 
 ==3. 사용법==
 
+해제시
+
 {{{
+node release midas.js {접속제한을 해제할 서버의 호스트네임(대소문자구분함)}
+혹은
 node midas.js {접속제한을 해제할 서버의 호스트네임(대소문자구분함)}
 }}}
 
 ex) node midas.js server1
 
+락 걸시
+{{{
+node lock midas.js {접속제한을 해제할 서버의 호스트네임(대소문자구분함)}
+}}}
 
+ex) node lock midas.js server1
 
 =mRemoteNG과 연계하기=
 
@@ -73,7 +72,7 @@ http://widget.digestzone.com/uploadfiles/widgetdigestzonecom-1349904419/mremoten
 4) External Tool 작성
 
 
-5) Connection의 External Tool Before에 해당 Task 바인딩
+5) Connection의 External Tool Before/after에 해당 Task 바인딩
 
 
 6) Enjoy!
