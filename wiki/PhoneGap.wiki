@@ -7,12 +7,14 @@
 어도비의 폰갭과 오픈소스 프로젝트 아파치 코르도바가 가트너 리포트에서 좋은 평가를 받았답니다. 이제 공부만 하면 됰
 
 가트너 리포트 제목
-Magic Quadrant for Mobile Application Development Platforms
-Critical Capabilities for Mobile Application Development Platforms
+
+ * Magic Quadrant for Mobile Application Development Platforms
+ * Critical Capabilities for Mobile Application Development Platforms
+
 원문 찾을 수 있으신분?
 
 관련글
-http://phonegap.com/blog/2013/08/27/phonegap-and-adobe-leading-the-way/?utm_medium=email&utm_campaign=PhoneGap+Newsletter+August+2013&utm_content=PhoneGap+Newsletter+August+2013+CID_1ddcc18667b9cab88efb6af3d55820b1&utm_source=Email%20Newsletter&utm_term=Read%20more%20about%20our%20good%20news%20from%20Gartner
+http://goo.gl/Kf3eaz
 
 ----
 
