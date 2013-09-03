@@ -1,6 +1,6 @@
 #summary Beginner's Study 열두번째 : 인코딩
 
-Encoding (인코딩)
+=Encoding (인코딩)=
 
 ASCII
 
