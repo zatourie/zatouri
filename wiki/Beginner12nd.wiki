@@ -1,13 +1,27 @@
-#summary One-sentence summary of this page.
+#summary Beginner's Study 열두번째 : 인코딩
 
-= Introduction =
+Encoding (인코딩)
 
-Add your content here.
+ASCII
 
+ANSI
 
-= Details =
+유니코드 (UTF-16, UTF-8)
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+깨진 문자
+
+----
+
+참고자료
+
+한글 인코딩의 이해 1편: 한글 인코딩의 역사와 유니코드 
+http://helloworld.naver.com/helloworld/19187
+
+한글 인코딩의 이해 2편: 유니코드와 Java를 이용한 한글 처리 
+http://helloworld.naver.com/helloworld/76650
+
+Wikipedia Charset detection
+http://en.wikipedia.org/wiki/Charset_detection
+
+위키피디아 한글 인코딩
+http://ko.wikipedia.org/wiki/%EB%AC%B8%EC%9E%90_%EC%9D%B8%EC%BD%94%EB%94%A9
