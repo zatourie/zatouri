@@ -2,9 +2,17 @@
 
 =Encoding (인코딩)=
 
-ASCII
+==ASCII (American Standard Code for Information Interchange)==
 
-ANSI
+0 ~ 127 : 128개 Binary code에 문자를 매핑한 것
+
+http://www.ncus.org.uk/images/CHARS.gif
+
+==Extended ASCII==
+
+128 ~ 255 의 나머지 128개 code에 문자를 매핑한 것
+
+http://www.webopedia.com/FIG/EXT-ASC.gif
 
 유니코드 (UTF-16, UTF-8)
 
