@@ -95,3 +95,6 @@ http://en.wikipedia.org/wiki/Charset_detection
 
 위키피디아 한글 인코딩
 http://ko.wikipedia.org/wiki/%EB%AC%B8%EC%9E%90_%EC%9D%B8%EC%BD%94%EB%94%A9
+
+What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text
+http://kunststube.net/encoding/
