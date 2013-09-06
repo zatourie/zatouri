@@ -2,6 +2,11 @@
 
 =Encoding (인코딩)=
 
+==한눈에 보는 한글 인코딩==
+
+http://www.shimminkyu.com/tc/attach/1/2036217031.png
+
+
 ==ASCII (American Standard Code for Information Interchange)==
 
 0 ~ 127 : 128개 Binary code에 문자를 매핑한 것
