@@ -1,5 +1,5 @@
 #summary Beginner's Study 열세번째 : 주제 절찬리 모집중
 
-=후보군=
+=9/11 (수) 열세번째 Beginner's Study 주제 후보군=
 
  * 정규식 (Regular Expression)
