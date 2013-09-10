@@ -27,3 +27,7 @@
  * udacity : 수준별 컨텐츠
  * KHAN : 초중고 컨텐츠
  * SNOW.or.kr : 숙명여대에서 운영, 해외 OCW 컨텐츠들에 자막을 넣는 기능을 wiki처럼 오픈함으로써 사용자들이 자막을 공급할 수 있도록 함. 인기있는 강의는 자막 존재.
+
+----
+참고
+http://seoulappfestival.kr/
