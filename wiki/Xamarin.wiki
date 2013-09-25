@@ -1,5 +1,7 @@
 #summary Xamarin
 
+https://lh4.googleusercontent.com/--6HuPTRFJ7w/AAAAAAAAAAI/AAAAAAAAADk/D5gf-Wp62xA/s120-c/photo.jpg
+
 http://cdn1.xamarin.com/webimages/images/features/shared-code-2.png
 
 Xamarin 이란 녀석도 있습니다. C#으로 iOS와 Android을 만들 수 있답니다.
