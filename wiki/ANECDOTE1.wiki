@@ -1,3 +1,22 @@
 #summary 우하하하
 
-https://plus.google.com/115212051037621986145/posts/R8jEVrobbRj
+Do not send me email like this:
+
+"""
+Hi Guido,
+ 
+I came across your resume in a Google web search. You seem to have an awesome expertise on Python. I would be glad if you can reply my email and let me know your interest and availability.
+ 
+………………………..
+Our client immediately needs a PYTHON Developers at its location in *, NJ. Below are the job details. If interested and available, kindly fwd me your updated resume along with the expected rate and the availability.
+
+[...]
+"""
+
+I might reply like this:
+
+"""
+I'm not interested and not available.
+"""
+
+from https://plus.google.com/115212051037621986145/posts/R8jEVrobbRj
