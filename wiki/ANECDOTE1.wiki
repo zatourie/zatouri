@@ -1,5 +1,6 @@
 #summary 우하하하
 
+{{{
 Do not send me email like this:
 
 """
@@ -18,5 +19,6 @@ I might reply like this:
 """
 I'm not interested and not available.
 """
+}}}
 
 from https://plus.google.com/115212051037621986145/posts/R8jEVrobbRj
