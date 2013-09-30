@@ -1,5 +1,23 @@
 #summary 저와 같이 파워쉘 공부하실 분?
 
+=Powershell=
+
+==Powershell 설치되었는지 확인방법==
+
+command line에서 
+
+ powershell [엔터]
+
+==Powershell 버전 확인방법==
+
+powershell 실행후, 
+
+ PS C:\위치>$host [엔터]
+
+
+----
+references
+
 http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx
 
 http://powershell.com/cs/blogs/ebookv2/archive/2012/03/08/chapter-1-the-powershell-console.aspx
