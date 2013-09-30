@@ -10,12 +10,32 @@ command line에서
 C:\>powershell [엔터]
 }}}
 
+결과
+{{{
+Windows PowerShell
+Copyright (C) 2009 Microsoft Corporation. All rights reserved.
+}}}
+
 ==Powershell 버전 확인방법==
 
 powershell 실행후, 
 
 {{{
 PS C:\위치>$host [엔터]
+}}}
+
+결과
+
+{{{
+Name             : ConsoleHost
+Version          : 2.0
+InstanceId       : 868af158-5b47-4fa5-afd9-d7838e2903d9
+UI               : System.Management.Automation.Internal.Host.InternalHostUserInterface
+CurrentCulture   : ko-KR
+CurrentUICulture : ko-KR
+PrivateData      : Microsoft.PowerShell.ConsoleHost+ConsoleColorProxy
+IsRunspacePushed : False
+Runspace         : System.Management.Automation.Runspaces.LocalRunspace
 }}}
 
 ----
