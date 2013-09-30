@@ -1,4 +1,5 @@
-#summary Frontline 세미나 아홉번째 : 주제모집중
+#summary Frontline 세미나 아홉번째 : Java고급
 
- * UX Trend Report 리뷰
-http://ux1.co.kr/data/UX%20Trend%20Report_Seminar_UX1.pdf
+10/2 (수) 11:00~ / 장소: 미정
+
+발제자 : 이정훈 대리
