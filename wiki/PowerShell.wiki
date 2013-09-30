@@ -7,15 +7,16 @@
 command line에서 
 
 {{{
- powershell [엔터]
+C:\>powershell [엔터]
 }}}
 
 ==Powershell 버전 확인방법==
 
 powershell 실행후, 
 
- PS C:\위치>$host [엔터]
-
+{{{
+PS C:\위치>$host [엔터]
+}}}
 
 ----
 references
