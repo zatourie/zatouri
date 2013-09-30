@@ -1,3 +1,5 @@
 #summary 저와 같이 파워쉘 공부하실 분?
 
 http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx
+
+http://powershell.com/cs/blogs/ebookv2/archive/2012/03/08/chapter-1-the-powershell-console.aspx
