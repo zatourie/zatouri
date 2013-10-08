@@ -1,0 +1,3 @@
+#summary R-Tree
+
+http://en.wikipedia.org/wiki/R-tree
