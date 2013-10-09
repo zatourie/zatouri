@@ -1,0 +1,9 @@
+#summary 꾸준히, 자유롭게, 즐겁게 : 한국 오픈 소스 개발자들 이야기(베타판)
+
+한국인 오픈소스 개발자들의 이야기가 책으로 출판됩니다.
+
+관련기사 : http://www.bloter.net/archives/166338
+
+책 내용도 오픈소스라네요. 
+
+책읽기 : http://osdi.insightbook.co.kr/
