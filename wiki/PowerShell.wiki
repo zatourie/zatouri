@@ -38,6 +38,34 @@ IsRunspacePushed : False
 Runspace         : System.Management.Automation.Runspaces.LocalRunspace
 }}}
 
+
+==서비스 리스트 보기==
+
+명령어
+{{{
+get-service
+}}}
+
+==프로세스 리스트 보기==
+
+명령어
+{{{
+get-process
+}}}
+
+==프로세스 중지하기==
+
+명령어
+{{{
+stop-process -id 1234
+}}}
+
+혹은
+
+{{{
+stop-process -name processname
+}}}
+
 ----
 references
 
