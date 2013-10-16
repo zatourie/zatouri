@@ -7,9 +7,11 @@
 
 주요내용
 
- # MVC 패턴
- # Spring MVC 아키텍처
+ * MVC 패턴
+ * Spring MVC 아키텍처
 
 http://java4developers.com/wp-content/uploads/2011/09/springmvclifecycle.jpg
 
- # iBatis
+ * iBatis
+
+http://images.cnblogs.com/cnblogs_com/anderslly/iBatis/Ch03ConfigDiagram.JPG
