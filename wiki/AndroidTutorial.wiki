@@ -13,3 +13,7 @@ http://www.vogella.com/android.html
 
 안드로이드 튜토리얼(영문)
 http://www.grokkingandroid.com/
+
+안드로이드 개발 리소스
+
+http://pragmaticsharif.wordpress.com/2013/10/06/android-resources/
