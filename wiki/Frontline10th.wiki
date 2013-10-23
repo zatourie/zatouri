@@ -29,7 +29,6 @@ Android App = Activities + Services
 App을 실행하는 방법은 여러가지가 있음
 
  # 유저액션 : 아이콘 클릭, SMS내 링크 클릭
-
  # 시스템 이벤트 : Android OS에서 발생시키는 시스템 이벤트에 후크를 걸어서 앱 실행
 
 
