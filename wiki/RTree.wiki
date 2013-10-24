@@ -1,3 +1,5 @@
 #summary R-Tree
 
+이차원 인덱스 검색을 위해서 R-Tree 알고리즘을 많이 쓴대요.
+
 http://en.wikipedia.org/wiki/R-tree
