@@ -1,0 +1,12 @@
+#summary Maven으로 안드로이드 프로젝트 빌드하기
+
+
+정리예정
+
+----
+
+http://stand.spree.de/wiki_details_maven_archetypes
+
+http://www.vogella.com/articles/AndroidBuildMaven/article.html
+
+https://code.google.com/p/maven-android-plugin/wiki/GettingStarted
