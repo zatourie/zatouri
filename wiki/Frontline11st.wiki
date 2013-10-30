@@ -1,0 +1,14 @@
+#summary 후론트라인 세미나 열한번째 : Git
+
+일시 : 2013.10.30 수 11:00~
+발재자 : 이정훈 
+
+주제 : Git
+
+----
+참조
+Socialinus의 "SVN 능력자를 위한 git 개념 가이드"
+
+www.slideshare.net/einsub/svn-git-17386752‎
+
+(사내에서는 슬라이드셰어가 막혀있네요)
