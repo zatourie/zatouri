@@ -11,7 +11,7 @@ http://www.nopessentials.com/Content/Images/uploaded/one-mouse-to-rule-them-all.
 == Synergy==
 
   * 멀티플랫폼 사용가능
-  * 라이센스 : 
+  * 라이센스 : 명시되어있지 않지만, 개인용으로 무료로 사용가능
   * http://synergy-foss.org/
 
 http://synergy-foss.org/img/splash/splash-en.png
