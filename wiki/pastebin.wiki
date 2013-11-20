@@ -1,0 +1,3 @@
+#summary pastebin
+
+http://pastebin.com/
