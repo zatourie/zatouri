@@ -1,0 +1,20 @@
+#summary 내사람 휘둘러
+
+일시 : 2013.11.20 (수) 11:00
+발제 : 심민규
+
+Fiddler 소개자료 함께 보고
+
+패킷 모니터링
+
+패킷 카피 & Resubmit
+
+Autoresponder
+
+등 해당 기능들 시연해보았습니다. 
+
+
+----
+Reference
+
+http://www.slideshare.net/taggon/fiddler-27055698?from_search=1
