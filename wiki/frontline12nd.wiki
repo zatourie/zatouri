@@ -17,6 +17,8 @@ http://ultimatepeter.com/wp-content/uploads/2013/09/fiddler-proxy.png
 
 http://www.revindex.com/Portals/0/Images/fiddler_screenshot.gif
 
+==Breakpoint를 이용한 디버깅 : request와 response를 변경해서 보내거나 받을 수 있음==
+
 ==Composer를 이용한 패킷 카피 & Re-execute : HTTP Request를 저장해두었다가 수정후 다시 날려볼 수 있는 기능==
 
 http://wildermuth.com/images/fiddler2_3.png
@@ -34,3 +36,7 @@ http://www.fireeye.com/blog/wp-content/uploads/2013/08/image009.jpg
 Reference
 
 http://www.slideshare.net/taggon/fiddler-27055698?from_search=1
+
+제작사의 유튜브 동영상 튜토리얼
+
+http://www.youtube.com/watch?v=gujBKFGwjd4&list=PLvmaC-XMqeBbw72l2G7FG7CntDTErjbHc
