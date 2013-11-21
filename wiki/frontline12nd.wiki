@@ -1,9 +1,11 @@
 #summary 내 사랑 휘둘러
 
+Fiddler 기능 리뷰 및 시연
+
 일시 : 2013.11.20 (수) 11:00
 발제 : 심민규
 
-=Fiddler 기능 리뷰 및 시연=
+<wiki:toc max_depth="2" />
 
 ==Fiddler란 : HTTP Request/Response Debugging Tool==
 
@@ -48,3 +50,5 @@ http://www.slideshare.net/taggon/fiddler-27055698?from_search=1
 제작사의 유튜브 동영상 튜토리얼
 
 http://www.youtube.com/watch?v=gujBKFGwjd4&list=PLvmaC-XMqeBbw72l2G7FG7CntDTErjbHc
+
+<g:plusone size="medium"></g:plusone>
