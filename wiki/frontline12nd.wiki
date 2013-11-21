@@ -3,17 +3,29 @@
 일시 : 2013.11.20 (수) 11:00
 발제 : 심민규
 
-Fiddler 소개자료 함께 보고
+Fiddler 기능
 
-패킷 모니터링
+Fiddler란 : HTTP Request/Response Debugging Tool
 
-패킷 카피 & Resubmit
+http://ultimatepeter.com/wp-content/uploads/2013/09/fiddler-proxy.png
 
-Autoresponder
+패킷 모니터링 : HTTP Packet을 모니터링 할 수 있는 기능
 
-등 해당 기능들 시연해보았습니다. 
+http://www.revindex.com/Portals/0/Images/fiddler_screenshot.gif
 
+Composer를 이용한 패킷 카피 & Re-execute : HTTP Request를 저장해두었다가 수정후 다시 날려볼 수 있는 기능
 
+http://wildermuth.com/images/fiddler2_3.png
+
+Autoresponder : Proxy가 서버처럼 Response를 주도록 설정할 수도 있음
+
+http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-01-14-81/2110.5.png
+
+플러스 알파
+
+TextWizard : base64, urlencode/decode, htmlencode/decode를 해볼 수 있는 작지만 활용도 높은 툴
+
+http://www.fireeye.com/blog/wp-content/uploads/2013/08/image009.jpg
 ----
 Reference
 
