@@ -11,8 +11,10 @@
 
 http://stackoverflow.com/a/1308012
 
+INCLUDE구문에 있는 컬럼들은 WHERE절에 쓸 때처럼 BTree의 Index에 들어가지는 않지만 Tree의 leaf node에 위치함으로써 데이터를 가져올때 약간의 성능향상과 인덱스 자체 크기를 줄이는 역할을 한다.
 
 ----
+
 =참조=
 
 http://msdn.microsoft.com/en-us/library/ms190806.aspx
