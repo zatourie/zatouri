@@ -35,7 +35,7 @@ http://wildermuth.com/images/fiddler2_3.png
 
 http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-01-14-81/2110.5.png
 
-=플러스 알파 : TextWizard=
+=플러스 알파 TextWizard=
 
 TextWizard : base64, urlencode/decode, htmlencode/decode를 해볼 수 있는 작지만 활용도 높은 툴
 
