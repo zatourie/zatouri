@@ -19,6 +19,10 @@ http://www.revindex.com/Portals/0/Images/fiddler_screenshot.gif
 
 ==Breakpoint를 이용한 디버깅 : request와 response를 변경해서 보내거나 받을 수 있음==
 
+http://www.mehdi-khalili.com/get/BlogPictures/fiddler-in-action-2/breakpoint-on-rules-menu.png
+
+http://tenhundfeld.org/media/fiddlertamper_c.png
+
 ==Composer를 이용한 패킷 카피 & Re-execute : HTTP Request를 저장해두었다가 수정후 다시 날려볼 수 있는 기능==
 
 http://wildermuth.com/images/fiddler2_3.png
