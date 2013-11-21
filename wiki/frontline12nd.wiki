@@ -13,6 +13,8 @@ Download link : http://fiddler2.com/
 
 http://ultimatepeter.com/wp-content/uploads/2013/09/fiddler-proxy.png
 
+<wiki:video url="http://www.youtube.com/watch?v=gujBKFGwjd4&feature=share&list=PLvmaC-XMqeBbw72l2G7FG7CntDTErjbHc"/>
+
 ==패킷 모니터링 : HTTP Packet을 모니터링 할 수 있는 기능==
 
 http://www.revindex.com/Portals/0/Images/fiddler_screenshot.gif
