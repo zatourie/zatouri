@@ -1,0 +1,32 @@
+#summary 프론트라인 13번째 세미나 : 전차장님 초청 JAVA 세미나
+
+아래 개요로 자바 웹어플리케이션 운영에 있어 발생할 수 있는 이슈들을 팀내 전문가인 전종수 차장을 섭외하여 1시간반 발표를 진행하고 30분 질의응답 시간을 가졌음.
+
+개요
+
+=1.자바=
+    ## 자바란?
+    ## Java 실행코드 생성
+
+    ## JVM 구조
+    ## Runtime Data Areas
+    ## 코드수행 과정
+    ## JVM 메모리
+    ## GC Algorithm
+    ## GC 유형
+
+=2.WAS=
+    ## J2EE란
+    ## WAS 기본구조
+    ## WAS Thread에 의한 대표적인 문제점들
+    ## JVM OME(OutOfMemoryError)
+    ## Java 모니터링 관련 툴
+
+=3.장애사례 공유=
+    ## DB 연동에 사용되는 Connection, PreparedStatement, ResultSet을 close 하지 않아 메모리 릭이 발생한 사례
+    ## 32Bit JVM에서 Heap영역을 너무 크게 잡아 Native 영역 OME 발생한 사례
+    ## 대량조회시 OME사례 : Heapdump로 원인을 찾는 방법
+
+=4.기타 유용한 정보 공유=
+    ## Sun HotSpot JVM server/client 차이점 공유
+    ## Java coding시 Best practices(Sun자료) 공유
