@@ -35,21 +35,35 @@ VMWARE를 이용하여 설치하기
 
 =설정=
 
-SVN 연결
+==SVN 연결==
 
 http://wiki.bitnami.com/@api/deki/files/254/=Redmine-svn.png
 
 프로젝트 세팅화면에서 Repository에 SVN URL과 접속정보를 기록해주면 끝.
 
-HTTPS SVN 연결
+==BUT, 그러나 인생은 그렇게 호락호락하지 않음. HTTPS SVN 연결==
 
 SSL을 사용하는 SVN 서버로는 위의 방법으로는 연결되지 않는다. 연결하려면 인증정보 설정이 필요하다.
 
 오류메시지 : the entry or revision was not found in the repository
 
-솔루션 : http://www.redmine.org/issues/787
+참조 : http://www.redmine.org/issues/787
 
+설치디렉토리\redmine\apps\redmine\htdocs\lib\redmine\scm\adapters에 위치한
 
+subversion_adapter.rb 화일의 
+
+credentials_string 부분을 다음과 같이 수정 ( --config-dir은 인증정보가 들어갈 위치)
+
+{{{
+        def credentials_string
+          str = ''
+          str << " --username #{shell_quote(@login)}" unless @login.blank?
+          str << " --password #{shell_quote(@password)}" unless @login.blank? || @password.blank?
+          str << " --trust-server-cert --no-auth-cache --non-interactive  --config-dir C:\\BitNamiRedmineStack\\temp"
+          str
+        end
+}}}
 
 
 
