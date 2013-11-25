@@ -16,11 +16,17 @@
 
 =설치 (동영상)=
 
+그냥 설치하기
+
 <wiki:video url="http://www.youtube.com/watch?v=yyfQ9gl_iXQ"/>
+
+VMWARE를 이용하여 설치하기
+
+<wiki:video url="http://www.youtube.com/watch?v=qB-2uj-cJ2I"/>
 
 ----
 =Reference=
 
-생활코딩 (동영상)
+생활코딩
 
- * http://www.youtube.com/watch?v=yyfQ9gl_iXQ
+ * http://opentutorials.org/course/438/2453
