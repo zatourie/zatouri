@@ -16,7 +16,7 @@
 
 =설치 (동영상)=
 
-http://www.youtube.com/watch?v=yyfQ9gl_iXQ
+<wiki:video url="http://www.youtube.com/watch?v=yyfQ9gl_iXQ"/>
 
 ----
 =Reference=
