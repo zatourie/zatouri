@@ -48,13 +48,13 @@ SSL을 사용하는 SVN 서버로는 "the entry or revision was not found in the
 이때는, 설치디렉토리\redmine\apps\redmine\htdocs\lib\redmine\scm\adapters에 위치한subversion_adapter.rb 화일의 credentials_string 부분을 다음과 같이 수정한다. ( --config-dir은 인증정보가 들어갈 위치)
 
 {{{
-        def credentials_string
-          str = ''
-          str << " --username #{shell_quote(@login)}" unless @login.blank?
-          str << " --password #{shell_quote(@password)}" unless @login.blank? || @password.blank?
-          str << " --trust-server-cert --no-auth-cache --non-interactive  --config-dir C:\\BitNamiRedmineStack\\svnfingerprint "
-          str
-        end
+def credentials_string
+  str = ''
+  str << " --username #{shell_quote(@login)}" unless @login.blank?
+  str << " --password #{shell_quote(@password)}" unless @login.blank? || @password.blank?
+  str << " --trust-server-cert --no-auth-cache --non-interactive  --config-dir C:\\BitNamiRedmineStack\\svnfingerprint"
+  str
+end
 }}}
 
 
