@@ -73,7 +73,22 @@ svn --config-dir C:\BitNamiRedmineStack\svnfingerprint info https://123.123.123.
 
 =SMTP Mail Sever 연결=
 
+설치위치\redmine\apps\redmine\htdocs\config에 위치한 configuration.yml 파일을 다음과 같이 수정한다.
+
+{{{
+  email_delivery:
+    delivery_method: :async_smtp
+    async_smtp_settings:
+      address: xxx.xxx.xxx.xxx
+      port: smtp port 기본 25
+      domain: 'skbiok.com'
+      authentication: :login
+      user_name: user@domain.com
+      password: 비밀번호
+}}}
+
 ----
+
 =Reference=
 
 생활코딩
