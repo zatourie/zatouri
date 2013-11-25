@@ -13,7 +13,7 @@ http://redmine.rubyforge.org/screenshots/rdm-gantt.png
 
 =필요한 것=
 
- * Bitnami Redmine : Redmine에 필요한 
+ * Bitnami Redmine : Redmine과 Redmine을 설치하는데 필요한 DB, Web Server 등의 제품들을 패키지화하여 한번에 설치할 수 있도록 해놓은 설치본. 기본으로 MySQL, Apache Web Server가 설치된다.
  * 다운로드 페이지 : https://bitnami.com/stack/redmine
 
 =설치순서=
