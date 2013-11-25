@@ -41,37 +41,33 @@ http://wiki.bitnami.com/@api/deki/files/254/=Redmine-svn.png
 
 프로젝트 세팅화면에서 Repository에 SVN URL과 접속정보를 기록해주면 끝.
 
-==BUT, 그러나 인생은 그렇게 호락호락하지 않음. HTTPS SVN 연결==
+==BUT, 그러나 인생은 그렇게 호락호락하지 않음 HTTPS SVN 연결==
 
-SSL을 사용하는 SVN 서버로는 위의 방법으로는 연결되지 않는다. 연결하려면 인증정보 설정이 필요하다.
+SSL을 사용하는 SVN 서버로는 "the entry or revision was not found in the repository" 오류메시지가 뜨며, 위의 방법으로는 연결되지 않는다. 연결하려면 인증정보 설정이 필요하다.
 
-오류메시지 : the entry or revision was not found in the repository
-
-참조 : http://www.redmine.org/issues/787
-
-설치디렉토리\redmine\apps\redmine\htdocs\lib\redmine\scm\adapters에 위치한
-
-subversion_adapter.rb 화일의 
-
-credentials_string 부분을 다음과 같이 수정 ( --config-dir은 인증정보가 들어갈 위치)
+이때는, 설치디렉토리\redmine\apps\redmine\htdocs\lib\redmine\scm\adapters에 위치한subversion_adapter.rb 화일의 credentials_string 부분을 다음과 같이 수정한다. ( --config-dir은 인증정보가 들어갈 위치)
 
 {{{
         def credentials_string
           str = ''
           str << " --username #{shell_quote(@login)}" unless @login.blank?
           str << " --password #{shell_quote(@password)}" unless @login.blank? || @password.blank?
-          str << " --trust-server-cert --no-auth-cache --non-interactive  --config-dir C:\\BitNamiRedmineStack\\temp"
+          str << " --trust-server-cert --no-auth-cache --non-interactive  --config-dir C:\\BitNamiRedmineStack\\svnfingerprint "
           str
         end
 }}}
 
 
-subversion https 접근시 fingerprint 로컬에 저장
+subversion https 접근시 인증정보(fingerprint)를 로컬폴더에 저장하는 방법은
 
 {{{
 svn --config-dir {config정보위치} info {소스위치}
 }}}
 
+예시
+{{{
+svn --config-dir C:\BitNamiRedmineStack\svnfingerprint info https://123.123.123.123/svn/souerce/trunk
+}}}
 
 
 ----
@@ -80,3 +76,7 @@ svn --config-dir {config정보위치} info {소스위치}
 생활코딩
 
  * http://opentutorials.org/course/438/2453
+
+HTTPS SVN 서버연결방법 
+
+ * http://www.redmine.org/issues/787
