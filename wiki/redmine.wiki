@@ -33,6 +33,26 @@ VMWARE를 이용하여 설치하기
 
 <wiki:video url="http://www.youtube.com/watch?v=qB-2uj-cJ2I"/>
 
+=설정=
+
+SVN 연결
+
+http://wiki.bitnami.com/@api/deki/files/254/=Redmine-svn.png
+
+프로젝트 세팅화면에서 Repository에 SVN URL과 접속정보를 기록해주면 끝.
+
+HTTPS SVN 연결
+
+SSL을 사용하는 SVN 서버로는 위의 방법으로는 연결되지 않는다. 연결하려면 인증정보 설정이 필요하다.
+
+오류메시지 : the entry or revision was not found in the repository
+
+솔루션 : http://www.redmine.org/issues/787
+
+
+
+
+
 ----
 =Reference=
 
