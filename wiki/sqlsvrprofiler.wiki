@@ -13,6 +13,10 @@
 
  * SQL Server에 advanced client tools 항목에 포함되어 있음. 
 
+=권한=
+
+ * 프로파일러를 실행하려면 해당 로그인 유저에게 ALTER TRACE 권한이 있어야함T
+
 =사용법=
 
 ==Advanced Index Tuning (슬라이드)==
@@ -45,3 +49,7 @@ http://technet.microsoft.com/en-us/library/ms181091.aspx
 Advanced Index Tuning for SQL Server by quest software
 
 http://www.slideshare.net/SQLServerPedia/advanced-index-tuning-for-sql-server
+
+Permissions Required to Run SQL Server Profiler
+
+http://technet.microsoft.com/en-us/library/ms187611.aspx
