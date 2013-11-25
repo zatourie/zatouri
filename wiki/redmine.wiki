@@ -4,6 +4,8 @@
 
 =레드마인(Redmine)이란?=
 
+http://redmine.rubyforge.org/screenshots/rdm-gantt.png
+
  * 레드마인은 웹으로 되어있는 프로젝트 관리 어플리케이션이다. 여러 프로젝트를 관리할 수 있고, 역할 베이스의 권한 관리 기능, 간트차트, 일정, 뉴스, 문서, 파일, 위키, 포럼 등을 제공한다. 소스 형상관리와 연결하여 사용할 수 있다.
  * 레드마인은 루비로 만들어져있고, GPL v2로 라이센스 되어있다.
  * website : http://www.redmine.org
