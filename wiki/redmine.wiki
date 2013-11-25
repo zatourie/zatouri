@@ -66,6 +66,13 @@ credentials_string 부분을 다음과 같이 수정 ( --config-dir은 인증정
 }}}
 
 
+subversion https 접근시 fingerprint 로컬에 저장
+
+{{{
+svn --config-dir {config정보위치} info {소스위치}
+}}}
+
+
 
 ----
 =Reference=
