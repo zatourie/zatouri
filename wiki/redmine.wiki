@@ -1,0 +1,26 @@
+#summary 레드마인 설치 및 설정방법
+
+=레드마인 설치 및 설정방법=
+
+=레드마인(Redmine)이란?=
+
+ * 레드마인은 웹으로 되어있는 프로젝트 관리 어플리케이션이다. 여러 프로젝트를 관리할 수 있고, 역할 베이스의 권한 관리 기능, 간트차트, 일정, 뉴스, 문서, 파일, 위키, 포럼 등을 제공한다. 소스 형상관리와 연결하여 사용할 수 있다.
+ * 레드마인은 루비로 만들어져있고, GPL v2로 라이센스 되어있다.
+ * website : http://www.redmine.org
+ * 이 글에서는 레드마인을 쉽게 설치하도록 패키지화 해놓은 Bitnami Redmine을 사용한다.
+
+=필요한 것=
+
+ * Bitnami Redmine : Redmine에 필요한 
+ * 다운로드 페이지 : https://bitnami.com/stack/redmine
+
+=설치 (동영상)=
+
+http://www.youtube.com/watch?v=yyfQ9gl_iXQ
+
+----
+=Reference=
+
+생활코딩 (동영상)
+
+ * http://www.youtube.com/watch?v=yyfQ9gl_iXQ
