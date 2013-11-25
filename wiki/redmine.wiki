@@ -69,6 +69,9 @@ svn --config-dir {config정보위치} info {소스위치}
 svn --config-dir C:\BitNamiRedmineStack\svnfingerprint info https://123.123.123.123/svn/souerce/trunk
 }}}
 
+여기까지 하고 다시 레드마인에서 저장소를 클릭하면 연결되어야한다.
+
+=SMTP Mail Sever 연결=
 
 ----
 =Reference=
