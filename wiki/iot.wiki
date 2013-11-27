@@ -1,3 +1,8 @@
 #summary 사물인터넷(Internet of things) 관련 기사
 
 http://m.dt.co.kr/contents.html?article_no=2013112602011060718002
+
+----
+참조
+
+http://en.wikipedia.org/wiki/Internet_of_Things
