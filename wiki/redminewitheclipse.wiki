@@ -1,3 +1,5 @@
 #summary Redmine - Eclipse
 
+Eclipse Redmine Connector를 이용해 연결하는 방법
+
 http://kenjiru.ro/blog/2012/02/install-the-redmine-mylyn-connector-for-eclipse
