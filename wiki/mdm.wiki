@@ -14,7 +14,6 @@ MDM이란?
 
 Market Definition/Description
 
- Enterprise mobile device management (MDM) software is: (1) a policy and configuration management tool for mobile handheld devices (smartphones and tablets based on smartphone OSs), and (2) an enterprise mobile solution for securing and enabling enterprise users and content. It helps enterprises manage the transition to a more complex mobile computing and communications environment by supporting security, network services, and software and hardware management across multiple OS platforms and now sometimes laptop and ultrabooks. This is especially important as bring your own device (BYOD) initiatives and advanced wireless computing become the focus of many enterprises. MDM can support corporate-owned as well as personal
-devices, and helps support a more complex and heterogeneous environment.
+ Enterprise mobile device management (MDM) software is: (1) a policy and configuration management tool for mobile handheld devices (smartphones and tablets based on smartphone OSs), and (2) an enterprise mobile solution for securing and enabling enterprise users and content. It helps enterprises manage the transition to a more complex mobile computing and communications environment by supporting security, network services, and software and hardware management across multiple OS platforms and now sometimes laptop and ultrabooks. This is especially important as bring your own device (BYOD) initiatives and advanced wireless computing become the focus of many enterprises. MDM can support corporate-owned as well as personal devices, and helps support a more complex and heterogeneous environment.
 
-- 가트너 Magic Quadrant for Mobile Device Management Software
+ - 가트너 Magic Quadrant for Mobile Device Management Software
