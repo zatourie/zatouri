@@ -1,0 +1,3 @@
+#summary Redmine - Eclipse
+
+http://kenjiru.ro/blog/2012/02/install-the-redmine-mylyn-connector-for-eclipse
