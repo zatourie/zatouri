@@ -1,6 +1,6 @@
 #summary Timeline
 
+<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="400" width="900" up_url="http://www.google.com/moderator/#15/e=1c1a0&t=1c1a0.40" up_sort="HOT" up_hl="en" />
+
 http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AsUkrSqWON2rdEk2V1A3Z2JyZTV6aWRIZ3EwU0x4RHc&font=Bevan-PotanoSans&maptype=TERRAIN&lang=ko&start_zoom_adjust=3&height=800
 
-
-<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="400" width="900" up_url="http://www.google.com/moderator/#15/e=1c1a0&t=1c1a0.40" up_sort="HOT" up_hl="en" />
