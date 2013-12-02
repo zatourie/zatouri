@@ -28,3 +28,6 @@ http://stand.spree.de/wiki_details_maven_archetypes
 http://www.vogella.com/articles/AndroidBuildMaven/article.html
 
 https://code.google.com/p/maven-android-plugin/wiki/GettingStarted
+
+
+mvn archetype:generate -DarchetypeArtifactId=android-quickstart -DarchetypeGroupId=de.akquinet.android.archetypes -DarchetypeVersion=1.0.11 -DgroupId=zatouri -DartifactId=Retro2013
