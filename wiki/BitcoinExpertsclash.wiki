@@ -139,11 +139,11 @@ Bitcoin enables micropayments - instead of ads, tiny fractions of a penny could 
 
 Crowdfunding doesn't need to be restricted to sites like Kickstarter, which have complex policies and fees - people can do it themselves.
 
-크라우드펀딩은 더이상 복잡한 정책들과 요금이 있는 킥스타터같은 싸이트에 국한될 필요가 없습니다. 그냥 스스로 할 수 있습니다. 
+크라우드펀딩은 더이상 복잡한 정책들과 요금이 있는 킥스타터같은 싸이트에 국한될 필요가 없습니다. 그냥 직접 하면 됩니다. 
 
 Even something as trivial as a child running a lemonade stand can now be made digital, because anyone with a smartphone can accept Bitcoin: No complicated merchant bank accounts are needed.
 
-레모네이드 가판대를 운영하는 아이까지도 스마트폰을 통해 비트코인을 받을 수 있습니다. 복잡한 기업계좌 같은건 필요없습니다. 
+레모네이드 가판대를 운영하는 아이까지도 스마트폰을 통해 비트코인을 지불수단으로 받을 수 있습니다. 복잡한 기업계좌 같은건 필요없습니다. 
 
 Bitcoin is barely five years old.
 
