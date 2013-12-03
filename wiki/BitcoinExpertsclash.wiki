@@ -45,56 +45,77 @@ BBC의 로리 쎌란존스는 비트코인이 어떻게 기능하는지 설명�
 
 Understanding exactly how the Bitcoin system works is only marginally easier than tracking down its mysterious creator - Satoshi Nakamoto, the pseudonym used by the author or authors of the 2008 research paper that sparked its existence.
 
-비트코인 시스템이 기능하는 방법을 정확하게 이해하는 것은 미스테리한 사토시 나카모토라는 가명으로 통하는 비트코인을 만든 개인 혹은 집단을 추적하는 것에 비하면 아주 약간 쉽다. (둘다 어렵다는 얘기죵)
-
+비트코인 시스템이 기능하는 방법을 정확하게 이해하는 것은 미스테리한 사토시 나카모토라는 가명으로 알려진, 비트코인을 만든 개인 혹은 집단을 추적하는 것에 비하면 아주 약간 쉽다. (둘다 어렵다는 얘기죵) 이 인물은 2008년에 한 논문(9장짜리)을 했는데 이것이 비트코인을 촉발시켰다.
 
 And, in truth, interest in Bitcoin arguably outweighs its role in the wider economy, with the possible exception of the way it has facilitated illegal trades on underground sites such as the Silk Road.
 
+사실, 비트코인에 대한 관심은 경제 전반에 미칠 영향력 때문이라기보다는 블랙마켓과 같은 지하경제에서 불법 거래 활성화할 수 있다는데 있다.
+
 But what makes it important is what it tells us about the role virtual currencies might play in the years to come.
+
+하지만 중요한 것은 비트코인이 앞으로 어떤 역할을 할 것이냐는데 있다. 
 
 On this point, however, there is a divide between those who think it is a fantasy destined for failure, and those who think it will underpin the future of finance.
 
+이 지점에서 실패할 환타지라는 의견과 금융거래의 미래라는 의견이 상충된다.
+
 The BBC invited a Bitcoin advocate and a sceptic to explain their views:
 
-Continue reading the main story
-“
-Start Quote
+BBC에서는 비트코인 대변인과 비트코인에 회의적인 인물을 초대하여 의견을 들어본다.
 
-Mike Hearn
-It's a new financial system, designed from scratch by the people, for the people”
 
 Mike Hearn, Bitcoin Core developer
+마이크 헤런, 비트코인 주 개발자
+
 Why does Bitcoin have value?
+왜 비트코인은 가치가 있나?
 
 Over the past few years, I must have been asked this hundreds of times.
+지난 몇년간, 그 질문을 수백번 들었음에 틀림없다.
 
 I first used Bitcoin in April 2009, just a few months after it was first released to the world. Back then, it had no value at all - there were no users and no trade, no exchanges and thus no exchange rate.
 
+내가 처음 비트코인을 사용한 것은 비트코인이 출시된지 몇개월 뒤인 2009년 4월이었다. 그때는 비트코인은 아무런 가치가 없었다. 사용하는 사람도 없었고, 거래도 없었다. 환전도, 환율도 없었다. (지금은 다 있단거죠)
+
 Now Bitcoin is reaching new heights thanks to a combination of speculation on future value and genuine, undeniable usefulness.
+
+지금 비트코인은 새로운 고지에 다가가고 있습니다. 이것은 미래가치로의 투자와 순수하게 거부할 수 없는 유용성의 결합덕분입니다.
 
 Think about it: Why can it take days or weeks for banks to send money around the world, when an email travels in seconds?
 
+생각해보세요. 왜 은행들은 세계 여기저기로 돈을 송금하는데 며칠 혹은 몇주가 걸릴까요? 이메일은 몇초만에 전송되는데요.
+
 Does the money travel by steamboat?
+
+돈이 증기선을 타고 가나보죠?
 
 Are they loading gold bars onto the side of a camel and sending it over the mountains of Mongolia?
 
+낙타 등에 금괴를 싣고 몽고의 산들을 넘나요?
+
 Of course not.
 
-Continue reading the main story
-Mike Hearn
+물론 아닙니다.
 
-Developed BitcoinJ - an implementation of the Bitcoin protocol in the Java programming language
-Believes Bitcoin, or another crypto-currency, could one day be used to allow machines with artificial intelligence to own themselves
-Plan 99 homepage
 The real answer is depressing - banking is a stagnant market running on long-obsolete infrastructure, which improves only when forced to by government.
+
+진실은 좀 우울합니다. 뱅킹은 오래전에 구식이되버린 하부구조에서 돌아가는 정체된 시장입니다. 정부가 강요할때만 개선되죠.
 
 Same day payments happened only after banks were dragged into the 19th century by the Office of Fair Trading. When Metro Bank opened in 2010, it received the first new UK banking licence issued in 150 years.
 
+당일 결제는 the Office of Fair Trading (UK정부조직이네요)가 은행들을 19세기로 끌고 들어갔을때 가능해졌구요. 2010년에 메트로 은행이 문을 열었을때 UK은행라이센스를 발급받았는데 그게 150년만에 새로 발급되는거였어요.
+
 Bitcoin has created a firestorm of excitement throughout the world because it's a new financial system, designed from scratch by the people, for the people.
+
+비트코인은 전세계적으로 신바람을 만들고 있습니다. 왜냐하면 그것이 대중에 의한, 대중을 위한 새로운 금융시스템이기 때문입니다.
 
 It's not only fast, cheap and easy. In Bitcoin, every participant has equal power.
 
+그것은 단지 빠르기만한게 아니에요. 싸기도 하고, 쉽습니다. 비트코인을 사용하면 모두가 동등한 힘을 가집니다.
+
 There are no bankers, because there are no banks.
+
+은행가도 없습니다. 은행이 없으니까요.
 
 Bitcoin on a mobile phone
 Bitcoins are stored in a virtual postbox called an "address", which is in turn stored in a "wallet"
