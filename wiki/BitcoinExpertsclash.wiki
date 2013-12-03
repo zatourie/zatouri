@@ -168,49 +168,67 @@ The Bitcoin experience accesses notions of stateless money, peer-to-peer exchang
 
 The origin story is clever and cute, and just hard enough to understand to induce a belief in the stability of the supply of the bitcoins, leading to a rush for them now, as opposed to later.
 
-아이디어는 매우 똑똑하고 예쁘고, 딱 비트코인이 안정적이라는 믿음을 가지고 달려들 정도까지만 어렵다. 
-
+아이디어는 매우 똑똑하고 예쁘고, 딱 비트코인이 안정적이라는 믿음을 가지고 달려들 정도까지만 어렵다. 나중엔 반대가 되겠지만 (as opposed to later 해석안됨;)
+ 
 Bitcoin's value is dependent entirely on what you, the buyer, are willing to pay for it. If there were no users, there wouldn't be any value.
 
-
+비트코인의 가치는 완전히 사용자가 그것에 돈을 지불할 의지가 있는가에 달려있다. 사용자가 없다면 아무런 가치가 없을 것이다. 
 
 Because it has no use value, only exchange value, Bitcoin can have literally any price, and so the market for Bitcoin is permanently in a bubble as a result.
 
+사용가치가 없고 교환가치만 있기 때문에, 비트코인은 말그대로 어떤 가격이라도 가질 수 있다. 그렇기 때문에 결과적으로 비트코인 마켓은 영구히 버블경제에 있을 수밖에 없다. (이건... 경제학을 쪼끔밖에 모르는 내가 들어도 이상한 말인데... 현재 통화가치가 실물가치를 떠난건 상식아닌가???)
+
 This bubble will form and burst many times, making and losing fortunes in the process.
+
+이 거품은 생성되고 꺼지기를 여러반 반복하게 될 것이다. 그 과정에서 많은 돈이 생기고 없어질 것이고.
 
 I'm Irish. I know exactly what crazy bubbles look like.
 
-Continue reading the main story
-Dr Stephen Kinsella
-
-Senior lecturer in economics at the University Of Limerick's Kemmy Business School
-Also writes a weekly column for the Irish Independent newspaper
-classes/papers/books/rants blog
-The Bitcoin phenomenon is the purest manifestation of what Charles McKay described in his 1841 book Extraordinary Popular Delusions and the Madness of Crowds.
+나는 아일랜드인이기 때문에 미친 거품경제가 어떤 것인지 매우 잘 안다.
 
 At the psychological level of the investor, there's no difference between bitcoins, tulips, railways, or the stock market bubbles of the 1920s, 1990s, or the mid 2000s.
 
+투자자의 심리적 상태에는 비트코인이든 튤립이건, 철도건 1920년, 90년 그리고 2000의 주식시장 거품이건 다를바 없다. 
+
 In this case a lot of people are deciding a string of electrons are worth something, as opposed to nothing, and they want to sell it to the next guy as soon as possible.
+
+비트코인의 경우엔 많은 사람들이 일렬의 전자들이 뭔가 가치가 있다고 결정하고 있다. 그들은 다음 사람에게 가능한 빨리 팔아버리려고 할 것이다. 
 
 As long as you pass your Bitcoins on to the next guy while extracting a profit, you'll be happy.
 
+당신의 비트코인을 다음 사람에게 넘기고 이윤을 얻는 동안 당신을 행복할 것이다. 
+
 There is always a greater fool. Right up until the moment there isn't one.
+
+항상 더 바보는 존재한다. 더이상 아무것도 남지않을때까지 줄을 선다. 
 
 Economically, Bitcoin is nothing special.
 
-Physical bitcoin
-Despite the media's fondness for photos of them, only a tiny number of trades are done using physical bitcoins
+경제적으로 비트코인은 특별할게 없다.
+
 It's a speculative asset people are buying primarily to flip onto someone else.
+
+그것은 기본적으로 다른 사람에게 더 비싸게 넘기기 위해 구매하는 투기자산이다. 
 
 The "money 2.0" stuff is just marketing, and has been tried before, in the US in the 1850s during the free banking period, for example.
 
+머니2.0과 같은 것은 그저 마케팅 용어일 뿐이다. 일례로, 미국에선 1850년대 자유뱅킹 기간(?) 동안 시도되었었다. 
+
 As I've said elsewhere, this time really isn't different, but you can tweet about it.
+
+나는 다른 곳에서도 얘기하는 것처럼 이번에도 다를게 없다. 하지만 당신은 그것에 대해 트윗할 수 있다. (먼소리여)
 
 The fact Bitcoin isn't regulated is a big plus for some.
 
+비트코인이 규제되지 않는다는 점은 몇몇에게는 큰 매력점이다. 
+
 As one Bitcoin promoter boasted to me recently- and he did this himself - you can move $1m worth of Bitcoin across a border on a Zip Drive and not be detected.
 
+한 비트코인 프로모터가 최근 나에게 자랑을 했는데 - 자기가 직접 했다고 - 당신은 백만불 가치의 비트코인을 집드라이브에 담아서 걸리지않고 국경을 넘을 수 있다. 
+
 The authorities won't allow this to last for long. Bitcoin's biggest boosters are also holding large amounts of the stuff, so beware, buyers.
+
+당국은 이를 오래두고보지 않을 것이다. 비트코인의 가장 큰 지지자들은 비트코인을 많이 보유하고 있으니, 주의하시라 사용자들.
 
 My colleague Karl Whelan has suggested Bitcoin may simply be competed out of existence by other services like LiteCoin, TerraCoin, and AllahCoin, or regulated by national and international governments if it becomes associated with largely criminal activity.
 
