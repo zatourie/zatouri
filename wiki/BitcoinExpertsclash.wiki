@@ -34,7 +34,7 @@ Members of the public buying at least a fraction of a bitcoin (the smallest unit
 
 If all of that makes it sounds like more of an asset than a real currency, then that's probably because it's a fair description.
 
-이 모든 것들이 비트코인이 통화가 아닌 자산으로 들리게 만든다면, 아마도 비트코인 자체가 자산의 특징을 가지고 있기 때문일 것이다.
+위 이야기들에서 비트코인이 실질 통화가 아닌 자산인 것처럼 들린다면, 아마도 비트코인 자체가 자산의 특징을 가지고 있기 때문일 것이다.
 
 The BBC's Rory Cellan-Jones explains how Bitcoin works
 Unlike "real-world" currencies, there is no central bank backing Bitcoin and anyone with a powerful enough computer can create one as part of a technique called "mining", which is used to process transactions.
@@ -45,7 +45,8 @@ BBC의 로리 쎌란존스는 비트코인이 어떻게 기능하는지 설명�
 
 Understanding exactly how the Bitcoin system works is only marginally easier than tracking down its mysterious creator - Satoshi Nakamoto, the pseudonym used by the author or authors of the 2008 research paper that sparked its existence.
 
-비트코인 시스템이 기능하는 
+비트코인 시스템이 기능하는 방법을 정확하게 이해하는 것은 미스테리한 사토시 나카모토라는 가명으로 통하는 비트코인을 만든 개인 혹은 집단을 추적하는 것에 비하면 아주 약간 쉽다. (둘다 어렵다는 얘기죵)
+
 
 And, in truth, interest in Bitcoin arguably outweighs its role in the wider economy, with the possible exception of the way it has facilitated illegal trades on underground sites such as the Silk Road.
 
