@@ -117,41 +117,62 @@ There are no bankers, because there are no banks.
 
 은행가도 없습니다. 은행이 없으니까요.
 
-Bitcoin on a mobile phone
-Bitcoins are stored in a virtual postbox called an "address", which is in turn stored in a "wallet"
 There are no banks because there is no need for them: People can control their own money.
+
+은행이 없습니다. 왜냐하면 필요가 없으니까요. 사람들은 자신들의 돈을 통제할 수 있습니다. 
 
 The rules of the system are enforced on everyone by each other. Not even the current software developers can tamper with it against the wishes of the users.
 
+비트코인 시스템의 룰은 모두에게 강제됩니다. 소프트웨어 개발자들이라고 하더라도 사용자의 의지를 거슬러 조작을 가할 수 없습니다.
+
 With better technology comes new features.
+
+새로운 기술과 함께 새로운 기능들이 생겨납니다.
 
 The web is powered by advertising because credit cards are too inefficient to pay for most content.
 
+웹은 광고의 힘을 얻었습니다. 왜냐하면 신용카드가 컨텐트를 사고파는데 너무 비효율적이었기 때문입니다. 
+
 Bitcoin enables micropayments - instead of ads, tiny fractions of a penny could flow from your browser directly to sites you visit, with no middleman fees making the scheme impractical.
+
+비트코인은 소액결제를 가능하도록 했습니다. 광고 대신에 1페니보다 더 작은 금액도 사용자의 브라우저에서 사용처로 지불할 수 있습니다. 비효율적으로 수수료를 떼는 사람들 없이 말입니다.
 
 Crowdfunding doesn't need to be restricted to sites like Kickstarter, which have complex policies and fees - people can do it themselves.
 
+크라우드펀딩은 더이상 복잡한 정책들과 요금이 있는 킥스타터같은 싸이트에 국한될 필요가 없습니다. 그냥 스스로 할 수 있습니다. 
+
 Even something as trivial as a child running a lemonade stand can now be made digital, because anyone with a smartphone can accept Bitcoin: No complicated merchant bank accounts are needed.
+
+레모네이드 가판대를 운영하는 아이까지도 스마트폰을 통해 비트코인을 받을 수 있습니다. 복잡한 기업계좌 같은건 필요없습니다. 
 
 Bitcoin is barely five years old.
 
+비트코인은 겨우 5살입니다.
+
 It has its problems - volatility, geekiness and an appeal to criminals come to mind. With your help the project can overcome these issues and change the world. Trade on!
 
-Continue reading the main story
-“
-Start Quote
+문제가 있습니다. 불안정하고, 오덕스럽고, 범죄자들에게 어필합니다. 사람들의 도움이 있어야 이 프로젝트는 이러한 문제점들을 극복하고 세상을 바꿀 수 있습니다. 비트코인을 사용해주세요.
 
-Dr Stephen Kinsella
-The 'money 2.0' stuff is just marketing, and has been tried before... this time really isn't different, but you can tweet about it”
 
 Dr Stephen Kinsella, University of Limerick
+
+스테판 킨셀라 박사, 라임릭 대학
+
 Bitcoin is a beautiful example of what the psychoanalyst David Tuckett calls a "fantastic object" - unreal but immensely attractive.
+
+비트코인은 심리분석학자인 데이비드 터켓이 얘기한 "환상적인 물건"에 딱 들어맞는 예입니다. 비현실적이지만 어마어마하게 매력적입니다. 
 
 The Bitcoin experience accesses notions of stateless money, peer-to-peer exchange, and of course, no regulation or financial intermediation.
 
+비트코인의 사용은 상태가 없는 돈, 상호교환, 그리고 물론 금융당국의 규제없음의 개념으로 생각해볼 수 있습니다. (이사람 말 이상하게 하네... 박사라 그런가)
+
 The origin story is clever and cute, and just hard enough to understand to induce a belief in the stability of the supply of the bitcoins, leading to a rush for them now, as opposed to later.
 
+아이디어는 매우 똑똑하고 예쁘고, 딱 비트코인이 안정적이라는 믿음을 가지고 달려들 정도까지만 어렵다. 
+
 Bitcoin's value is dependent entirely on what you, the buyer, are willing to pay for it. If there were no users, there wouldn't be any value.
+
+
 
 Because it has no use value, only exchange value, Bitcoin can have literally any price, and so the market for Bitcoin is permanently in a bubble as a result.
 
