@@ -15,3 +15,5 @@
  * 비트코인 커뮤니티 위키 : https://en.bitcoin.it/wiki/Main_Page
 
  * 비트코인 소개 슬라이드(한국어) : http://www.slideshare.net/talantyr/bitcoin-26559492?from_search=1
+
+ * 비트코인 BBC 최근기사 : http://www.bbc.co.uk/news/technology-25130261
