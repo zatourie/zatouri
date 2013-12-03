@@ -14,20 +14,38 @@ Every day, it seems, another service joins the Bitcoin revolution, accepting pay
 
 As its popularity has soared, so has its price. On Wednesday it breached the $1,000 (£614) mark on Japan's MtGox exchange for the first time. That's nearly five times the price it was at earlier in the month.
 
-
+인기가 올라가면서 가치도 치솟고 있다. 지난 수요일에 일본 MtGox 환전소에서 1비트코인당 1,000달러 (614파운드)까지 올라갔다. 이것은 이번달초 가격보다 거의 다섯배나 오른 것이다. 
 
 Several reasons have been given for the surge:
 
+이런 상승에는 몇가지 원인은 
+
 Speculators piling in after a Senate hearing into the innovation
+
+투자가들이 상원의원이 공청회를 개최한 이후 돈을 쏟아붓고 있다. (미국쪽 얘기인가요?)
+
 Chinese citizens turning to it as a way to shift their wealth out of the country
+
+중국인들이 비트코인을 자신의 부를 국외로 빼내는데 사용하고 있다. 
+
 Members of the public buying at least a fraction of a bitcoin (the smallest unit is 0.00000001) after hearing reports of others who did the same and then saw the value of their investment swell
+
+대중들이 약간의 비트코인을 사고는 재미를 봤다는 이야기를 접하고 적어도 약간의 비트코인을 구매하기 시작했다. 
+
 If all of that makes it sounds like more of an asset than a real currency, then that's probably because it's a fair description.
 
+이 모든 것들이 비트코인이 통화가 아닌 자산으로 들리게 만든다면, 아마도 비트코인 자체가 자산의 특징을 가지고 있기 때문일 것이다.
 
 The BBC's Rory Cellan-Jones explains how Bitcoin works
 Unlike "real-world" currencies, there is no central bank backing Bitcoin and anyone with a powerful enough computer can create one as part of a technique called "mining", which is used to process transactions.
 
+BBC의 로리 쎌란존스는 비트코인이 어떻게 기능하는지 설명한다.
+실제 통화들과 달리, 비트코인은 신뢰도를 보증하는 중앙은행이 없다. 충분히 강력한 컴퓨팅 환경만 있다면 누구든 "채굴"이라 불리는 테크닉을 이용해서 비트코인을 찍어낼 수 있다. "채굴"방식은 비트코인의 트랜잭션을 처리하는데 사용된다. 
+
+
 Understanding exactly how the Bitcoin system works is only marginally easier than tracking down its mysterious creator - Satoshi Nakamoto, the pseudonym used by the author or authors of the 2008 research paper that sparked its existence.
+
+비트코인 시스템이 기능하는 
 
 And, in truth, interest in Bitcoin arguably outweighs its role in the wider economy, with the possible exception of the way it has facilitated illegal trades on underground sites such as the Silk Road.
 
