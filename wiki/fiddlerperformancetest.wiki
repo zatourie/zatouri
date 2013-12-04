@@ -1,5 +1,11 @@
-#summary One-sentence summary of this page.
+#summary 휘둘러로 성능 테스트하기
 
+<wiki:video url="http://www.youtube.com/watch?v=LWPeVPRjl0o&feature=share&list=PLvmaC-XMqeBbw72l2G7FG7CntDTErjbHc&index=3">
 
+휘둘러로 HTTP Request/Response 통계를 볼 수 있다. 
 
-<wiki:gadget url="http://www.youtube.com/watch?v=LWPeVPRjl0o&feature=share&list=PLvmaC-XMqeBbw72l2G7FG7CntDTErjbHc&index=3">
+휘둘러로 느린 네트워크를 시뮬레이션 해볼 수 있다.
+
+휘둘러로 패킷 압축을 시뮬레이션 해볼 수 있다. 
+
+휘둘러로 캐싱 정보를 볼 수 있다. 
