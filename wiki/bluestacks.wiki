@@ -1,0 +1,3 @@
+#summary PC에서 앱실행하기
+
+http://www.bluestacks.com/
