@@ -1,4 +1,6 @@
 #summary 아파치 웹서버 웹로직 연결방법
+
+{{{
 아래 문장을 httpd.conf에 추가 한다.
 
 *mod_wl_ssl 은 SSL과 연동할 때 추가되는 옵션이다. 보통 mod_wl.so로한다.
@@ -56,6 +58,8 @@ ErrorPage http://myerrorpage1.mydomain.com
 StatPath true
 
 *************************************************************************
+}}}
+
 ----
 참고 
 
