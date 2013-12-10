@@ -47,26 +47,34 @@ http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/v2_article_large/public
 
 
 
-엔하위키
-http://mirror.enha.kr/wiki/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8
+ * 엔하위키
 
-비트코인 채굴 직접 도전해 봤어요
-http://www.bloter.net/archives/170547
+ http://mirror.enha.kr/wiki/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8
 
-lg경제연구원 기사
-http://www.lgeri.com/economy/finance/article.asp?grouping=01010300&seq=454
+ * 비트코인 채굴 직접 도전해 봤어요
 
-베일 속 비트코인 창시자
-http://www.bloter.net/archives/170595
+ http://www.bloter.net/archives/170547
 
-비트코인 채굴, 해답은 병렬 컴퓨팅
-http://www.bloter.net/archives/172010
+ * lg경제연구원 기사
 
-비트코인 1만원에서 100만원이 되기까지
-http://www.bloter.net/archives/171449
+ http://www.lgeri.com/economy/finance/article.asp?grouping=01010300&seq=454
 
-비트코인 경제학
-http://sungmooncho.com/2013/12/02/bitcoin/
+ * 베일 속 비트코인 창시자
 
-비트코인, 미국 헤게모니 노린다
-http://www.zdnet.co.kr/column/column_view.asp?artice_id=20131128172133
+ http://www.bloter.net/archives/170595
+
+ * 비트코인 채굴, 해답은 병렬 컴퓨팅
+
+ http://www.bloter.net/archives/172010
+
+ * 비트코인 1만원에서 100만원이 되기까지
+
+ http://www.bloter.net/archives/171449
+
+ * 비트코인 경제학
+
+ http://sungmooncho.com/2013/12/02/bitcoin/
+
+ * 비트코인, 미국 헤게모니 노린다
+
+ http://www.zdnet.co.kr/column/column_view.asp?artice_id=20131128172133
