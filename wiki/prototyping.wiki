@@ -12,3 +12,11 @@ http://www.designshifts.com/lovely/wp-content/uploads/2010/10/pencil.jpg
 http://www.infragistics.com/products/indigo-studio
 
 http://cdn.cutephp.com/i/2657/p_2657490.jpeg
+
+----
+
+참고
+
+http://mashable.com/2010/07/15/wireframing-tools/
+
+기사자체가 좀 오래되었는데 업데이트된 리스트가 필요함.
