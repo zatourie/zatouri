@@ -24,7 +24,7 @@ statsvn을 이용하여 SVN Repo에서 통계를 뽑아 html 화일로 추출할
 
 4. statsvn 실행
 
- java -jar /path/to/statsvn.jar /path/to/module/logfile.log /path/to/module
+ java -jar /path/to/statsvn.jar /path/to/module/logfile.log /path/to/module -charset utf-8
 
 ----
  
