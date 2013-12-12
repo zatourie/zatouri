@@ -1,0 +1,10 @@
+#summary 프로토타입핑 관련 툴
+
+ * Pencil : http://pencil.evolus.vn/
+
+http://www.designshifts.com/lovely/wp-content/uploads/2010/10/pencil.jpg
+
+
+ * Infragistics Indigo : http://www.infragistics.com/products/indigo-studio
+
+http://cdn.cutephp.com/i/2657/p_2657490.jpeg
