@@ -17,7 +17,9 @@ http://cdn.cutephp.com/i/2657/p_2657490.jpeg
 
 <wiki:video url="https://www.youtube.com/watch?v=UGUT2jsrGCg"/>
 
-=
+=Lucidchart Diagrams - Desktop=
+
+<wiki:video url="http://www.youtube.com/watch?v=xtDym9Iasbo"/>
 
 ----
 
