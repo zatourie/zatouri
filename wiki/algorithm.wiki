@@ -1,0 +1,7 @@
+#summary 알고리즘 트레이닝 싸이트들
+
+www.acmicpc.net (한글)
+www.dovelet.com (한글)
+http://algospot.com/ (영문)
+http://poj.org/ (영문)
+http://community.topcoder.com/tc (영문)
