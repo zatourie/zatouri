@@ -1,13 +1,3 @@
-#summary One-sentence summary of this page.
+#summary 알아두어야할 자바스크립트 프로젝트
 
-= Introduction =
 http://www.buggymind.com/m/533
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
