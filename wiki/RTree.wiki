@@ -3,3 +3,9 @@
 이차원 인덱스 검색을 위해서 R-Tree 알고리즘을 많이 쓴대요.
 
 http://en.wikipedia.org/wiki/R-tree
+
+A Dynamic  Index Structure for Spatial Searching (Antonn Guttmann, 1984)
+
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDEQFjAA&url=http%3A%2F%2Finfolab.usc.edu%2Fcsci587%2FFall2010%2Fpapers%2Frtree.pdf&ei=Dl3LUuSCHuOQigem3oHYDA&usg=AFQjCNGgDy6pNjjQwYjiUTbvU5V3OHLBHg&sig2=oUxSrg6YKhKxDQWPTesM5g&bvm=bv.58187178,d.aGc
+
+https://github.com/rweeks/util/blob/master/src/com/newbrightidea/util/RTree.java
