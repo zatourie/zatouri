@@ -1,3 +1,9 @@
-#summary 프로파일링 툴 YourKit
+#summary 뉴욕의 프로그래머에 나오는 툴들
 
+프로파일링 툴 YourKit
 http://www.yourkit.com/
+
+Ethereal
+http://www.ethereal.com
+
+OptimizeIt
