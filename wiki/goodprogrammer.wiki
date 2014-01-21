@@ -1,0 +1,3 @@
+#summary 좋은 프로그래머란?
+
+http://www.slideshare.net/devcatpublications/ndc2011-8253120
