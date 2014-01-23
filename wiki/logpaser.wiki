@@ -1,10 +1,20 @@
 #summary Log Parser
 
+http://www.win7dwnld.com/screenshot/Visual-LogParser.PNG
+
 =Article =
 
  * http://www.codinghorror.com/blog/2005/08/microsoft-logparser.html
 
  * http://www.symantec.com/connect/articles/forensic-log-parsing-microsofts-logparser
+
+=Video=
+
+<wiki:video url="http://www.youtube.com/watch?v=7QLziVqzl3w" />
+
+<wiki:video url="http://www.youtube.com/watch?v=Lu__bvlo-UI" />
+
+<wiki:video url="http://www.youtube.com/watch?v=H2C357mhLKE" />
 
 ----
 
@@ -15,3 +25,4 @@
 
 ==GUI Client==
  * http://visuallogparser.codeplex.com/
+
