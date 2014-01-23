@@ -1,0 +1,17 @@
+#summary Log Parser
+
+=Article =
+
+ * http://www.codinghorror.com/blog/2005/08/microsoft-logparser.html
+
+ * http://www.symantec.com/connect/articles/forensic-log-parsing-microsofts-logparser
+
+----
+
+=Download=
+
+==Engine==
+ * http://www.microsoft.com/en-us/download/confirmation.aspx?id=24659
+
+==GUI Client==
+ * http://visuallogparser.codeplex.com/
