@@ -18,3 +18,16 @@
 =구름IDE=
 
  * http://goorm.io/
+ * 아직 클로즈베타서비스 중으로 별도의 신청을 통해 아이디를 받아야함
+
+==
+
+ * https://code.google.com/p/zatouri/w/list
+
+----
+
+관련 아티클
+
+http://www.hongkiat.com/blog/cloud-ide-developers/
+
+13개의 클라우드 IDE를 잘 정리해놓았음
