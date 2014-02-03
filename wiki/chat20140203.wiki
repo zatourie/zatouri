@@ -1,0 +1,22 @@
+#summary 정훈댈과 잡담
+
+=오일러 프로젝트=
+
+http://projecteuler.net/
+http://euler.synap.co.kr/ (번역)
+
+
+=Yeoman=
+
+http://yeoman.io/
+http://javarouka.github.io/pt/yeoman/#/ (국문)
+
+<wiki:video url="http://www.youtube.com/watch?v=zBt2g9ekiug"/>
+
+=Grunt=
+
+http://gruntjs.com/
+
+=Sikuli Script=
+
+http://www.sikuli.org/productivity.html
