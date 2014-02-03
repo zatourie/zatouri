@@ -2,21 +2,33 @@
 
 =오일러 프로젝트=
 
+http://euler.synap.co.kr/images/euler_portrait.png
+
 http://projecteuler.net/
+
 http://euler.synap.co.kr/ (번역)
 
 
 =Yeoman=
 
+http://yeoman.io/assets/img/yeoman-logo.a053.png
+
 http://yeoman.io/
+
 http://javarouka.github.io/pt/yeoman/#/ (국문)
 
 <wiki:video url="http://www.youtube.com/watch?v=zBt2g9ekiug"/>
 
 =Grunt=
 
+http://www.building-blocks.com/wp-content/uploads/2013/10/grunt-logo.png
+
 http://gruntjs.com/
 
 =Sikuli Script=
 
 http://www.sikuli.org/productivity.html
+
+=개념넷=
+
+http://conceptnet5.media.mit.edu/
