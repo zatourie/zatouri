@@ -38,6 +38,21 @@ IsRunspacePushed : False
 Runspace         : System.Management.Automation.Runspaces.LocalRunspace
 }}}
 
+==Powershell 스크립트 실행하기==
+
+필요한 것
+
+실행정책 변경 (기본값: Restricted, 스크립트실행을 허용하지 않음)
+
+{{{
+PS C:\Users\Administrator\Desktop> Get-ExecutionPolicy
+Restricted
+PS C:\Users\Administrator\Desktop> Set-ExecutionPolicy RemoteSigned
+}}}
+
+참고
+
+http://technet.microsoft.com/en-us/library/ee176949.aspx
 
 ==서비스 리스트 보기==
 
