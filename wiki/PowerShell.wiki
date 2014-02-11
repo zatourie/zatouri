@@ -75,6 +75,11 @@ Restricted
 PS C:\Users\Administrator\Desktop> Set-ExecutionPolicy RemoteSigned
 }}}
 
+==큰 텍스트화일 비교==
+
+{{{
+PS C:\> compare-object (get-content one.txt) (get-content two.txt)
+}}}
 
 ----
 references
