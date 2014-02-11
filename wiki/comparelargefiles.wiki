@@ -1,3 +1,0 @@
-#summary 큰 텍스트 화일 두개 비교
-
-PS C:\> compare-object (get-content one.txt) (get-content two.txt) 
