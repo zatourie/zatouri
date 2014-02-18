@@ -1,11 +1,17 @@
 #summary 알고리즘 트레이닝 싸이트들
 
+==국문==
 
-http://code.google.com/codejam/contests.html (영문)
+http://www.acmicpc.net
 
-http://www.acmicpc.net (한글)
+http://codingdojo.kr/
 
-http://www.dovelet.com (한글)
+http://www.dovelet.com
+
+
+==영문==
+
+http://code.google.com/codejam/contests.html
 
 http://algospot.com/ (영문)
 
@@ -14,4 +20,3 @@ http://poj.org/ (영문)
 http://community.topcoder.com/tc (영문)
 
 http://www.spoj.com/ (영문)
-
