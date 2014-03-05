@@ -8,7 +8,15 @@
   ** JavaScript에서의 Object Literal의 이해
   ** Immutability 란?
  * 밑줄
-  ** 
+  ** The || operator can be used to fill in default values:
+{{{
+var middle = stooge["middle-name"] || "(none)";
+}}}
+  ** Attempting to retrieve values from undefined will throw a TypeError exception. This can be guarded against with the && operator:
+{{{
+flight.equipment.model //throw TypeError
+flight.equipment && flight.equipment.model //undefined
+}}}
 
 ----
 Reference
