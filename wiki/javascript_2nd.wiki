@@ -17,6 +17,7 @@ var middle = stooge["middle-name"] || "(none)";
 flight.equipment.model //throw TypeError
 flight.equipment && flight.equipment.model //undefined
 }}}
+  ** Objects are passed around by reference. They are never copied.
 
 ----
 Reference
