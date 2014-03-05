@@ -9,3 +9,10 @@
   ** Immutability 란?
  * 밑줄
   ** 
+
+----
+Reference
+
+Javascript Immutability
+
+http://stackoverflow.com/questions/16115512/understanding-javascript-immutable-variable
