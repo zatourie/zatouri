@@ -1,0 +1,5 @@
+#summary Covariance and contravariance
+
+http://en.wikipedia.org/wiki/Covariance_and_contravariance_%28computer_science%29
+
+부제: 공부할게 왜이리 많나요
