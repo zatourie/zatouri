@@ -1,4 +1,4 @@
-#summary Javascript 1st 세미나 Chapter 1, 2 Overview & Grammar
+#summary [정기세미나]Javascript 1st 세미나 Chapter 1, 2 Overview & Grammar
 
  * 일시 : 2014.2.26 (수) 11:00~12:00 / 개나리
  * 발제 : 정준
