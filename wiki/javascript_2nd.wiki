@@ -1,4 +1,4 @@
-#summary Javascript 2nd 스터디 Chapter 3. Object 첫부분
+#summary [정기세미나]Javascript 2nd 스터디 Chapter 3. Object 첫부분
 
  * 일시 : 2014.3.5 (수) 11:00~12:00 / 개나리
  * 발제 : dony
