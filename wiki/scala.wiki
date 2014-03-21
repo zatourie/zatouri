@@ -1,0 +1,6 @@
+#summary Programming in Scala, First Edition
+
+=Programming in Scala, First Edition=
+=by Martin Odersky, Lex Spoon, and Bill Venners=
+
+http://www.artima.com/pins1ed/
