@@ -1,4 +1,4 @@
-#summary Programming in Scala, First Edition
+#summary Scala Materials
 
 =Programming in Scala, First Edition=
 by Martin Odersky, Lex Spoon, and Bill Venners
