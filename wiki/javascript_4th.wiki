@@ -1,13 +1,13 @@
 #summary [정기세미나]Javascript 4th 스터디 Chapter 4. ?
 
-= Introduction =
+ * 일시 : 2014.3.19 (수) 11:00~12:00 / 개나리
+ * 발제 : 이정훈
+ * 교제 : Javascript : the good part
+ * 진도 : Chapter 4 ? 
+ * 내용
+  ** 
+ * 밑줄
 
-Add your content here.
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+----
+Reference
