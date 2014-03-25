@@ -6,5 +6,6 @@ by Martin Odersky, Lex Spoon, and Bill Venners
 http://www.artima.com/pins1ed/
 
 =Effective Scala=
+by Marius Eriksen, Twitter Inc.
 
 http://twitter.github.io/effectivescala/
