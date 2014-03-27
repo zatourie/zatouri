@@ -12,21 +12,21 @@ http://www.artima.com/pins1ed/
   * Chapter 1 A Scalable Language
     * Instead of providing all constructs you might ever need in one "perfectly complete" language, Scala puts the tools for building such constructs into your hands.
     * Scala lets you add new types that can be used as conveniently as built-in types.
-    * If we were forced to name just one aspect of Scala that helps scalability, though, we'd pick its combination of object-oriented and functional programming.
+    * If we were forced to name just one aspect of Scala that helps scalability, though, we'd pick its *combination of object-oriented and functional programming*.
     * Functional programming is guided by two main ideas.
-      * The first idea is that functions are first-class values.
-      * The second main idea of functional programming is that the operations of a program should map input values to output values rather than change data in place.
-    * Immutable data structure are one of the cornerstones of functional programming.
-    * Another way of stating this second idea of functional programming is that methods should not have any side effects.
+      * The first idea is that *functions are first-class values*.
+      * The second main idea of functional programming is that *the operations of a program should map input values to output values rather than change data in place* .
+    * *Immutable data structure* are one of the cornerstones of functional programming.
+    * Another way of stating this second idea of functional programming is that *methods should not have any side effects*.
     * Scala's syntax avoids some of the boilerplate that burdens Java programs.
-    * Scala's type inference is another factor that contributes to its conciseness.
-    * Edsger Dijkstra said, testing can only prove the presense of errors, never their absence.
-    * At the surface level, Scala adopts a large part of the syntax of Java and C#
-    * Scala also owes much to other languages. Its uniform object model was pioneered by Smalltalk and taken up subsequently by Ruby. 
-    * Its idea of universal nesting (almost every construct in Scala can be nested inside any other construct) is also present in Algol, Simula, and, more recently in Beta and gbeta.
-    * Its approach to functional programming is quite similar in spirit to the ML family of languages, which has SML, OCaml, and F# as prominent members.
-    * Many higher-order functions in Scala's standard library are also present in ML or Haskell.
-    * Scala's actor-based concurrency library was heavily inspired by Erlang.
+    * Scala's *type inference* is another factor that contributes to its conciseness.
+    * Edsger Dijkstra said, *testing can only prove the presense of errors, never their absence*.
+    * At the surface level, Scala adopts a large part of the syntax of *Java* and *C#*
+    * Scala also owes much to other languages. Its *uniform object model* was pioneered by *Smalltalk* and taken up subsequently by *Ruby*. 
+    * Its idea of *universal nesting* (almost every construct in Scala can be nested inside any other construct) is also present in *Algol*, *Simula*, and, more recently in *Beta* and *gbeta*.
+    * Its approach to *functional programming* is quite similar in spirit to the *ML* family of languages, which has *SML*, *OCaml*, and *F#* as prominent members.
+    * Many *higher-order functions* in Scala's standard library are also present in *ML* or *Haskell*.
+    * Scala's *actor-based concurrency library* was heavily inspired by *Erlang*.
     * We think you'll find it a rewarding intellectual experience that will expand your horizons and make you think differently about program design.
 
 =Effective Scala=
