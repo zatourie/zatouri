@@ -1,4 +1,4 @@
-#summary [정기세미나]Javascript 4th 스터디 Chapter 4. ?
+#summary [정기세미나]Javascript 4th 스터디 Chapter 4. Fucntion 앞부분
 
  * 일시 : 2014.3.19 (수) 11:00~12:00 / 개나리
  * 발제 : 이정훈
