@@ -1,1 +1,8 @@
 #summary [정기세미나]Javascript 5th 스터디 Chapter 4. Function p58~70
+
+ * 일시 : 2014.3.19 (수) 11:00~12:00 / 개나리
+ * 발제 : 이정훈
+ * 교제 : Javascript : the good part
+ * 진도 : Chapter 4 Funtion p58~70
+ * 내용
+ * 밑줄
