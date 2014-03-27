@@ -3,6 +3,8 @@
 =Programming in Scala, First Edition=
 by Martin Odersky, Lex Spoon, and Bill Venners
 
+스칼라의 창시자로부터 배우는 스칼라 (저자직강?)
+
 http://www.artima.com/pins1ed/
 
 =Effective Scala=
