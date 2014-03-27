@@ -1,0 +1,5 @@
+#summary JavaScript에서 new는 정말 해로운가
+
+jQuery 개발자 John Resig의 Simple "Class" Instantiation 을 읽어봅시다.
+ 
+http://ejohn.org/blog/simple-class-instantiation/
