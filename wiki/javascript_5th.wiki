@@ -4,5 +4,25 @@
  * 발제 : 김영
  * 교제 : Javascript : the good part
  * 진도 : Chapter 4 Funtion p58~70
- * 내용
+ * 내용 : 
+        - 예외처리:별거없음 . 자바와다르게 catch구문 여러게 못씀
+
+          - 재귀: 자바스크립트는. tail recursion 최적화가 안되니 
+                   stack over flow 조심해야함
+
+          - scope:block스코프X, function스코프를 가짐
+
+                   ex)
+                  function f1(){
+                       for(){
+                         var sum+=i;
+                       }
+                       alert(sum);
+                  }
+                 블록 스코프라면 alert에서 undefine(?) 이 뜰 테지만
+                    function스코프라 for문 block 밖에서도 조회가 가능하다.
+ 
+        - closer:function 스코프를 가진 변수를 function 밖에서도 접근이 
+                     가능하게 해 줌. 은닉성.인캡슐레이션에 이용됨
+                        
  * 밑줄
