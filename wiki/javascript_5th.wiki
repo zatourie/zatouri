@@ -26,13 +26,8 @@
                      가능하게 해 줌. 은닉성.인캡슐레이션에 이용됨
                         
  * 밑줄
-
- + 4.8. Recursion
-  - Recursive functions can be very effective in manipulating tree structures such as the browser's Document Object Model(DOM).
-  - Unfortunately, JavaScript does not currently provide tail recursion optimization. Functions that recurse very deeply can fail by exhausting the return stack.
-
- + 4.9. Scope
-  - JavaScript does have function scope.
-  - So, it is best to declare all of the variable used in a function at the top of the function body.
-
-                                                  edit by So Yoon
+  ** 소윤
+   *** Recursive functions can be very effective in manipulating tree structures such as the browser's Document Object Model(DOM).
+   *** Unfortunately, JavaScript does not currently provide tail recursion optimization. Functions that recurse very deeply can fail by exhausting the return stack.
+   *** JavaScript does have function scope.
+   *** So, it is best to declare all of the variable used in a function at the top of the function body.
