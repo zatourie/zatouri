@@ -15,10 +15,10 @@
 ex)
 {{{
 function f1(){
-    for(){
+    for(var i = 0 ; i < 3 ; i++){
         var sum+=i;
     }
-    alert(sum);
+    alert(sum); //3
 }
 }}}
     블록 스코프라면 alert에서 undefined가 뜰 테지만
