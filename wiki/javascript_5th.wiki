@@ -35,3 +35,10 @@ function f1(){
      * So, it is best to declare all of the variable used in a function at the top of the function body.
    * 민규
       * An inner function also enjoys access to the parameters and variables of the functions it is nested within. The function object created by a function literal contains a link to that outer context. This is called *closure*.
+
+----
+참조
+
+자바스크립트의 클로저 (JavaScript's Closure) http://blog.javarouka.me/2012/01/javascripts-closure.html
+
+클로저(Closure) 사용에는 주의가 필요합니다 http://blog.javarouka.me/2012/01/closure.html
