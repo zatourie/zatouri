@@ -11,7 +11,7 @@
   ** The prototype link is used only in retrieval. 
   ** If we try to retrieve a property value from an object, and if the object lacks the property name, then JavaScript attempts to retrieve the property value from the prototype object. And if that object is lacking the property, then it goes to its prototype, and so on until the process finally bottoms out with Object.prototype. If the desired property exists nowhere in the prototype chain, then the result is the undefined value. This is called *delegation*.
   ** Functions in JavaScript are objects. *Objects are collections of name/value pairs having a hidden link to a prototype object*.
-  ** An inner function also enjoys access to the parameters and variables of the functions it is nested within. The function object created by a function literal contains a link to that outer context. This is called *closure*.
+
 
 ----
 Reference
