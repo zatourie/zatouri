@@ -33,3 +33,5 @@ function f1(){
      * Unfortunately, JavaScript does not currently provide tail recursion optimization. Functions that recurse very deeply can fail by exhausting the return stack.
      * JavaScript does have function scope.
      * So, it is best to declare all of the variable used in a function at the top of the function body.
+   * 민규
+      * An inner function also enjoys access to the parameters and variables of the functions it is nested within. The function object created by a function literal contains a link to that outer context. This is called *closure*.
