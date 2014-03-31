@@ -1,0 +1,19 @@
+#summary [정기세미나]Javascript 6th 스터디 Chapter 4. Function p70~ 챕터끝
+
+ * 일시 : 2014.4.2 (수) 11:00~12:00 / 개나리
+ * 발제 : 심민규
+ * 교제 : Javascript : the good part
+ * 진도 : Chapter 4 Funtion 챕터 남은 부분
+ * 내용 :
+  * Callback
+  * Module
+  * Cascade
+  * Curry
+  * Memoization
+ * 밑줄
+
+----
+참조
+
+ * http://en.wikipedia.org/wiki/Currying
+
