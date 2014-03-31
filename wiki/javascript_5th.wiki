@@ -42,3 +42,6 @@ function f1(){
  * 자바스크립트의 클로저 (JavaScript's Closure) http://blog.javarouka.me/2012/01/javascripts-closure.html
 
  * 클로저(Closure) 사용에는 주의가 필요합니다 http://blog.javarouka.me/2012/01/closure.html
+
+ * Javascript try catch 구문
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
