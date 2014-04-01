@@ -17,3 +17,6 @@
 
  * http://en.wikipedia.org/wiki/Currying
 
+ * http://ryanmorr.com/understanding-scope-and-context-in-javascript/
+
+ * https://developers.google.com/chrome-developer-tools/docs/javascript-debugging
