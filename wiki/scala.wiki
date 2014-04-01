@@ -28,8 +28,22 @@ http://www.artima.com/pins1ed/
     * Many *higher-order functions* in Scala's standard library are also present in *ML* or *Haskell*.
     * Scala's *actor-based concurrency library* was heavily inspired by *Erlang*.
     * We think you'll find it a rewarding intellectual experience that will expand your horizons and make you think differently about program design.
+  * Chapter 2 : First Steps in Scala
+    * In fact, one of the main aims of this book is to help you become as comfortable with the functional style as you are with imperative style.
+    * One of the main characteristics of a functional language is that *functions are first class constructs*.
+  * Chapter 3 : Next Steps in Scala
+    * arrays in Scala are accessed by placing the index inside parentheses, not square brackets as in Java.
+    * One of the big ideas of the functional style of programming is that *methods should not have side effects*. A method's only act should be to compute and return a value. Some benefits gained when you take this approach are that methods become less entangled, and therefore more reliable and reusable. Another benefit (in a statically typed language) is that everything that goes into and out of a method is checked by a type checker, so logic errors are more likely to manifest themselves as type errors. *Applying this functional philosophy to the world of objects means making objects immutable*.
 
 =Effective Scala=
 by Marius Eriksen, Twitter Inc.
 
 http://twitter.github.io/effectivescala/
+
+----
+
+참조
+
+ * First-class function: http://en.wikipedia.org/wiki/First-class_function
+
+ this means the language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures.
