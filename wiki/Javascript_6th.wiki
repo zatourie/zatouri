@@ -3,7 +3,7 @@
  * 일시 : 2014.4.2 (수) 11:00~12:00 / 개나리
  * 발제 : 심민규
  * 교제 : Javascript : the good part
- * 진도 : Chapter 4 Funtion 챕터 남은 부분
+ * 진도 : Chapter 4 Function 챕터 남은 부분
  * 내용 :
   * Callback
   * Module
