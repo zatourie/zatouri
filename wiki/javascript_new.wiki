@@ -66,3 +66,27 @@ p5.set_name("World");
 console.log(p5.get_name()); //World
 
 }}}
+
+{{{
+/*Javascript Modular Pattern*/
+var Module = (function(){
+    var privateProperty = 'foo';
+    
+    function privateMethod(args){
+        // do something
+    }
+
+    return {
+
+        publicProperty: "",
+
+        publicMethod: function(args){
+            // do something
+        },
+
+        privilegedMethod: function(args){
+            privateMethod(args);
+        }
+    }
+})();
+}}}
