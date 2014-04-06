@@ -98,3 +98,5 @@ Text에서 특정한 포맷으로 되어있는 값을 검색/치환해야하는 
  * http://regex101.com/ : 정규표현식을 영어로 번역(?) 해준다. 
 
  * http://regexcrossword.com/ : 정규표현식 크로스워드 퍼즐
+
+ * http://blog.outsider.ne.kr/360 : 정규식에 대한 영문블로그 포스팅 번역글
