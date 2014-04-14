@@ -1,3 +1,20 @@
 #summary Web Application Stress Test with jMeter
 
+
 <wiki:video url="http://www.youtube.com/watch?v=dJw8sBk_wSo"/>
+
+----
+Reference
+
+http://stackoverflow.com/questions/9770078/how-to-enable-amf-sampler-type
+
+
+2012년까지 개발된 플러그인 : 이걸 써보자
+
+https://github.com/steeltomato/jmeter-amf
+
+https://github.com/steeltomato/jmeter-amf/wiki/User-guide
+
+2011년까지 개발된 플러그인
+
+https://code.google.com/p/jmeter-amfsampler/ 
