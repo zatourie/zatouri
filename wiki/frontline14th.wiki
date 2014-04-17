@@ -18,10 +18,10 @@ http://redmine.rubyforge.org/screenshots/rdm-gantt.png
 
 =설치순서=
 
- # Bitnami Redmine Stack 설치 (Redmine, MySQL, Web Server)
- # 메일서버 연동
- # 프로젝트 생성 및 SVN 연결
- # Redmine 백업 스크립트 걸기
+ # Bitnami Redmine Stack 설치 (Redmine, MySQL, Web Server) 
+ # 메일서버 연동 (optional)
+ # 프로젝트 생성 및 SVN 연결 (optional)
+ # Redmine 백업 스크립트 걸기 (optional)
 
 =설치 (동영상)=
 
