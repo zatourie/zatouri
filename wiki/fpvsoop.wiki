@@ -1,0 +1,3 @@
+#summary Function Programming vs OOP Design Pattern
+
+http://stackoverflow.com/questions/327955/does-functional-programming-replace-gof-design-patterns
