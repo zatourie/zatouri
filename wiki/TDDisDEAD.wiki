@@ -1,0 +1,3 @@
+#summary TDD is dead
+
+http://yisangwook.tumblr.com/post/83725422949/tdd-is-dead-long-live-testing
