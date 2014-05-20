@@ -1,0 +1,3 @@
+#summary JavaScript 스터디 12번째
+
+일시 : 5/21
