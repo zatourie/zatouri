@@ -8,3 +8,7 @@ http://yisangwook.tumblr.com/post/83725422949/tdd-is-dead-long-live-testing
 그래서 BDD란게 생겨났죠.
 
 http://en.wikipedia.org/wiki/Behavior-driven_development
+
+구루들이 한판 붙었습니다. 싸움구경만큼 재미진게 없죵;
+
+http://martinfowler.com/articles/is-tdd-dead/
