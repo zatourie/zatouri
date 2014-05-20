@@ -4,6 +4,6 @@
  * 발제 : 심민규
  * 주제 
   ** JavaScript : the good part 랩업(Wrap-up)
-  ** Next Topic?
+  ** 다음엔 무얼 공부할까요? (이론만 보기 지루하니 코드를 보고싶다는 의견이 있었습니다.)
    *** Node.js
    *** AngularJS
