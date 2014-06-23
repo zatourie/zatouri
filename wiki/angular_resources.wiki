@@ -12,4 +12,6 @@
   http://www.thinkster.io/
 
 * 오프라인 API 검색기
-  http://kapeli.com/dash
+  http://kapeli.com/dash (for Mac)
+
+  http://zealdocs.org/ (for Windows)
