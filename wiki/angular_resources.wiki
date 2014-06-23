@@ -1,13 +1,15 @@
-#summary One-sentence summary of this page.
+#summary AngularJS 학습자료
 
-= Introduction =
+* 믿고보는 코드스쿨
+  http://campus.codeschool.com/courses/shaping-up-with-angular-js
 
-Add your content here.
+* 공식API 웹싸이트
+  https://docs.angularjs.org/
 
+* 스크린캐스트 싸이트
+  https://egghead.io/
 
-= Details =
+  http://www.thinkster.io/
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+* 오프라인 API 검색기
+  http://kapeli.com/dash
