@@ -1,6 +1,30 @@
 #summary 주간식단
 
-이노베이션 주간식단이네요.
-요걸로 뭔가 만들 수 있겠는데요 :)
+Original Url : http://massmail.sk.com/menu/print.aspx?rcode=no1
 
-http://massmail.sk.com/menu/print.aspx?rcode=no1
+=Server Side API=
+
+Google App Engine, Python 사용예정
+
+이쁜 URL 하나 지어주셈. 
+
+일단은 http://jeehamenu.appspot.com/hq
+
+==Response json 예시==
+
+{{{
+[ { date : "2014년 6월 23일 월요일", breakfast : "아침", lunch : "점심", dinner: "저녁" }, { date : "2014년 6월 24일 화요일", breakfast : "", lunch : "", dinner: "" }, { date : "2014년 6월 25일 수요일", breakfast : "", lunch : "", dinner: "" }, { date : "2014년 6월 26일 목요일", breakfast : "", lunch : "", dinner: "" }, { date : "2014년 6월 26일 금요일", breakfast : "", lunch : "", dinner: "" } ]
+}}}
+
+==python html parser Beautifulsoup==
+
+http://www.crummy.com/software/BeautifulSoup/
+
+구글앱엔진에서 3rd party 라이브러리 사용법
+
+http://stackoverflow.com/questions/14850853/how-to-include-third-party-python-libraries-in-google-app-engine
+
+
+=Client Side=
+
+AngularJS와 Twitter Bootstrap을 이용한 웹페이지
