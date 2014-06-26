@@ -1,3 +1,7 @@
 #summary MS Office Open XML SDK
 
+MS가 Office 문서 SDK를 오픈소스화했네요.
+
 http://blogs.office.com/2014/06/25/open-xml-sdk-goes-open-source/
+
+http://blogs.msdn.com/b/brian_jones/archive/2010/06/22/writing-large-excel-files-with-the-open-xml-sdk.aspx
