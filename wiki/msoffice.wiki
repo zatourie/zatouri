@@ -1,0 +1,3 @@
+#summary MS Office Open XML SDK
+
+http://blogs.office.com/2014/06/25/open-xml-sdk-goes-open-source/
