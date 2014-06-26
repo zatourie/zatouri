@@ -27,4 +27,4 @@ http://stackoverflow.com/questions/14850853/how-to-include-third-party-python-li
 
 =Client Side=
 
-AngularJS와 Twitter Bootstrap을 이용한 웹페이지
+AngularJS와 Twitter Bootstrap을 이용한 웹페이지 (모바일로 접근 가능)
