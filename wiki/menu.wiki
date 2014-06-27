@@ -16,6 +16,57 @@ Google App Engine, Python 사용예정
 [ { date : "2014년 6월 23일 월요일", breakfast : "아침", lunch : "점심", dinner: "저녁" }, { date : "2014년 6월 24일 화요일", breakfast : "", lunch : "", dinner: "" }, { date : "2014년 6월 25일 수요일", breakfast : "", lunch : "", dinner: "" }, { date : "2014년 6월 26일 목요일", breakfast : "", lunch : "", dinner: "" }, { date : "2014년 6월 26일 금요일", breakfast : "", lunch : "", dinner: "" } ]
 }}}
 
+==Code==
+{{{
+#!/usr/bin/python
+# coding=utf-8
+# Python 2.7 - http://python.org/download/
+# BeautifulSoup - http://www.crummy.com/software/BeautifulSoup/#Download
+
+from bs4 import BeautifulSoup, UnicodeDammit
+import urllib2,re, datetime
+
+#Generate Regular Expression for Today
+today = datetime.date.today()
+regex = re.compile(str(today.year) + ".*?" + str(today.month) + ".*?" + str(today.day));
+
+#Get HTML
+baseURL = 'http://massmail.sk.com/menu/print.aspx?rcode=no1'
+html = urllib2.urlopen(baseURL).read()
+
+#Parse HTML using BeautifulSoup
+html = BeautifulSoup(html)
+
+#Find Today's row
+cell = html.find(text=regex)
+
+today_row = cell.parent.parent
+cells = today_row.find_all("td")
+
+#Get Breakfast
+breakfast =  cells[0]
+b_menus = breakfast.find_all("li")
+print b_menus[0].get_text()
+
+#Get Lunch
+lunch =  cells[1]
+l_menus = lunch.find_all("li")
+print l_menus
+
+#Get Dinner
+dinner = cells[2]
+d_menus = dinner.find_all("li")
+print d_menus
+
+#Generate JSON
+json = "{}";
+
+#Add Date
+
+#TODO: Need function which receives python array(list?) and return an array only texts without tags
+
+}}}
+
 ==python html parser Beautifulsoup==
 
 http://www.crummy.com/software/BeautifulSoup/
