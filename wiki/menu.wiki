@@ -24,7 +24,7 @@ Google App Engine, Python 사용예정
 # BeautifulSoup - http://www.crummy.com/software/BeautifulSoup/#Download
 
 from bs4 import BeautifulSoup, UnicodeDammit
-import urllib2,re, datetime
+import urllib2,re, datetime, json
 
 #Generate Regular Expression for Today
 today = datetime.date.today()
@@ -43,27 +43,37 @@ cell = html.find(text=regex)
 today_row = cell.parent.parent
 cells = today_row.find_all("td")
 
+b_menu_str = ""
+l_menu_str = ""
+d_menu_str = ""
+
 #Get Breakfast
 breakfast =  cells[0]
 b_menus = breakfast.find_all("li")
-print b_menus[0].get_text()
+for item in b_menus:
+    b_menu_str += item.get_text() + "</br>"
 
 #Get Lunch
 lunch =  cells[1]
 l_menus = lunch.find_all("li")
-print l_menus
+for item in l_menus:
+    l_menu_str += item.get_text() + "</br>"
 
 #Get Dinner
 dinner = cells[2]
 d_menus = dinner.find_all("li")
-print d_menus
+for item in d_menus:
+    d_menu_str += item.get_text() + "</br>"
 
 #Generate JSON
-json = "{}";
+json = """{
+    date : %s,
+	breakfast : %s,
+	lunch: %s,
+	dinner: %s
+}""" % (today, b_menu_str, l_menu_str, d_menu_str,)
 
-#Add Date
-
-#TODO: Need function which receives python array(list?) and return an array only texts without tags
+print json
 
 }}}
 
