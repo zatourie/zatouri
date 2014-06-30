@@ -8,7 +8,8 @@ Google App Engine, Python 사용예정
 
 이쁜 URL 하나 지어주셈. 
 
-일단은 http://jeehamenu.appspot.com/hq
+일단은 http://jeehamenu.appspot.com (일단 본사는 완성)
+
 
 ==Response json 예시==
 
