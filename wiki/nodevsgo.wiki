@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Node vs Go
 
 Node.js 의 메인 모듈 개발자 중 한명이 Go 진영으로 넘어가면서 Node.js의 미래에 대한 토론을 촉발시켰습니다. 
 
