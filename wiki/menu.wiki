@@ -10,6 +10,8 @@ Google App Engine, Python 사용예정
 
 일단은 http://jeehamenu.appspot.com (일단 본사는 완성)
 
+"데이터가 없습니다" 상황 처리 필요
+
 
 ==Response json 예시==
 
