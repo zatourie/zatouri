@@ -93,5 +93,6 @@ http://stackoverflow.com/questions/14850853/how-to-include-third-party-python-li
 
 AngularJS와 Twitter Bootstrap을 이용한 웹페이지 (모바일로 접근 가능)
 
-JSFiddle 이용 코딩
-http://jsfiddle.net/9ABk6/1/
+==JSFiddle 코딩==
+
+http://jsfiddle.net/9ABk6/2/
