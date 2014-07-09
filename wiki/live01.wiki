@@ -1,0 +1,26 @@
+#summary 라이브코딩#1
+
+=일시/장소=
+
+2014.7.9 (수) 11:00~13:00 / 종로제이알스터디
+
+=발제자=
+
+심민규
+
+=주제=
+
+간단한 예제로 보는 Native DOM, jQuery, AngularJS의 코딩 스타일 차이와 장단점.
+
+
+=Native DOM=
+
+ * http://jsfiddle.net/heartonbit/5V3FE/
+
+= jQuery =
+
+ * http://jsfiddle.net/heartonbit/7BE4b/
+
+= AngularJS = 
+
+ * http://jsfiddle.net/heartonbit/pg9Rq/
