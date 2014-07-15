@@ -1,0 +1,13 @@
+#summary 커밋로그를 읽어봅시다.
+
+=AngularJS=
+
+ * https://github.com/angular/angular.js/commits/master
+
+=Linux Kernel=
+
+ * http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/
+
+=Eclipse Platform=
+
+ * http://git.eclipse.org/c/platform/eclipse.platform.common.git/log/
