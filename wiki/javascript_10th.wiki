@@ -1,3 +1,3 @@
-#summary JavaScript 스터디 10번째
+#summary 2014.5.8 JavaScript 스터디 10번째
 
 5/8
