@@ -22,4 +22,7 @@ http://www.juso.go.kr/notice/OpenArchivesList.do?noticeKd=26&type=matching
 http://www.epost.go.kr/search/zipcode/newAddressDown.jsp
 
 Daum 우편번호 찾기 API 
+
+http://blog.daum.net/daummaps/565
+
 http://postcode.map.daum.net/guide
