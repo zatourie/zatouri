@@ -1,3 +1,4 @@
-#summary JavaScript 스터디 11번째
+#summary 2014.5.14 JavaScript 스터디 11번째
 
-5/14 (수) : 정훈 대리님
+일자 : 5/14 (수) 
+발제 : 이정훈
