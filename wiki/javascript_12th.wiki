@@ -1,4 +1,4 @@
-#summary JavaScript 스터디 12번째
+#summary 2014.5.21 JavaScript 스터디 12번째
 
  * 일시 : 5/21 (수) 11:00 / 개나리
  * 발제 : 심민규
