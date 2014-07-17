@@ -11,3 +11,7 @@
 =Eclipse Platform=
 
  * http://git.eclipse.org/c/platform/eclipse.platform.common.git/log/
+
+=Dropbeat=
+
+ * https://github.com/daftshady/dropbeat/commits/master
