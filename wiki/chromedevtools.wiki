@@ -5,7 +5,7 @@
 
 5.4. Web page optimization
 
-Google Pagespeed extension
+Google Pagespeed insight extension
 
 6.1 Rendering Performance
 
