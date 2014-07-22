@@ -7,6 +7,8 @@
 
 Google Pagespeed insight extension
 
+http://www.ipserverone.info/wp-content/uploads/2012/10/ips1-kb-site-performance-003.png
+
 6.1 Rendering Performance
 
 Timeline > Frames
