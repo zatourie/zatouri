@@ -1,0 +1,16 @@
+#summary Chrome Dev Tools
+
+
+정리중입니다. 
+
+5.4. Web page optimization
+
+Google Pagespeed extension
+
+6.1 Rendering Performance
+
+Timeline > Frames
+
+CPU
+
+7. MEMORY
