@@ -5,6 +5,22 @@
 참고에 있는 글을 참고하여 Cloud IDE인 Cloud9과 Git를 이용하여 Google App Engine에 App을 배포하는 프로젝트를 만들어봅니다.
 
 
+ # Github에 Repo 만들기
+ # Cloud9에 New project 만들기
+ # Google App Engine에 new project 만들기
+ # Cloud9에 Github 연결
+ # Google App Engine에 Github 연결
+ # Cloud9에서 개발하고 push 하면 deploy 됨.
+
+
+https://github.com/zatourie/appengine-guestbook-python
+
+https://ide.c9.io/zatourie/appengine-guestbook-python
+
+https://console.developers.google.com/project/apps~fluid-catfish-656
+
+http://fluid-catfish-656.appspot.com/
+
 
 ----
 
