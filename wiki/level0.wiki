@@ -1,0 +1,13 @@
+#summary 7/29(수) 스터디:Cloud9+Git+Google App Engine
+
+발제 : 심민규
+
+참고에 있는 글을 참고하여 Cloud IDE인 Cloud9과 Git를 이용하여 Google App Engine에 App을 배포하는 프로젝트를 만들어봅니다.
+
+
+
+----
+
+참고
+
+https://c9.io/site/blog/2013/07/deploy-to-google-app-engine-with-cloud9-and-git/#sthash.gaNxi98n.dpbs
