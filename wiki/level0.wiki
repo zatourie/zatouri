@@ -39,16 +39,16 @@ DVCS (분산형상관리시스템, Distributed version control system). Local re
 
 
 ==Github Project==
-https://github.com/zatourie/appengine-guestbook-python
+ https://github.com/zatourie/appengine-guestbook-python
 
 ==Cloud9 Project==
-https://ide.c9.io/zatourie/appengine-guestbook-python
+ https://ide.c9.io/zatourie/appengine-guestbook-python
 
 ==Google App Engine Project==
-https://console.developers.google.com/project/apps~fluid-catfish-656
+ https://console.developers.google.com/project/apps~fluid-catfish-656
 
 ==GAE Service URL==
-http://fluid-catfish-656.appspot.com/
+ http://fluid-catfish-656.appspot.com/
 
 
 ----
