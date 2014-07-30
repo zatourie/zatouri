@@ -19,7 +19,7 @@ DVCS (분산형상관리시스템, Distributed version control system). Local re
 
 =Cloud9=
 
-Cloud IDE. 웹브라우저로 구현된 개발환경. 
+일명 Cloud IDE 중 하나. 웹싸이트로 구현된 개발환경으로 웹브라우저에서 개발 가능. 
 
 =순서=
 
