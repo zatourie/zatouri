@@ -26,4 +26,10 @@ http://fluid-catfish-656.appspot.com/
 
 참고
 
+Cloud9 + Git + Google App Engine
+
 https://c9.io/site/blog/2013/07/deploy-to-google-app-engine-with-cloud9-and-git/#sthash.gaNxi98n.dpbs
+
+90% of Python in 90 Minutes
+
+http://www.slideshare.net/MattHarrison4/learn-90
