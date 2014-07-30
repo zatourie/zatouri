@@ -1,9 +1,27 @@
 #summary 7/29(수) 스터디:Cloud9+Git+Google App Engine
 
+http://upload.wikimedia.org/wikipedia/commons/5/5f/Cloud9IDE.png
+
 발제 : 심민규
+일시/장소: 2014.7.30 (수) / 장미
+
+=내용=
 
 참고에 있는 글을 참고하여 Cloud IDE인 Cloud9과 Git를 이용하여 Google App Engine에 App을 배포하는 프로젝트를 만들어봅니다.
 
+=Git란=
+
+DVCS (분산형상관리시스템, Distributed version control system). Local repo로 commit하고, remote repo로 push하는 방식. 브랜칭과 머징이 굉장히 빠르다.
+
+=Google App Engine=
+
+구글이 서비스하고 있는 코드실행 서비스. 자바, 파이선 등의 언어로 코딩한 후 GAE에 올리면 웹으로 서비스할 수 있다.
+
+=Cloud9=
+
+Cloud IDE. 웹브라우저로 구현된 개발환경. 
+
+=순서=
 
  # Github에 Repo 만들기
  # Cloud9에 New project 만들기
