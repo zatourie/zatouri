@@ -21,7 +21,7 @@ DVCS (분산형상관리시스템, Distributed version control system). Local re
 
 일명 Cloud IDE 중 하나. 웹싸이트로 구현된 개발환경으로 웹브라우저에서 개발 가능. 
 
-=시나리오=
+=개발라이프사이클=
 
  # Cloud9에서 코딩 및 Github로 push
  # Github로 push된 소스코드를 GAE로 배포
