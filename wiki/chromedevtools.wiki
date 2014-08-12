@@ -3,6 +3,18 @@
 
 정리중입니다. 
 
+=Chrome Devtools for=
+
+ * Javascript Debugger
+ * CSS Debugger
+ * Website Optimizer
+
+=1.1 Dom Manipulation=
+
+ # How to open Devtools
+ # How to select an element
+ # Manipulate DOM in runtime
+
 5.4. Web page optimization
 
 Google Pagespeed insight extension
