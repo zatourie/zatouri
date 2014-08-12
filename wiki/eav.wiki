@@ -3,7 +3,9 @@
 
 =EAV란?=
 
+=장점=
 
+=단점=
 
 
 ----
@@ -11,3 +13,5 @@
 http://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model
 
 http://weblogs.sqlteam.com/davidm/articles/12117.aspx
+
+https://bitnami.com/stack/magento
