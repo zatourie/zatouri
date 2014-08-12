@@ -15,16 +15,83 @@
  # How to select an element
  # Manipulate DOM in runtime
 
-5.4. Web page optimization
+=1.2 Updating Styles=
 
-Google Pagespeed insight extension
+ # Read CSS panel
+ # Manipulate CSS in runtime
+ # pseudo class
+ # Color swatch
+
+=2.1 Editing in the Source Tab=
+
+ # Source Panel : revision, save and save as
+
+=3.1 Working With the Console=
+
+ # Console
+ # console.assert(true)
+
+=3.2 Examining Exceptions=
+
+ # undefined
+
+=3.3 Element Selector Shortcuts=
+
+ # jQuery-ish Selector
+ # inspect
+ # bling bling history
+
+
+=4.1 Debugging JavaScript=
+
+ # Debugging in runtime
+
+=4.2 Pause on Exceptions=
+
+ # Visual Studio Style : pause on break points
+ # Pause on uncaught exceptions
+
+=4.3 Local Storage=
+
+ # view inside of a local storage
+ 
+=5.1 The Network Tab=
+
+ # where is the bottleneck?
+ # disable cache : new incognito mode or Disable cache (while DevTools is open)
+ # let's read a timeline
+
+=5.2 Network Performance=
+
+ # PageSpeed Insight (Chrome extension)
+ # Download closure tools or do it online http://closure-compiler.appspot.com
+
+=5.3 Removing Unneeded Requests=
+
+ # Remove 
+ # css before javascript with async keyword
+
+=5.4 Serving Correctly Sized Images=
+
+=6.1 Rendering Performance=
+
+ # Frames view and Profiler
+ # scripting, rendering and painting
+ # yellow is javascript
+
+=6.2 CPU Profiling=
+
+ # collect CPU profiles
+
+=7.1 Memory Profiling=
+
+ # find leaks
+
+=7.2 Pinpointing leaks=
+
+ # take heap snapshots and compare them
+
+
+----
 
 http://www.ipserverone.info/wp-content/uploads/2012/10/ips1-kb-site-performance-003.png
-
-6.1 Rendering Performance
-
-Timeline > Frames
-
-CPU
-
-7. MEMORY
