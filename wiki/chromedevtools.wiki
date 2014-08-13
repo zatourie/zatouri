@@ -68,6 +68,8 @@
  # PageSpeed Insight (Chrome extension)
  # Download closure tools or do it online http://closure-compiler.appspot.com
 
+--->>>> 여기까지 진행했습니다. 
+
 ==5.3 Removing Unneeded Requests==
 
  # Remove 
