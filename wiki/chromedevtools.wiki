@@ -11,7 +11,7 @@
  * CSS Debugger
  * Website Optimizer
 
-==1.1 Dom Manipulation==
+==1.1 DOM Manipulation==
 
  # How to open Devtools
  # How to select an element
