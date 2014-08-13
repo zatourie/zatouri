@@ -1,98 +1,101 @@
-#summary Chrome Dev Tools
+#summary Chrome Dev Tools 소개
 
 발제 : 심민규
+
 일시 : 2014.8.13 (수) 11:00 ~ 12:00
 
 
-=Chrome Devtools for=
+=Google Chrome Devtools AS=
 
  * Javascript Debugger
  * CSS Debugger
  * Website Optimizer
 
-=1.1 Dom Manipulation=
+==1.1 Dom Manipulation==
 
  # How to open Devtools
  # How to select an element
  # Manipulate DOM in runtime
 
-=1.2 Updating Styles=
+==1.2 Updating Styles==
 
  # Read CSS panel
  # Manipulate CSS in runtime
  # pseudo class
  # Color swatch
 
-=2.1 Editing in the Source Tab=
+==2.1 Editing in the Source Tab==
 
  # Source Panel : revision, save and save as
 
-=3.1 Working With the Console=
+==3.1 Working With the Console==
 
  # Console
  # console.assert(true)
 
-=3.2 Examining Exceptions=
+==3.2 Examining Exceptions==
 
  # undefined
 
-=3.3 Element Selector Shortcuts=
+==3.3 Element Selector Shortcuts==
 
  # jQuery-ish Selector
  # inspect
  # bling bling history
 
 
-=4.1 Debugging JavaScript=
+==4.1 Debugging JavaScript==
 
  # Debugging in runtime
 
-=4.2 Pause on Exceptions=
+==4.2 Pause on Exceptions==
 
  # Visual Studio Style : pause on break points
  # Pause on uncaught exceptions
 
-=4.3 Local Storage=
+==4.3 Local Storage==
 
  # view inside of a local storage
  
-=5.1 The Network Tab=
+==5.1 The Network Tab==
 
  # where is the bottleneck?
  # disable cache : new incognito mode or Disable cache (while DevTools is open)
  # let's read a timeline
 
-=5.2 Network Performance=
+==5.2 Network Performance==
 
  # PageSpeed Insight (Chrome extension)
  # Download closure tools or do it online http://closure-compiler.appspot.com
 
-=5.3 Removing Unneeded Requests=
+==5.3 Removing Unneeded Requests==
 
  # Remove 
  # css before javascript with async keyword
 
-=5.4 Serving Correctly Sized Images=
+==5.4 Serving Correctly Sized Images==
 
-=6.1 Rendering Performance=
+==6.1 Rendering Performance==
 
  # Frames view and Profiler
  # scripting, rendering and painting
  # yellow is javascript
 
-=6.2 CPU Profiling=
+==6.2 CPU Profiling==
 
  # collect CPU profiles
 
-=7.1 Memory Profiling=
+==7.1 Memory Profiling==
 
  # find leaks
 
-=7.2 Pinpointing leaks=
+==7.2 Pinpointing leaks==
 
  # take heap snapshots and compare them
 
 
 ----
+
+https://www.codeschool.com/courses/discover-devtools
 
 http://www.ipserverone.info/wp-content/uploads/2012/10/ips1-kb-site-performance-003.png
