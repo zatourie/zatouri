@@ -9,6 +9,7 @@ Within the type system of a programming language, a typing rule or a type constr
  * covariant if it preserves the ordering, ≤, of types, which orders types from more    specific to more generic;
 
  * contravariant if it reverses this ordering;
-bivariant if both of these apply;
+
+ * bivariant if both of these apply;
 
  * invariant or nonvariant if neither of these applies.
