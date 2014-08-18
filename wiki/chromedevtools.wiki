@@ -1,4 +1,4 @@
-#summary Chrome Dev Tools 소개
+#summary 8/13(수) Chrome Dev Tools 소개
 
 발제 : 심민규
 
