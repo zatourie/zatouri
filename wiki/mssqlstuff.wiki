@@ -1,6 +1,10 @@
 #summary MS SQL SERVER Stuff
 #labels mssql
 
-Querying Microsoft SQL Server 2012 Databases: (01) Introducing SQL Server 2012
+=Querying Microsoft SQL Server 2012 Databases: (01) Introducing SQL Server 2012=
 
 http://channel9.msdn.com/Series/Querying-SQL-Server-2012/01
+
+=Administering Microsoft SQL Server 2012=
+
+http://channel9.msdn.com/Series/Admin-SQL-Server-2012
