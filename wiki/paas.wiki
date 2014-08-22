@@ -1,4 +1,5 @@
 #summary Platform as a service
+#labels TechTrend
 
 =PaaS:Platform as a Service=
 
