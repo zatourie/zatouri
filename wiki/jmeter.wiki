@@ -3,6 +3,8 @@
 
 <wiki:video url="http://www.youtube.com/watch?v=dJw8sBk_wSo"/>
 
+jMeter에서 Flash의 amf 프로토콜을 사용하여 스트레스 테스트를 해보려했는데 삽질하다 실패.
+
 ----
 Reference
 
