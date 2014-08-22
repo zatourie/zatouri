@@ -1,4 +1,5 @@
 #summary The Expert:Drawing red lines with a blue ink
 #labels funstuff
 
-http://youtu.be/BKorP55Aqvg
+
+<wiki:video url="http://www.youtube.com/watch?v=BKorP55Aqvg&feature=youtu.be">
