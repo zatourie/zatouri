@@ -8,11 +8,11 @@
 
 ===서비스 타입(사용자 계정/패스워드)에 따른 서비스 접속 범위===
 
- * Core Advisor : Hype Cycle, Magic Quadrants 등 IT 기술 관련 정보(khyunsic@skcc.com/skcc2010)
+ * Core Advisor : Hype Cycle, Magic Quadrants 등 IT 기술 관련 정보
 
- * Gartner for Product Management & Marketing : Forecast, Market Trends, Dataquest 및 SWOT Analysis 등 시장 관련 정보(esoh@skcc.com/skcc2009)
+ * Gartner for Product Management & Marketing : Forecast, Market Trends, Dataquest 및 SWOT Analysis 등 시장 관련 정보(
 
- * CIO Essential : Executive Programs, Diagnostic Toolkits 등 CIO 및 임원을 위한 정보 (yyoo2/sk559150950)
+ * CIO Essential : Executive Programs, Diagnostic Toolkits 등 CIO 및 임원을 위한 정보 
 
  
 
