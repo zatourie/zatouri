@@ -1,4 +1,5 @@
 #summary An AngularJS Style Guide for Closure Users at Google
+#labels Javascript,Angular
 
 An AngularJS Style Guide for Closure Users at Google
 
