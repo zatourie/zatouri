@@ -1,4 +1,5 @@
 #summary 8/13(수) Chrome Dev Tools 소개
+#labels Tool
 
 발제 : 심민규
 
