@@ -1,4 +1,5 @@
 #summary SVN백업 7일만 남기기
+#labels Tip
 
 {{{
 
