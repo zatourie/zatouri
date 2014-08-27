@@ -102,3 +102,5 @@
 https://www.codeschool.com/courses/discover-devtools
 
 http://www.ipserverone.info/wp-content/uploads/2012/10/ips1-kb-site-performance-003.png
+
+https://developers.google.com/speed/articles/
