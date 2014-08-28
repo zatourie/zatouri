@@ -1,0 +1,5 @@
+#summary Focus Event Problem
+
+"A few events, most motably focus, blur, and change, do not bubble up the document tree. The exact reasons for this have been lost in the mist of history, but part of the cause is that these events just don't make sense on some elements. The user cannot focus on or change a random paragraph in any way, and therefore these events are just not available on these HTML elements. In addition, they do not bubble up."
+
+http://www.quirksmode.org/blog/archives/2008/04/delegating_the.html
