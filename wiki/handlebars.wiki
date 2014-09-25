@@ -1,0 +1,5 @@
+#summary Handlebars.js
+
+http://docs.codenvy.com/wp-content/uploads/handlebars-logo.png
+
+http://handlebarsjs.com/
