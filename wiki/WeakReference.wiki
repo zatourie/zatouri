@@ -1,0 +1,3 @@
+#summary 약한 참조(Weak Reference)
+
+http://www.pawlan.com/monica/articles/refobjs/
