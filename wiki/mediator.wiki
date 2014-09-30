@@ -1,0 +1,5 @@
+#summary Mark and Sweep 가비지 컬렉션과 함수 기반 Mediator 패턴
+
+공부해서 정리해주실분?
+
+http://justhackem.wordpress.com/2014/09/29/mark-and-sweep-garbage-collection-and-function-based-mediator-pattern-i/
