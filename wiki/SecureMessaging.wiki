@@ -26,3 +26,4 @@
 
  * Bitmessage : https://bitmessage.org/wiki/Main_Page
 
+ * TorChat : https://github.com/prof7bit/TorChat
