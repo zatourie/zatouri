@@ -186,7 +186,11 @@ Dirty Read 혹은 Read Uncommitted
 특히, 날짜 계산 같은 것.
 
 {{{
-DATENAME 
+SELECT LEFT(CONVERT(CHAR(8), getdate(), 112),4) -- output : 2014
+
+SELECT DATENAME(year, GETDATE()) -- output : 2014
+
+SELECT YEAR(GETDATE()) -- output : 2014
 }}}
 
 11. Filtered Index (SQL Server 2008 + )
@@ -198,4 +202,3 @@ CREATE NONCLUSTERED INDEX FIBillOfMaterialsWithEndDate
     ON Production.BillOfMaterials (ComponentID, StartDate)
     WHERE EndDate IS NOT NULL ;
 }}}
-
