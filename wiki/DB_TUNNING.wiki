@@ -203,3 +203,7 @@ CREATE NONCLUSTERED INDEX FIBillOfMaterialsWithEndDate
     ON Production.BillOfMaterials (ComponentID, StartDate)
     WHERE EndDate IS NOT NULL ;
 }}}
+
+12. INDEX INCLUDE
+
+https://code.google.com/p/zatouri/wiki/mssqlindexinclude
