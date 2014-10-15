@@ -15,3 +15,7 @@ http://rubyinstaller.org/
 ==Rails==
 
 {{{gem install rails}}}
+
+==GUI Library for Ruby==
+
+http://en.wikibooks.org/wiki/Ruby_Programming/GUI_Toolkit_Modules
