@@ -1,17 +1,17 @@
 #summary Ruby IDE
 
-Aptana Studio 3
+==Aptana Studio 3==
 
 http://www.aptana.com/downloads/start
 
-Git
+==Git==
 
 http://msysgit.github.io/
 
-Ruby
+==Ruby==
 
 http://rubyinstaller.org/
 
-Rails
+==Rails==
 
 {{{gem install rails}}}
