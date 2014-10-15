@@ -204,6 +204,10 @@ CREATE NONCLUSTERED INDEX FIBillOfMaterialsWithEndDate
     WHERE EndDate IS NOT NULL ;
 }}}
 
-12. INDEX INCLUDE
+12. nonkey (or include) columns
 
 https://code.google.com/p/zatouri/wiki/mssqlindexinclude
+
+{{{SQL Server 2005 provided a new feature for nonclustered indexes, the ability to include additional, non-key columns in the leaf level of the nonclustered indexes. These columns are technically not part of the index, however they are included in the leaf node of the index. SQL Server 2005 and SQL Server 2008 allow up to 1023 columns to be included in the leaf node.}}}
+
+https://www.simple-talk.com/sql/learn-sql-server/using-covering-indexes-to-improve-query-performance/
