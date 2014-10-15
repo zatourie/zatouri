@@ -1,0 +1,17 @@
+#summary Ruby IDE
+
+Aptana Studio 3
+
+http://www.aptana.com/downloads/start
+
+Git
+
+http://msysgit.github.io/
+
+Ruby
+
+http://rubyinstaller.org/
+
+Rails
+
+ gem install rails
