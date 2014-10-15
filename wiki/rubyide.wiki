@@ -14,4 +14,4 @@ http://rubyinstaller.org/
 
 Rails
 
- gem install rails
+{{{gem install rails}}}
