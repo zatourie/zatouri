@@ -164,3 +164,38 @@ ORDER BY deqs.total_worker_time DESC ;
 3. 쿼리 플랜 보기
 
 <wiki:video url="http://www.youtube.com/watch?v=LXyxDvznVaY"/>
+
+4. SQL Server Management Studio 2012 Column Mode
+
+쿼리 에디트 창에서 Alt키를 누르고 마우스 Drag 
+
+5. CROSS APPLY 
+
+6. WITH (NOLOCK) Hint
+
+Dirty Read 혹은 Read Uncommitted 
+
+7. Common Table Expression
+
+8. View with schemabinding
+
+9. Temp table vs. Table variable
+
+10. Prefer System function to user defined function
+
+특히, 날짜 계산 같은 것.
+
+{{{
+DATENAME 
+}}}
+
+11. Filtered Index (SQL Server 2008 + )
+
+특정 데이터에만 인덱스를 걸어서 인덱스 테이블 크기를 줄이는 기법
+
+{{{
+CREATE NONCLUSTERED INDEX FIBillOfMaterialsWithEndDate
+    ON Production.BillOfMaterials (ComponentID, StartDate)
+    WHERE EndDate IS NOT NULL ;
+}}}
+
