@@ -29,6 +29,8 @@ https://zmap.io/sslv3/browsers.html
 취약점
 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566
 
+http://googleonlinesecurity.blogspot.com.au/2014/10/this-poodle-bites-exploiting-ssl-30.html
+
 http://serverfault.com/questions/637053/how-can-i-tell-if-my-website-is-vulnerable-to-cve-2014-3566-poodle
 
 서버테스트
