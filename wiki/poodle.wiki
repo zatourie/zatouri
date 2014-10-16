@@ -14,11 +14,11 @@ Common Vulnerabilities and Exposures 등재번호 CVE-2014-3566
 
 disable SSLv3 and use TLSv1 or newer
 
-===서버===
+===서버 대응방안===
 
 https://scotthelme.co.uk/sslv3-goes-to-the-dogs-poodle-kills-off-protocol/
 
-===클라이언트(웹브라우저)===
+===클라이언트(웹브라우저)대응방안===
 
 https://zmap.io/sslv3/browsers.html
 
