@@ -1,0 +1,3 @@
+#summary S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology
+
+http://en.wikipedia.org/wiki/S.M.A.R.T.
