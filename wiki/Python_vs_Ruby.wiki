@@ -16,5 +16,5 @@ http://www.quora.com/What-are-the-advantages-of-Python-over-Ruby
 
 
 <br> 
-아래 Python 과 Ruby 의 Code Example 입니다.
+아래 Python 과 Ruby 의 Code Example 입니다. <br>
 http://c2.com/cgi/wiki?PythonVsRubyCodeExamples
