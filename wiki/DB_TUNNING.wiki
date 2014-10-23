@@ -246,7 +246,7 @@ REBUILD;
 A.     우선, Excel을 Local에서 읽을 것이냐, FTP를 이용하여 서버에 Upload 한 후 처리할 것인지 결정
 B.      일반적으로 Excel을 DataTable로 만들어서 Row를 하나씩 Insert 쿼리로 태움 à SP Call 이 많아져 성능이 낮고, Timeout발생할 수 있음
 C.      * DataTable을 XML로 변환하면, SP Call 1번으로 데이터 저장이 가능
-D.     * 엑셀을 서버에 올린 경우 Openrowset을 이용하여 DB상에서 Table로 읽���서 Insert 할 수 있음
+D.     * 엑셀을 서버에 올린 경우 Openrowset을 이용하여 DB상에서 Table로 읽어서 Insert 할 수 있음
 5.     SP, FN 등 장문의 쿼리에서 튜닝포인트 잡아내는 요령
 A.     Print 문을 이용하여 구분자를 표시한다.
 B.      쿼리 실행 옵션을 이용하여 쿼리 실행
