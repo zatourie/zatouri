@@ -26,3 +26,6 @@ http://courseware.codeschool.com.s3.amazonaws.com/ruby_bits_slides.pdf
 
 * Special Character Methods CodeTV : http://www.codeschool.com/code_tv/special-character-methods
 
+==기타 재미있는 싸이트==
+
+http://kickassapp.com/
