@@ -1,14 +1,16 @@
 #summary 즐겨사용하는 툴
 
+=사용하면 좋을 수도 있는 툴 (추가중)=
+
  * 텍스트 에디터
-  **Notepad++
+  ** Notepad++ : http://notepad-plus-plus.org/
+  ** Vim : http://www.vim.org/download.php
 
-기타 유틸리티
+ * 기타 유틸리티
+  **Launchy
 
-Launchy
+----
 
-유료지만 알아두면 좋은 툴
-
-RedGate SQLPrompt
-
-RedGate SQLCompare
+ * 유료지만 알아두면 좋은 툴
+  ** RedGate SQLPrompt
+  **RedGate SQLCompare
