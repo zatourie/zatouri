@@ -3,14 +3,19 @@
 =사용하면 좋을 수도 있는 툴 (추가중)=
 
  * 텍스트 에디터
-  ** Notepad++ : 장점: 가볍다. 플러그인을 쓰면 다양한 기능 활용 가능 http://notepad-plus-plus.org/
-  ** Vim : 장점:대용량화일처리 가능 http://www.vim.org/download.php
+    ** Notepad++ : 장점: 가볍다. 플러그인을 쓰면 다양한 기능 활용 가능 http://notepad-plus-plus.org/
+    ** Vim : 장점:대용량화일처리 가능 http://www.vim.org/download.php
  * 기타 유틸리티
-  **Launchy : 프로그램 실행을 키보드로! http://www.launchy.net/
-  ** mRemoteNG : 원격데스크탑 매니지먼트 http://www.mremoteng.org/
+    **Launchy : 프로그램 실행을 키보드로! http://www.launchy.net/
+    ** mRemoteNG : 원격데스크탑 매니지먼트 http://www.mremoteng.org/
+    ** oCam : 동영상 캡쳐 http://ohsoft.net/en/product_ocam.php
+ * 업무로그정리용
+    ** Evernote  
+    ** MS OneNote
+    ** 
 
 ----
 
  * 유료지만 알아두면 좋은 툴
   ** RedGate SQLPrompt: SSMS의 친구
-  **RedGate SQLCompare: 운영과 개발DB는 어떻게 다른가
+  ** RedGate SQLCompare: 운영과 개발DB는 어떻게 다른가
