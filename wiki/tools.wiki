@@ -7,7 +7,8 @@
   ** Vim : http://www.vim.org/download.php
 
  * 기타 유틸리티
-  **Launchy
+  **Launchy : 프로그램 실행을 키보드로! http://www.launchy.net/
+  ** mRemoteNG : 원격데스크탑 매니지먼트 http://www.mremoteng.org/
 
 ----
 
