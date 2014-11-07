@@ -17,3 +17,5 @@ The merge join combines two sorted lists like a zipper. Both sides of the join m
 ----
 
 http://use-the-index-luke.com/sql/explain-plan/sql-server/operations
+
+http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
