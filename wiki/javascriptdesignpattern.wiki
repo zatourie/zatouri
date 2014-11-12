@@ -1,0 +1,3 @@
+#summary Learning JavaScript Design Patterns
+
+http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/
