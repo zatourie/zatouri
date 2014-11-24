@@ -8,16 +8,21 @@
 
  * DBMS 관리툴
     ** MS SQL Management Studio
-    ** Toad
+    ** Toad (유료)
+    ** RedGate SQLPrompt(유료): SSMS 플러그인 형태로 제공되는 도구
+    ** RedGate SQLCompare(유료): DB Instance간 schema 비교 및 merge
 
  * MS SQL Profiler
     ** MS SQL Server Profiler
 
  * HTTP Debugger
-    ** Fidler
-    ** Charles
+    ** Fiddler : http://www.telerik.com/fiddler
+    ** Charles : http://www.charlesproxy.com/
     ** 브라우저 개발자 도구
-    ** WireShark
+
+ * Network Debugger 
+    ** WireShark : https://www.wireshark.org/
+    ** nMap : http://nmap.org/
 
  * 기타 유틸리티
     **Launchy : 프로그램 실행을 키보드로! http://www.launchy.net/
@@ -36,9 +41,6 @@
  * 포스트잇
     ** Win7 내장 스티커 메모
 
-
 ----
 
  * 유료지만 알아두면 좋은 툴
-  ** RedGate SQLPrompt: SSMS의 친구
-  ** RedGate SQLCompare: 운영과 개발DB는 어떻게 다른가
