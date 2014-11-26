@@ -1,4 +1,4 @@
-#summary 주민등록번호 검증
+#summary 개인정보 검증
 
 =Github 홈페이지=
 
