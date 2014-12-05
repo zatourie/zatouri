@@ -4,6 +4,14 @@
 
 http://azure.microsoft.com/blog/2014/10/15/new-windows-server-containers-and-azure-support-for-docker/
 
+==간단명령어==
+
+ $ docker images
+
+ $ docker run -i -t ubuntu:12.04 /bin/bash
+
+ $ exit
+
 == 생활코딩 [韓]==
 
 https://opentutorials.org/course/128/8657
