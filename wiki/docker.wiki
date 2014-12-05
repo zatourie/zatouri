@@ -1,16 +1,25 @@
 #summary Docker
 
+== Scott Gru's Blog==
+
+"Microsoft and Docker are integrating the open-source Docker Engine with the next release of Windows Server."
+
+http://weblogs.asp.net/scottgu/docker-and-microsoft-integrating-docker-with-windows-server-and-microsoft-azure
+
 == New Windows Server containers and Azure support for Docker (En) ==
 
 http://azure.microsoft.com/blog/2014/10/15/new-windows-server-containers-and-azure-support-for-docker/
 
 ==간단명령어==
-
+{{{
  $ docker images
-
+}}}
+{{{
  $ docker run -i -t ubuntu:12.04 /bin/bash
-
+}}}
+{{{
  $ exit
+}}}
 
 == 생활코딩 [韓]==
 
