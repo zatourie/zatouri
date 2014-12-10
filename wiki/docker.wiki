@@ -29,5 +29,5 @@ https://opentutorials.org/course/128/8657
 
 http://pyrasis.com/Docker/Docker-HOWTO
 
-== Docker Official Tutorial [En] ==
+== Docker Official Tutorial (En) ==
 https://www.docker.com/tryit
