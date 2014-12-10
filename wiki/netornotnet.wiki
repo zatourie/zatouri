@@ -1,3 +1,5 @@
-#summary .NET or NOT .NET
+#summary .NET or NOT .NET [번역예정]
+
+
 
 http://fullstack.info/to-dotnet-or-not-to-dotnet-that-is-the-question/
