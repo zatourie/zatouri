@@ -1,4 +1,5 @@
 #summary RUBY
+#labels Ruby
 
 =Ruby Resources=
 
