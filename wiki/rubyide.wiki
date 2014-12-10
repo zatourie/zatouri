@@ -1,4 +1,5 @@
 #summary Ruby IDE
+#labels Ruby
 
 ==Aptana Studio 3==
 
