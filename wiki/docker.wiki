@@ -10,6 +10,10 @@ http://weblogs.asp.net/scottgu/docker-and-microsoft-integrating-docker-with-wind
 
 http://azure.microsoft.com/blog/2014/10/15/new-windows-server-containers-and-azure-support-for-docker/
 
+==근데 아직 좀 기다려야한답니다.==
+
+http://stackoverflow.com/questions/26825748/docker-image-for-windows
+
 ==간단명령어==
 {{{
  $ docker images
