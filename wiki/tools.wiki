@@ -43,3 +43,8 @@
 
   * 포스트잇
     ** Win7 내장 스티커 메모
+    ** stickies
+
+  * 자동화 도구
+    ** autohotkey 
+    ** autoit 
