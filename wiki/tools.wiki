@@ -28,6 +28,7 @@
     ** Launchy : 프로그램 실행을 키보드로! http://www.launchy.net/
     ** mRemoteNG : 원격데스크탑 매니지먼트 http://www.mremoteng.org/
     ** oCam : 동영상 캡쳐 http://ohsoft.net/en/product_ocam.php
+    ** WinMerge : 
 
   * 업무로그정리용
     ** Evernote  
@@ -48,3 +49,7 @@
   * 자동화 도구
     ** autohotkey 
     ** autoit 
+
+  * FTP Client
+    ** FileZilla : https://filezilla-project.org/
+    ** WinSCP : http://winscp.net/eng/index.php
