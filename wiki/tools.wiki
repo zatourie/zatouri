@@ -28,7 +28,7 @@
     ** Launchy : 프로그램 실행을 키보드로! http://www.launchy.net/
     ** mRemoteNG : 원격데스크탑 매니지먼트 http://www.mremoteng.org/
     ** oCam : 동영상 캡쳐 http://ohsoft.net/en/product_ocam.php
-    ** WinMerge : 
+    ** WinMerge : 텍스트 및 파일 diff & merge 툴
 
   * 업무로그정리용
     ** Evernote  
