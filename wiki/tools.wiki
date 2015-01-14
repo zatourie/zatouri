@@ -1,6 +1,6 @@
-#summary 1/14(예정) 시스템 운영에 유용한 툴
+#summary 1/14(수) 시스템 운영에 유용한 툴
 
-=시스템 운영에 유용한 툴 (추가중)=
+=시스템 운영에 유용한 툴=
 
   * 텍스트 에디터
     ** Notepad++ : 장점: 가볍다. 플러그인을 쓰면 다양한 기능 활용 가능 http://notepad-plus-plus.org/
@@ -30,7 +30,7 @@
     ** oCam : 동영상 캡쳐 http://ohsoft.net/en/product_ocam.php
     ** WinMerge : 텍스트 및 파일 diff & merge 툴
 
-  * 업무로그정리용
+  * 업무노트용
     ** Evernote  
     ** MS OneNote
 
