@@ -1,5 +1,9 @@
 #summary 1/14(수) 시스템 운영에 유용한 툴
 
+=일시=
+
+    * 1/14 (수) 11:00
+
 =발표자=
 
     * 김형태, 이정훈, 심민규
@@ -57,3 +61,8 @@
   * FTP Client
     ** FileZilla : https://filezilla-project.org/
     ** WinSCP : http://winscp.net/eng/index.php
+
+  * 원격지원툴
+    ** RSupport (유료)
+    ** TeamViewer (유료)
+    ** 네이트온 (비즈 포함)
