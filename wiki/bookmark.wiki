@@ -26,5 +26,5 @@
         * CodeSchool : http://codeschool.com
         * Coursera : https://www.coursera.org/
         * MIT Open Courseware : http://ocw.mit.edu
+        * Edx : https://www.edx.org/
         * 숙명여대 SNOW : http://www.snow.or.kr/  해외강의 스크립트 제공
-
