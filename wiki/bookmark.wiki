@@ -13,6 +13,10 @@
     * Q&A
         * StackOverflow : http://stackoverflow.com
         * Google : http://www.google.com
+
+    * 개발자 커뮤니티
+        * OKJSP : http://www.okjsp.net/
+        * SKiPP : http://slipp.net/
         
 
     * Reference
