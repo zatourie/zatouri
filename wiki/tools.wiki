@@ -21,7 +21,7 @@
     ** RedGate SQLCompare(유료): DB Instance간 schema 비교 및 merge
 
   * MS SQL Profiler
-    ** MS SQL Server Profiler
+    ** MS SQL Server Profiler : [sqlsvrprofiler]
 
   * HTTP Debugger
     ** Fiddler : http://www.telerik.com/fiddler
