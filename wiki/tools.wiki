@@ -24,7 +24,7 @@
     ** MS SQL Server Profiler : [sqlsvrprofiler]
 
   * HTTP Debugger
-    ** Fiddler : http://www.telerik.com/fiddler
+    ** Fiddler : http://www.telerik.com/fiddler [frontline12nd 내사랑휘들러]
     ** Charles : http://www.charlesproxy.com/
     ** 브라우저 개발자 도구
 
