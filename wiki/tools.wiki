@@ -24,9 +24,9 @@
     ** MS SQL Server Profiler : [sqlsvrprofiler 프로파일러 사용법]
 
   * HTTP Debugger
-    ** Fiddler : [http://www.telerik.com/fiddler 홈페이지] [frontline12nd 사용법]
+    ** Fiddler : [http://www.telerik.com/fiddler 홈페이지], [frontline12nd 사용법]
     ** Charles : http://www.charlesproxy.com/
-    ** 브라우저 개발자 도구
+    ** 브라우저 개발자 도구 [chromedevtools 크롬 개발자 도구 사용법]
 
   * Network Debugger 
     ** WireShark : https://www.wireshark.org/
@@ -60,7 +60,7 @@
 
   * FTP Client
     ** FileZilla : https://filezilla-project.org/
-    ** WinSCP : http://winscp.net/eng/index.php
+    ** WinSCP : http://winscp.net
 
   * 원격지원툴
     ** RSupport (유료)
