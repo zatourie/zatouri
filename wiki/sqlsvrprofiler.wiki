@@ -11,11 +11,11 @@
 
 =설치=
 
- * SQL Server에 advanced client tools 항목에 포함되어 있음. 
+ * SQL Server의 advanced client tools 항목에 포함되어 있음. 
 
 =권한=
 
- * 프로파일러를 실행하려면 해당 로그인 유저에게 ALTER TRACE 권한이 있어야함T
+ * 프로파일러를 실행하려면 해당 로그인 유저에게 ALTER TRACE 권한이 있어야함
 
 =사용법=
 
