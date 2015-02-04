@@ -1,11 +1,17 @@
 #summary 개인정보 검증
 
-=Github 홈페이지=
+=Prove of Concept=
 
 https://github.com/heartonbit/piv
-
-
 
 ----
 
 http://jsfiddle.net/heartonbit/rypm2bpx/
+
+=Existing Javascript Libraries=
+
+http://parsleyjs.org/
+
+http://validatejs.org/
+
+http://rickharrison.github.io/validate.js/
