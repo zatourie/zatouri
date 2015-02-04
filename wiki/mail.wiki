@@ -1,5 +1,9 @@
 #summary 2/4(예정) 메일전송
 
+=메일서버=
+
+http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+
 =메일전송 기능 요구사항=
 
     * 메일발송내역을 알 수 있나 : 로그기록
