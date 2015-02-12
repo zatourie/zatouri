@@ -1,4 +1,4 @@
-#summary 1/14(수) 시스템 운영에 유용한 툴
+#summary (1) 1/14(수) 시스템 운영에 유용한 툴
 
 <wiki:toc max_depth="2" />
 
