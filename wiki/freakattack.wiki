@@ -1,3 +1,5 @@
-#summary freakattack
+#summary freak attack
 
 https://freakattack.com/
+
+https://www.ssllabs.com/ssltest/
