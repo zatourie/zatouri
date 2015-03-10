@@ -30,6 +30,8 @@
 
     * 교육
         * CodeSchool : http://codeschool.com
+        * Pluralsight : http://www.pluralsight.com/
+        * Egghead.io : https://egghead.io/
         * Coursera : https://www.coursera.org/
         * MIT Open Courseware : http://ocw.mit.edu
         * Edx : https://www.edx.org/
