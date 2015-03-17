@@ -1,3 +1,3 @@
-#summary .NET vs. Java
+#summary (4) 3/11(수) 초짜운영자가 보는 .NET vs. Java
 
 발표자 : 정준 대리
