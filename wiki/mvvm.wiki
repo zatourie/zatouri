@@ -1,4 +1,4 @@
-#summary Reactive MVVM
+#summary Reactive + MVVM
 
 
 http://www.slideshare.net/gyuwonyi/reactive-model-viewview-model-architecturepublic
