@@ -18,6 +18,18 @@
 
   * 브라우저 detection 전략 보다 feature detection 방식 사용 http://stackoverflow.com/questions/1294586/browser-detection-versus-feature-detection
 
+==브라우저 호환성 테스팅툴==
+
+https://www.modern.ie/en-gb/tools
+
+https://www.browserstack.com
+
+http://mashable.com/2014/02/26/browser-testing-tools/
+
+http://www.microsoft.com/en-GB/developers/articles/5-ways-to-test-your-website-in-old-versions-of-ie
+
+
+
 ==참고==
 
 http://stackoverflow.com/questions/2094618/changing-name-attr-of-cloned-input-element-in-jquery-doesnt-work-in-ie6-7
