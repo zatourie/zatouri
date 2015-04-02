@@ -7,10 +7,13 @@
 ==주제==
 
 * 브라우저간 호환성 이슈
+
 * 동일 브라우저 버전별 호환성 이슈
 
 ==해결책==
 
 * 왕도는 없음
+
 * 브라우저 호환성을 고려한 믿을 수 있는 라이브러리 사용
+
 * 브라우저 detection 전략 보다 feature detection 방식 사용 http://stackoverflow.com/questions/1294586/browser-detection-versus-feature-detection
