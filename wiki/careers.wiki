@@ -22,14 +22,18 @@
 
 https://www.modern.ie/en-gb/tools
 
-https://www.browserstack.com
+https://www.browserstack.com  데스크탑 브라우저 only 월19$, 다른 브라우저까지 월39$
 
-http://mashable.com/2014/02/26/browser-testing-tools/
+https://spoon.net  월19$
 
-http://www.microsoft.com/en-GB/developers/articles/5-ways-to-test-your-website-in-old-versions-of-ie
+
 
 
 
 ==참고==
 
 http://stackoverflow.com/questions/2094618/changing-name-attr-of-cloned-input-element-in-jquery-doesnt-work-in-ie6-7
+
+http://mashable.com/2014/02/26/browser-testing-tools/
+
+http://www.microsoft.com/en-GB/developers/articles/5-ways-to-test-your-website-in-old-versions-of-ie
