@@ -16,7 +16,13 @@
 
   * 브라우저 호환성을 고려한 믿을 수 있는 라이브러리 사용
 
-  * 브라우저 detection 전략 보다 feature detection 방식 사용 http://stackoverflow.com/questions/1294586/browser-detection-versus-feature-detection
+  * 브라우저 detection 전략 보다 feature detection 방식 사용 
+http://stackoverflow.com/questions/1294586/browser-detection-versus-feature-detection
+
+
+==이슈==
+
+http://jsfiddle.net/ozzac6m9/
 
 ==브라우저 호환성 테스팅툴==
 
@@ -25,8 +31,6 @@ https://www.modern.ie/en-gb/tools
 https://www.browserstack.com  데스크탑 브라우저 only 월19$, 다른 브라우저까지 월39$
 
 https://spoon.net  월19$
-
-
 
 
 
