@@ -1,0 +1,7 @@
+#summary (5) 4/8 Functional Programming
+
+발제자 : 이정훈
+
+http://www.slideshare.net/SangKyuPark1/ss-18350615
+
+http://programmers.stackexchange.com/a/117343/87374
