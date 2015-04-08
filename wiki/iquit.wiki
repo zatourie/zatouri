@@ -1,0 +1,3 @@
+#summary “부장님, 말씀드릴 게 있습니다. 저 퇴사할게요”
+
+http://outstanding.kr/%EB%B6%80%EC%9E%A5%EB%8B%98-%EB%A7%90%EC%94%80%EB%93%9C%EB%A6%B4-%EA%B2%8C-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%EC%A0%80-%ED%87%B4%EC%82%AC%ED%95%A0%EA%B2%8C%EC%9A%94/
