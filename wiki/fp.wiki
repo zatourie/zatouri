@@ -1,5 +1,7 @@
 #summary (6) 4/8 Functional Programming
 
+=Functional Programming=
+
 발제자 : 이정훈
 
 In C# (functional style):
