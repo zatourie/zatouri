@@ -1,4 +1,4 @@
-#summary 오 마이
+#summary 오 마이 MOOC
 
 회사에서 MOOC싸이트 교육들은걸 교육시간으로 인정해주겠다네요.
 
