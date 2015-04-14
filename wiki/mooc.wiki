@@ -44,3 +44,7 @@ https://courses.edx.org/courses/course-v1:Microsoft+DEV203x+2015_T2
 ==Calculus one==
 
 https://www.coursera.org/learn/calculus1
+
+==철학자의 식사==
+
+http://www.snow.or.kr/lecture/applied_sciences/computer_science/1212.html
