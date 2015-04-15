@@ -6,6 +6,44 @@
 
 http://www.snow.or.kr/lecture/applied_sciences/computer_science/1212.html
 
+{{{
+//#1
+Semaphore forks[] = {1,1,1,1,1}
+
+void Philosopher(int id)
+{
+    for ( int i = 0 ; i < 3 ; i++ ) {
+	    think();
+		SW(forks[id]);
+		SW(forks[(id+1)];
+		Eat();
+		SS(forks[id]);
+		SS(forks[(id+1)%5]);
+	}
+	think();
+}
+
+//#2
+Semaphore forks[] = {1,1,1,1,1}
+
+Semaphore numAllowedToEat(2);
+
+void Philosopher(int id)
+{
+    for ( int i = 0 ; i < 3 ; i++ ) {
+	    think();
+		SW(numAllowedToEat);
+		SW(forks[id]);
+		SW(forks[(id+1)];
+		Eat();
+		SS(forks[id]);
+		SS(forks[(id+1)%5]);
+		SS(numAllowedToEat);
+	}
+	think();
+}
+
+}}}
 
 ==Actor==
 
