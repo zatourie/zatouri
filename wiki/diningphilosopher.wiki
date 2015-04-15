@@ -1,0 +1,17 @@
+#summary One-sentence summary of this page.
+
+=Dining Philosopher=
+
+==Lock==
+
+http://www.snow.or.kr/lecture/applied_sciences/computer_science/1212.html
+
+
+==Actor==
+
+http://www.jakubkorab.net/2011/01/why-i-dig-scala-concurrency-and-the-dining-philosophers.html
+
+
+==Software Transactional Memory==
+
+http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html
