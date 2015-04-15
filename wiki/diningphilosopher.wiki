@@ -138,3 +138,10 @@ sleep
 ==Software Transactional Memory==
 
 http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html
+
+----
+=Reference=
+
+==Semaphore==
+
+http://en.wikipedia.org/wiki/Semaphore_(programming)
