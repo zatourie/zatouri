@@ -146,6 +146,10 @@ http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html
 ----
 =Reference=
 
+==Wikipedia==
+
+http://en.wikipedia.org/wiki/Dining_philosophers_problem
+
 ==Semaphore==
 
 http://en.wikipedia.org/wiki/Semaphore_(programming)
