@@ -1,6 +1,10 @@
-#summary One-sentence summary of this page.
+#summary (6) 4/15 Dining Philosopher
+
+발제자 : 심민규
 
 =Dining Philosopher=
+
+http://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Dining_philosophers.png/200px-Dining_philosophers.png
 
 ==Lock==
 
