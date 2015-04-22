@@ -48,3 +48,7 @@ https://www.coursera.org/learn/calculus1
 ==철학자의 식사==
 
 http://www.snow.or.kr/lecture/applied_sciences/computer_science/1212.html
+
+==저자직강, Scala==
+
+https://class.coursera.org/progfun-004
