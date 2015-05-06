@@ -12,7 +12,7 @@
 || *날짜* || *발제자* || *주제* || 
 || 2015.04.01 || 서우영 || 채용시스템 운영시 기술적 이슈 공유 ||
 || 2015.04.08 || 이정훈 || Functional Programming Paradigm ||
-|| 2015.04.15 || 심민규 || Dining Philosopher Problem ||
+|| 2015.04.15 || 심민규 || Dining Philosopher Problem (w/ semophore) ||
 || 2015.04.22 || 이소윤 || 장애 lessons learned || 
 || 2015.04.29 || 이돈휘 || Information is beautiful , http://www.informationisbeautiful.net/ || 
 || 2015.05.06 || 정준 ||  || 
