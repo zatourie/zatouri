@@ -18,4 +18,30 @@
 
 ==쿼리로 HTML 생성하기 ==
 
-http://sqlfiddle.com/#!6/740ef/2/0
+{{{
+CREATE TABLE dbo.USER_TABLE
+(
+USER_ID varchar (20) COLLATE Korean_Wansung_CI_AS NOT NULL,
+USER_NM varchar (200) COLLATE Korean_Wansung_CI_AS NULL
+) 
+
+insert into dbo.USER_TABLE (USER_ID, USER_NM) values ('1111','John Do')
+insert into dbo.USER_TABLE (USER_ID, USER_NM) values ('2222','Jane Do')
+
+--Generate TR, TD
+DECLARE @table_html NVARCHAR(MAX) = (
+  SELECT 
+    USER_ID 'tdleft', ''
+    , USER_NM 'tdright', '' 
+  FROM dbo.USER_TABLE
+  FOR XML PATH ('tr')
+)
+--Replace for Inline CSS
+SET @table_html = REPLACE(@table_html, '<tr>', '<tr style="box-sizing:border-box;" >')
+SET @table_html = REPLACE(@table_html,'<tdleft>', '<td style="border:solid gray 1.0pt;border-top:none;text-align:left;font-size:9.0pt;">')
+SET @table_html = REPLACE(@table_html,'<tdright>', '<td style="border:solid gray 1.0pt;border-top:none;text-align:right;font-size:9.0pt;">')
+
+SELECT @table_html
+}}}
+
+http://sqlfiddle.com/#!6/740ef/8/0
