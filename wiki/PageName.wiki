@@ -2,6 +2,11 @@
 
 2015.05.06	심민규,이정훈	한글->로마자 변환, 세벌식 자판
 
+=DB쿼리로 한글 이니셜화하기=
+
+==환경==
+  * MS SQL Server 2012+
+
 ==Rominiser==
 {{{
 
@@ -13,7 +18,7 @@
  *          한글 모음 유니코드 :  http://hanpsy.tistory.com/2
  *          aliencube Hangeul Romaniser : https://github.com/aliencube/Hangeul-Romaniser
  */
-CREATE FUNCTION dbo.FN_ROMANISER (
+CREATEFUNCTION dbo.FN_ROMANISER (
    @pLetter NCHAR (1)
 )
    RETURNS VARCHAR (1)
@@ -25,58 +30,57 @@ BEGIN
 	SET @RETURN_DATA = ''
   
 	SELECT @RETURN_DATA = 
-			CASE ( (UNICODE(@pLetter) - 44032)  / (21*28) ) --초성코드 구하기
-				WHEN 0 THEN 'K'   --ㄱ
-				WHEN 1 THEN 'K'   --ㄲ
-				WHEN 2 THEN 'N'   --ㄴ
-				WHEN 3 THEN 'D'   --ㄷ
-				WHEN 4 THEN 'T'   --ㄸ   
-				WHEN 5 THEN 'R'   --ㄹ   
-				WHEN 6 THEN 'M'   --ㅁ   
-				WHEN 7 THEN 'B'   --ㅂ   
-				WHEN 8 THEN 'P'   --ㅃ   
-				WHEN 9 THEN 'S'   --ㅅ   
-				WHEN 10 THEN 'S'  -- ㅆ  
-				WHEN 11 THEN ''   --ㅇ   
-				WHEN 12 THEN 'J'  --ㅈ   
-				WHEN 13 THEN 'J'  --ㅉ
-				WHEN 14 THEN 'C'  --ㅊ
-				WHEN 15 THEN 'K'  --ㅋ
-				WHEN 16 THEN 'T'  --ㅌ
-				WHEN 17 THEN 'P'  --ㅍ
-				WHEN 18 THEN 'H'  --ㅎ
-				ELSE ''
-			END
+		CASE ( (UNICODE(@pLetter) - 44032)  / (21*28) ) --초성코드 구하기
+			WHEN 0 THEN 'K'   --ㄱ
+			WHEN 1 THEN 'K'   --ㄲ
+			WHEN 2 THEN 'N'   --ㄴ
+			WHEN 3 THEN 'D'   --ㄷ
+			WHEN 4 THEN 'T'   --ㄸ   
+			WHEN 5 THEN 'R'   --ㄹ   
+			WHEN 6 THEN 'M'   --ㅁ   
+			WHEN 7 THEN 'B'   --ㅂ   
+			WHEN 8 THEN 'P'   --ㅃ   
+			WHEN 9 THEN 'S'   --ㅅ   
+			WHEN 10 THEN 'S'  -- ㅆ  
+			WHEN 11 THEN ''   --ㅇ   
+			WHEN 12 THEN 'J'  --ㅈ   
+			WHEN 13 THEN 'J'  --ㅉ
+			WHEN 14 THEN 'C'  --ㅊ
+			WHEN 15 THEN 'K'  --ㅋ
+			WHEN 16 THEN 'T'  --ㅌ
+			WHEN 17 THEN 'P'  --ㅍ
+			WHEN 18 THEN 'H'  --ㅎ
+			ELSE ''
+		END
 
 	SELECT @RETURN_DATA = @RETURN_DATA + 
-			CASE ( ((UNICODE(@pLetter) - 44032)  % (21*28)) / 28 ) --중성코드 구하기
-				WHEN 0 THEN 'A'   --ㅏ
-				WHEN 1 THEN 'Y'   --ㅒ
-				WHEN 2 THEN 'Y'   --ㅑ
-				WHEN 3 THEN 'Y'   --ㅒ
-				WHEN 4 THEN 'E'   --ㅓ   
-				WHEN 5 THEN 'A'   --ㅔ
-				WHEN 6 THEN 'Y'   --ㅕ  
-				WHEN 7 THEN 'Y'   --ㅖ   
-				WHEN 8 THEN 'O'   --ㅗ   
-				WHEN 9 THEN 'Y'   --ㅘ   
-				WHEN 10 THEN 'Y'  --ㅙ  
-				WHEN 11 THEN 'Y'  --ㅚ  
-				WHEN 12 THEN 'Y'  --ㅛ 
-				WHEN 13 THEN 'W'  --ㅜ   
-				WHEN 14 THEN 'W'  --ㅝ
-				WHEN 15 THEN 'W'  --ㅞ
-				WHEN 16 THEN 'W'  --ㅟ
-				WHEN 17 THEN 'Y'  --ㅠ
-				WHEN 18 THEN 'E'  --ㅡ
-				WHEN 19 THEN 'E'  --ㅢ
-				WHEN 20 THEN 'Y'  --l
-				ELSE ''
-			END
+		CASE ( ((UNICODE(@pLetter) - 44032)  % (21*28)) / 28 ) --중성코드 구하기
+			WHEN 0 THEN 'A'   --ㅏ
+			WHEN 1 THEN 'Y'   --ㅒ
+			WHEN 2 THEN 'Y'   --ㅑ
+			WHEN 3 THEN 'Y'   --ㅒ
+			WHEN 4 THEN 'E'   --ㅓ   
+			WHEN 5 THEN 'A'   --ㅔ
+			WHEN 6 THEN 'Y'   --ㅕ  
+			WHEN 7 THEN 'Y'   --ㅖ   
+			WHEN 8 THEN 'O'   --ㅗ   
+			WHEN 9 THEN 'Y'   --ㅘ   
+			WHEN 10 THEN 'Y'  --ㅙ  
+			WHEN 11 THEN 'Y'  --ㅚ  
+			WHEN 12 THEN 'Y'  --ㅛ 
+			WHEN 13 THEN 'W'  --ㅜ   
+			WHEN 14 THEN 'W'  --ㅝ
+			WHEN 15 THEN 'W'  --ㅞ
+			WHEN 16 THEN 'W'  --ㅟ
+			WHEN 17 THEN 'Y'  --ㅠ
+			WHEN 18 THEN 'E'  --ㅡ
+			WHEN 19 THEN 'E'  --ㅢ
+			WHEN 20 THEN 'Y'  --l
+			ELSE ''
+		END
 
 	RETURN LEFT(@RETURN_DATA, 1)
 END
-
 
 }}}
 
@@ -116,4 +120,10 @@ BEGIN
 	RETURN (@RETURN_DATA)
 END
 
+}}}
+
+==사용법==
+
+{{{
+SELECT dbo.FN_GET_INITIAL('홍길동') --HKD
 }}}
