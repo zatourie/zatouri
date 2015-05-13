@@ -52,3 +52,5 @@ http://sqlfiddle.com/#!6/740ef/8/0
 
 코드스쿨 Email HTML 강의 
 https://www.codeschool.com/courses/unmasking-html-emails
+
+이메일 테스트 서비스 litmus.com 유료 월 8만원 정도 7일 무료
