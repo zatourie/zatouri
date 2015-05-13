@@ -42,6 +42,11 @@ DECLARE @table_html NVARCHAR(MAX) = (
 SET @table_html = REPLACE(@table_html, '<tr>', '<tr style="box-sizing:border-box;" >')
 SET @table_html = REPLACE(@table_html,'<tdleft>', '<td style="border:solid gray 1.0pt;border-top:none;text-align:left;font-size:9.0pt;">')
 SET @table_html = REPLACE(@table_html,'<tdright>', '<td style="border:solid gray 1.0pt;border-top:none;text-align:right;font-size:9.0pt;">')
+SET @table_html = REPLACE(@table_html,'<tdcenter>', '<td style="border:solid gray 1.0pt;border-top:none;text-align:center;font-size:9.0pt;">')
+
+SET @table_html = REPLACE(@table_html, '</tdleft>','</td>')
+SET @table_html = REPLACE(@table_html, '</tdright>','</td>')
+SET @table_html = REPLACE(@table_html, '</tdcenter>','</td>')
 
 SELECT @table_html
 }}}
