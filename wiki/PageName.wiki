@@ -1,33 +1,119 @@
-#summary 하나의 키보드와 마우스로 여러대의 컴퓨터를 사용하는 툴
+#summary (10) DB 쿼리로 한글 이니셜화하기 + 세벌식 자판
+
+2015.05.06	심민규,이정훈	한글->로마자 변환, 세벌식 자판
+
+==Rominiser==
+{{{
+
+/*
+ * 한글을 로마표기로 바꿔주는 함수
+ * 작성자 : 심민규 
+ * 작성일 : 2015.4.30
+ * 참  조 : 국립국어원 로마자표기법 : http://www.korean.go.kr/front/page/pageView.do?page_id=P000149&mn_id=99
+ *          한글 모음 유니코드 :  http://hanpsy.tistory.com/2
+ *          aliencube Hangeul Romaniser : https://github.com/aliencube/Hangeul-Romaniser
+ */
+CREATE FUNCTION dbo.FN_ROMANISER (
+   @pLetter NCHAR (1)
+)
+   RETURNS VARCHAR (1)
+AS
+
+BEGIN
+	DECLARE @RETURN_DATA VARCHAR (1)
+      
+	SET @RETURN_DATA = ''
+  
+	SELECT @RETURN_DATA = 
+			CASE ( (UNICODE(@pLetter) - 44032)  / (21*28) ) --초성코드 구하기
+				WHEN 0 THEN 'K'   --ㄱ
+				WHEN 1 THEN 'K'   --ㄲ
+				WHEN 2 THEN 'N'   --ㄴ
+				WHEN 3 THEN 'D'   --ㄷ
+				WHEN 4 THEN 'T'   --ㄸ   
+				WHEN 5 THEN 'R'   --ㄹ   
+				WHEN 6 THEN 'M'   --ㅁ   
+				WHEN 7 THEN 'B'   --ㅂ   
+				WHEN 8 THEN 'P'   --ㅃ   
+				WHEN 9 THEN 'S'   --ㅅ   
+				WHEN 10 THEN 'S'  -- ㅆ  
+				WHEN 11 THEN ''   --ㅇ   
+				WHEN 12 THEN 'J'  --ㅈ   
+				WHEN 13 THEN 'J'  --ㅉ
+				WHEN 14 THEN 'C'  --ㅊ
+				WHEN 15 THEN 'K'  --ㅋ
+				WHEN 16 THEN 'T'  --ㅌ
+				WHEN 17 THEN 'P'  --ㅍ
+				WHEN 18 THEN 'H'  --ㅎ
+				ELSE ''
+			END
+
+	SELECT @RETURN_DATA = @RETURN_DATA + 
+			CASE ( ((UNICODE(@pLetter) - 44032)  % (21*28)) / 28 ) --중성코드 구하기
+				WHEN 0 THEN 'A'   --ㅏ
+				WHEN 1 THEN 'Y'   --ㅒ
+				WHEN 2 THEN 'Y'   --ㅑ
+				WHEN 3 THEN 'Y'   --ㅒ
+				WHEN 4 THEN 'E'   --ㅓ   
+				WHEN 5 THEN 'A'   --ㅔ
+				WHEN 6 THEN 'Y'   --ㅕ  
+				WHEN 7 THEN 'Y'   --ㅖ   
+				WHEN 8 THEN 'O'   --ㅗ   
+				WHEN 9 THEN 'Y'   --ㅘ   
+				WHEN 10 THEN 'Y'  --ㅙ  
+				WHEN 11 THEN 'Y'  --ㅚ  
+				WHEN 12 THEN 'Y'  --ㅛ 
+				WHEN 13 THEN 'W'  --ㅜ   
+				WHEN 14 THEN 'W'  --ㅝ
+				WHEN 15 THEN 'W'  --ㅞ
+				WHEN 16 THEN 'W'  --ㅟ
+				WHEN 17 THEN 'Y'  --ㅠ
+				WHEN 18 THEN 'E'  --ㅡ
+				WHEN 19 THEN 'E'  --ㅢ
+				WHEN 20 THEN 'Y'  --l
+				ELSE ''
+			END
+
+	RETURN LEFT(@RETURN_DATA, 1)
+END
 
 
-== Mouse without borders ==
+}}}
 
-  * Microsoft에서 제공하는 툴로 윈도우즈에서 사용가능
-  * http://www.microsoft.com/en-us/download/details.aspx?id=35460
+==Initializer==
 
-http://www.nopessentials.com/Content/Images/uploaded/one-mouse-to-rule-them-all.jpg
+{{{
 
-== Synergy==
+/*
+ * 한글 문자열을 영문 이니셜로 바꿔주는 함수
+ * 작성자 : 심민규 
+ * 작성일 : 2015.4.30
+ */
+CREATE FUNCTION dbo.FN_GET_INITIAL (
+   @pString NVARCHAR (10)
+)
+   RETURNS VARCHAR(10)
+AS
+BEGIN
 
-  * 멀티플랫폼 사용가능
-  * 라이센스 : 명시되어있지 않지만, 개인용으로 무료로 사용가능
-  * http://synergy-foss.org/
+	/* Declare variables */
+	DECLARE @letter NCHAR(1)
+	DECLARE @pos INT
+	DECLARE @RETURN_DATA VARCHAR(10)
 
-http://synergy-foss.org/img/splash/splash-en.png
+	/* Initialize variables */
+	SET @pos = 0
+	SET @RETURN_DATA = ''
+	
+    WHILE @pos != LEN(@pString)
+	BEGIN
+		SET @pos = @pos + 1			
+		SET @letter = SUBSTRING(@pString, @pos, 1)
+		SET @RETURN_DATA = CONCAT( @RETURN_DATA, dbo.FN_ROMANISER(@letter) )
+    END  
+	
 
-== Teleport ==
+	RETURN (@RETURN_DATA)
+END
 
- * Mac에서 사용가능
- * 라이센스 : donation-ware (개발자에게 기부를 해도 되고 안해도 쓸 수 있는 S/W)
- * http://www.abyssoft.com/software/teleport/
-
-http://osxdaily.com/wp-content/uploads/2012/09/share-keyboard-mouse-clipboard-with-different-macs.jpg
-
-== Sharemouse ==
-
- * 멀티플랫폼 사용가능
- * 라이센스 : 개인사용자 무료, 기업용은 구매해야함
- * http://www.keyboard-and-mouse-sharing.com/index.html
-
-http://assets.ilounge.com/images/mac/bartels-media/sharemouse-2.jpg
+}}}
