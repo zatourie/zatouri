@@ -47,3 +47,8 @@ SELECT @table_html
 }}}
 
 http://sqlfiddle.com/#!6/740ef/8/0
+
+==Reference==
+
+코드스쿨 Email HTML 강의 
+https://www.codeschool.com/courses/unmasking-html-emails
