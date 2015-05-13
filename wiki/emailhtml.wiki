@@ -15,7 +15,7 @@
 === 아름다운 이메일을 위한 TIP ===
 
   * 엑셀이나 파워포인트에서 아름답게 그린다.
-  * outlook에 붙여넣고 메일로 보낸다음, 소스보기하여 활용
+  * outlook에 붙여넣고 메일로 보낸다음, 소스보기하여 아웃룩이 만들어준 Email HTML을 활용
   * css로 되어있는 스타일을 태그에 밀어넣어주는 서비스 활용 http://templates.mailchimp.com/resources/inline-css/
 
 ==쿼리로 HTML 생성하기 ==
