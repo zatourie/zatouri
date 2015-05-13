@@ -1,5 +1,7 @@
 #summary (11) 5/13 Email HTML & DB에서 쿼리로 HTML 생성하기
 
+5/13 (수) 발제 : 심민규
+
 =Email HTML & DB에서 쿼리로 HTML 생성하기=
 
 ==Email HTML==
