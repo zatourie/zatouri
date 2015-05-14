@@ -18,7 +18,7 @@
  *          한글 모음 유니코드 :  http://hanpsy.tistory.com/2
  *          aliencube Hangeul Romaniser : https://github.com/aliencube/Hangeul-Romaniser
  */
-CREATEFUNCTION dbo.FN_ROMANISER (
+CREATE FUNCTION dbo.FN_ROMANISER (
    @pLetter NCHAR (1)
 )
    RETURNS VARCHAR (1)
@@ -158,5 +158,6 @@ END
 ==사용법==
 
 {{{
+SELECT dbo.FN_ROMANISER('홍') --HONG
 SELECT dbo.FN_GET_INITIAL('홍길동') --HKD
 }}}
