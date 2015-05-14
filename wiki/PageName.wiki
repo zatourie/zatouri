@@ -146,7 +146,7 @@ BEGIN
 	BEGIN
 		SET @pos = @pos + 1			
 		SET @letter = SUBSTRING(@pString, @pos, 1)
-		SET @RETURN_DATA = CONCAT( @RETURN_DATA, dbo.FN_ROMANISER(@letter) )
+		SET @RETURN_DATA = CONCAT( @RETURN_DATA, LEFT(dbo.FN_ROMANISER(@letter),1) ) --이니셜을 위해 앞 한글자만
     END  
 	
 
