@@ -25,14 +25,14 @@ CREATEFUNCTION dbo.FN_ROMANISER (
 AS
 
 BEGIN
-	DECLARE @RETURN_DATA VARCHAR (1)
+	DECLARE @RETURN_DATA VARCHAR (5)
       
 	SET @RETURN_DATA = ''
   
 	SELECT @RETURN_DATA = 
 		CASE ( (UNICODE(@pLetter) - 44032)  / (21*28) ) --초성코드 구하기
 			WHEN 0 THEN 'K'   --ㄱ
-			WHEN 1 THEN 'K'   --ㄲ
+			WHEN 1 THEN 'KK'   --ㄲ
 			WHEN 2 THEN 'N'   --ㄴ
 			WHEN 3 THEN 'D'   --ㄷ
 			WHEN 4 THEN 'T'   --ㄸ   
@@ -45,7 +45,7 @@ BEGIN
 			WHEN 11 THEN ''   --ㅇ   
 			WHEN 12 THEN 'J'  --ㅈ   
 			WHEN 13 THEN 'J'  --ㅉ
-			WHEN 14 THEN 'C'  --ㅊ
+			WHEN 14 THEN 'CH'  --ㅊ
 			WHEN 15 THEN 'K'  --ㅋ
 			WHEN 16 THEN 'T'  --ㅌ
 			WHEN 17 THEN 'P'  --ㅍ
@@ -56,30 +56,63 @@ BEGIN
 	SELECT @RETURN_DATA = @RETURN_DATA + 
 		CASE ( ((UNICODE(@pLetter) - 44032)  % (21*28)) / 28 ) --중성코드 구하기
 			WHEN 0 THEN 'A'   --ㅏ
-			WHEN 1 THEN 'Y'   --ㅒ
-			WHEN 2 THEN 'Y'   --ㅑ
-			WHEN 3 THEN 'Y'   --ㅒ
-			WHEN 4 THEN 'E'   --ㅓ   
-			WHEN 5 THEN 'A'   --ㅔ
-			WHEN 6 THEN 'Y'   --ㅕ  
-			WHEN 7 THEN 'Y'   --ㅖ   
+			WHEN 1 THEN 'AE'   --ㅐ
+			WHEN 2 THEN 'YA'   --ㅑ
+			WHEN 3 THEN 'YAE'   --ㅒ
+			WHEN 4 THEN 'EU'   --ㅓ   
+			WHEN 5 THEN 'E'   --ㅔ
+			WHEN 6 THEN 'YEO'   --ㅕ  
+			WHEN 7 THEN 'YE'   --ㅖ   
 			WHEN 8 THEN 'O'   --ㅗ   
-			WHEN 9 THEN 'Y'   --ㅘ   
-			WHEN 10 THEN 'Y'  --ㅙ  
-			WHEN 11 THEN 'Y'  --ㅚ  
-			WHEN 12 THEN 'Y'  --ㅛ 
-			WHEN 13 THEN 'W'  --ㅜ   
-			WHEN 14 THEN 'W'  --ㅝ
-			WHEN 15 THEN 'W'  --ㅞ
-			WHEN 16 THEN 'W'  --ㅟ
-			WHEN 17 THEN 'Y'  --ㅠ
+			WHEN 9 THEN 'WA'   --ㅘ   
+			WHEN 10 THEN 'WAE'  --ㅙ  
+			WHEN 11 THEN 'OI'  --ㅚ  
+			WHEN 12 THEN 'YO'  --ㅛ 
+			WHEN 13 THEN 'WOO'  --ㅜ   
+			WHEN 14 THEN 'WUE'  --ㅝ
+			WHEN 15 THEN 'WAE'  --ㅞ
+			WHEN 16 THEN 'YUI'  --ㅟ
+			WHEN 17 THEN 'YU'  --ㅠ
 			WHEN 18 THEN 'E'  --ㅡ
-			WHEN 19 THEN 'E'  --ㅢ
-			WHEN 20 THEN 'Y'  --l
+			WHEN 19 THEN 'EU'  --ㅢ
+			WHEN 20 THEN 'I'  --l
 			ELSE ''
 		END
 
-	RETURN LEFT(@RETURN_DATA, 1)
+	SELECT @RETURN_DATA = @RETURN_DATA + 
+		CASE ( (UNICODE(@pLetter) - 44032) % 28 ) --종성코드 구하기
+			WHEN 0 THEN ''   --X
+			WHEN 1 THEN 'K'   --ㄱ
+			WHEN 2 THEN 'KK'   --ㄲ
+			WHEN 3 THEN 'K'   --ㄳ
+			WHEN 4 THEN 'N'   --ㄴ
+			WHEN 5 THEN 'N'   --ㄵ   
+			WHEN 6 THEN 'N'   --ㄶ   
+			WHEN 7 THEN 'T'   --ㄷ   
+			WHEN 8 THEN 'L'   --ㄹ   
+			WHEN 9 THEN 'L'   --ㄺ   
+			WHEN 10 THEN 'L'  --ㄻ   
+			WHEN 11 THEN 'L'  --ㄼ  
+			WHEN 12 THEN 'L'   --ㄽ  
+			WHEN 13 THEN 'L'  --ㄾ   
+			WHEN 14 THEN 'L'  --ㄿ
+			WHEN 15 THEN 'L'  --ㅀ
+			WHEN 16 THEN 'M'  --ㅁ
+			WHEN 17 THEN 'P'  --ㅂ
+			WHEN 18 THEN 'P'  --ㅄ
+			WHEN 19 THEN 'T'  --ㅅ
+			WHEN 20 THEN 'T'  --ㅆ
+			WHEN 21 THEN 'NG'  --ㅇ
+			WHEN 22 THEN 'T'  --ㅈ
+			WHEN 23 THEN 'T'  --ㅊ
+			WHEN 24 THEN 'CH'  --ㅋ
+			WHEN 25 THEN 'T'  --ㅌ
+			WHEN 26 THEN 'P'  --ㅍ
+			WHEN 27 THEN 'H'  --ㅎ
+			ELSE ''
+		END
+        
+	RETURN @RETURN_DATA
 END
 
 }}}
