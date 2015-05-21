@@ -1,0 +1,3 @@
+#summary 초보 개발자가 꼭 알아 두어야 할 다섯 가지 기술들
+
+http://www.moreagile.net/2014/12/HowtoBecomeAnExpertDeveloper.html
