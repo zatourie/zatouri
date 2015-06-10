@@ -13,8 +13,9 @@
 =시스템 운영에 유용한 툴=
 
   * 텍스트 에디터
-    ** Notepad++ : 장점: 가볍다. 플러그인을 쓰면 다양한 기능 활용 가능 http://notepad-plus-plus.org/
-    ** Vim : 장점:대용량화일처리 가능 http://www.vim.org/download.php
+    ** Notepad++ : 장점: 무료. 가볍다. 플러그인을 쓰면 다양한 기능 활용 가능 http://notepad-plus-plus.org/
+    ** Vim : 장점: 무료, 대용량화일처리 가능, 단점: 윈도우즈 유저의 경우 사용법을 익히는데 시간이 조금 걸릴 수 있음 https://tuxproject.de/projects/vim
+    ** UtraEdit : 장점:대용량화일처리 가능, GUI 환경, 단점:유료
 
   * DBMS 관리툴
     ** MS SQL Management Studio
