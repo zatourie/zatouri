@@ -1,0 +1,14 @@
+#summary One-sentence SF Scala: Bruce Eckel, Rethinking Scala
+
+
+<video src="https://www.youtube.com/watch?t=1706&v=vWsWoAUjjck" />
+
+----
+
+YouTube 
+
+https://www.youtube.com/watch?t=1706&v=vWsWoAUjjck
+
+Slide
+
+http://www.slideshare.net/bruceeckel/rethinking-scala-presented-in-san-francisco-may-7-2014
