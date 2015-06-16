@@ -1,7 +1,7 @@
 #summary One-sentence SF Scala: Bruce Eckel, Rethinking Scala
 
 
-<video src="https://www.youtube.com/watch?t=1706&v=vWsWoAUjjck" ></video>
+<wiki:video url="https://www.youtube.com/watch?t=1706&v=vWsWoAUjjck" ></video>
 
 ----
 
