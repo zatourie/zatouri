@@ -1,4 +1,4 @@
-#summary One-sentence SF Scala: Bruce Eckel, Rethinking Scala
+#summary SF Scala: Bruce Eckel, Rethinking Scala
 
 
 <wiki:video url="https://www.youtube.com/watch?t=1706&v=vWsWoAUjjck" ></video>
