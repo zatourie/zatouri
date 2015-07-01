@@ -10,14 +10,14 @@
   * 스터디 일정입니다. 스터디 후 주제 적어주시고, Link 걸어 주시면 됩니다.
 
 || *날짜* || *발제자* || *주제* || 
-|| 2015.04.01 || 서우영 || 채용시스템 운영시 기술적 이슈 공유 ||
-|| 2015.04.08 || 이정훈 || Functional Programming Paradigm ||
-|| 2015.04.15 || 심민규 || Dining Philosopher Problem (w/ semophore) ||
-|| 2015.04.22 || 이소윤 || 장애 lessons learned || 
-|| 2015.04.29 || 이돈휘 || Information is beautiful , http://www.informationisbeautiful.net/ || 
+|| 2015.04.01 || 서우영 || 6. 채용시스템 운영시 기술적 이슈 공유 ||
+|| 2015.04.08 || 이정훈 || 7. Functional Programming Paradigm ||
+|| 2015.04.15 || 심민규 || 8. Dining Philosopher Problem (w/ semophore) ||
+|| 2015.04.22 || 이소윤 || 9. 장애 lessons learned || 
+|| 2015.04.29 || 이돈휘 || 10. Information is beautiful , http://www.informationisbeautiful.net/ || 
 || 2015.05.06 || 심민규,이정훈 || 한글->로마자 변환, 세벌식 자판 || 
-|| 2015.05.13 || 심민규 || Email HTML & DB에서 쿼리로 HTML 생성하기 || 
-|| 2015.05.20 || 이정훈 || English Email http://www.englishtown.com/community/channels/article.aspx?articlename=184-email || 
+|| 2015.05.13 || 심민규 || 11. Email HTML & DB에서 쿼리로 HTML 생성하기 || 
+|| 2015.05.20 || 이정훈 || 12. English Email http://www.englishtown.com/community/channels/article.aspx?articlename=184-email || 
 || 2015.05.27 || ? || ?  || 
 || 2015.06.03 || ?|| ? || 
 || 2015.06.10 || 김민정 || 13. 모바일 앱/웹 || 
