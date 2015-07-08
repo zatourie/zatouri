@@ -24,4 +24,6 @@
 || 2015.06.17 || 박지현|| 14. MS SQL Server DMV query ||
 || 2015.06.24 || 이정훈 || 15. GSP후기 + Netflix의 Simian Army  http://techblog.netflix.com/2011/07/netflix-simian-army.html ||
 || 2015.07.01 || 심민규   || 16. MSSQL Server Clustered Index vs. Non-clustered Index ||
-|| 2015.07. || 이정훈   || 17. GSP후기2   ||
+|| 2015.07.08 || 이정훈   || 17. GSP후기2   ||
+|| 2015.07.15 || 유재섭   ||    ||
+|| 2015.07.22 || 김민정   ||    ||
